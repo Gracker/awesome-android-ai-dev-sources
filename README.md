@@ -1,16 +1,75 @@
 # Awesome Android AI Dev Sources
 
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-120-blue)
+
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
->
-> 📊 **120** 个信息源 · **6** 个分类 · 更新于 2026-04-11
+
+## 👤 关于作者
+
+| | |
+|-|-|
+| **博客** | [androidperformance.com](https://www.androidperformance.com/) — Android 性能优化技术博客，专注启动、内存、功耗、滑动 |
+| **Android Weekly** | [androidPerformance.cn](https://androidPerformance.cn) — 每周精选全球 Android 最佳文章 |
+| **知乎** | [@Gracker](https://www.zhihu.com/people/gracker) |
+| **即刻** | [@Gracker](https://okjk.co/pJbjFa) |
+| **公众号** | AndroidPerformance |
+| **掘金** | [@Gracker](https://juejin.cn/user/1816846860560749) |
+| **微信** | 553000664（星球/群相关） |
+
+### 🌟 知识星球
+
+**特色服务：1v1 线上看 Trace / 学习 Trace 分析**
+
+- **平台**：腾讯视频 | **内容**：聚焦看 Trace，可自备 Trace 或现场抓
+- **预约时间**：周末晚 9:00 后 / 工作日晚 10:00 后（微信提前约）
+- **星球微信群**：仅限星球成员，讨论 Android 性能优化、Framework、Linux、大前端、面试等技术话题
+- **群满/二维码失效**：加微信 553000664 拉群
 
 **快速导航**
-[🤖 Android 官方资源](#androidofficial) · [📱 Android 技术博客](#androidblog) · [🌐 Android 社区](#androidcommunity) · [🧠 AI & LLM](#ai) · [💻 优质技术博客](#generaltech) · [🛠 开发工具](#tools)
+[🤖 Android 官方资源](#androidofficial) · [📱 Android 技术博客](#androidblog) · [🌐 Android 社区](#androidcommunity) · [🧠 AI & LLM](#ai) · [💻 优质技术博客](#generaltech) · [🛠 开发工具](#tools) · [📚 推荐资源](#推荐资源) · [📡 订阅](#订阅)
+
+---
+
+<a id="推荐资源"></a>
+## 📚 推荐资源
+
+### 📖 书籍
+
+| 书名 | 说明 |
+|------|------|
+| [Android性能优化之道 + Android系统性能优化（套装）](https://item.jd.com/10143552877886.html) | 赵子健《性能优化之道》偏 App 优化；中兴团队《系统性能优化》偏系统层面 |
+| [性能之巅（第2版）：系统、企业与云可观测性](https://item.jd.com/13199661.html) | 大部头宝典，偏 Linux，可当参考书 |
+
+### 🎓 在线课程
+
+| 课程 | 说明 |
+|------|------|
+| [Pika · Android 应用稳定性剖析与优化](https://juejin.cn/book/7280546228559151162) | 掘金专栏，查漏补缺 |
+| [赵子健 · Android 性能优化](https://juejin.cn/book/7153836660768292878) | 掘金专栏，体系化学习 |
+
+### 🎬 推荐关注
+
+| 名称 | 平台 | 说明 |
+|------|------|------|
+| [赵俊民](https://www.zhihu.com/people/zhao-jun-min-80) | 知乎 | 很多系统优化方面的思考和文章 |
+| [王小二的技术栈](https://space.bilibili.com/485954104) | B站 | 很多系统原理方面的视频 |
+| [千里马学框架](https://space.bilibili.com/397723494) | B站 | 专门教 Framework 开发 |
+| [掘金](https://juejin.cn/) | 网站 | 搜索技术问题可优先看掘金 |
+
+### 🔧 学习建议
+
+**Perfetto / Systrace 学习路径**（参考 [博客系列](https://www.androidperformance.com/2019/12/01/BlogMap/)）：
+
+1. 找一个场景，抓 Trace
+2. 打开 Trace + [Perfetto 官方文档](https://perfetto.dev/docs/) + AOSP 源码（[cs.android.com](https://cs.android.com)）
+3. 对着 Trace + 博客文章 + AOSP 源码，梳理主要流程
+4. 记笔记，搞清楚 Trace 上每一个 Tag 的含义
+5. 遇到问题：提供上下文给 AI / 星球提问 / 微信找我
 
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-11
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
@@ -63,7 +122,7 @@
 | **Romain Guy** [🌐](https://romainguy.dev/) [📝](https://medium.com/@romainguy) | 前 Android 团队核心成员，图形渲染专家，偶尔更新但篇篇精华 ⭐⭐⭐⭐⭐ |
 | **Jake Wharton** [🌐](https://jakewharton.com/blog/) [🐙](https://github.com/JakeWharton) | Android 开发传奇人物，虽转做其他语言但博客仍是经典参考 ⭐⭐⭐⭐⭐ |
 | **胡凯的博客** [🌐](https://hukai.me/) | Android 性能优化经典翻译，对国内社区贡献巨大 ⭐⭐⭐⭐⭐ |
-| **AndroidPerformance** [🌐](https://www.androidperformance.com/) [📡](https://www.androidperformance.com/atom.xml) | Android 性能优化技术博客，专注启动、内存、功耗、滑动 ⭐⭐⭐⭐⭐ |
+| **AndroidPerformance** [🌐](https://www.androidperformance.com/) [📡](https://www.androidperformance.com/atom.xml) | Android 性能优化技术博客，专注启动速度、内存、功耗、滑动流畅度，Systrace/Perfetto 系列深度教程 ⭐⭐⭐⭐⭐ |
 | **老罗的 Android 源码分析** [🌐](https://blog.csdn.net/luoshengyang) | Android 源码分析经典系列，深入 Framework 层面 ⭐⭐⭐⭐⭐ |
 | **Innost** [🌐](https://blog.csdn.net/innost) | 《深入理解 Android》系列作者，深入 Framework 和性能分析 ⭐⭐⭐⭐⭐ |
 | **扔物线 (Henley)** [🌐](https://rengwuxian.com/) [📡](https://rengwuxian.com/rss/) [💎](https://juejin.cn/user/2524134386185736) | Android 开发布道师，Kotlin/自定义 View/Jetpack 影响力极大 ⭐⭐⭐⭐⭐ |
@@ -192,6 +251,7 @@
 
 ---
 
+<a id="订阅"></a>
 ## 📋 贡献指南
 
 1. Fork 本仓库
@@ -203,7 +263,6 @@
 ### 📡 订阅
 
 - [OPML 文件](data/feeds.opml) — 导入到 RSS 阅读器（Inoreader、Feedly、Follow 等）
-- 包含 **67** 个可用 RSS 源
 
 ### 自动维护
 

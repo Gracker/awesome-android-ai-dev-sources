@@ -430,7 +430,7 @@
       "name": "AndroidPerformance",
       "category": "android-blog",
       "author": "Gracker",
-      "desc": "Android 性能优化技术博客，专注启动、内存、功耗、滑动",
+      "desc": "Android 性能优化技术博客，专注启动速度、内存、功耗、滑动流畅度，Systrace/Perfetto 系列深度教程",
       "links": {
         "blog": "https://www.androidperformance.com/",
         "rss": "https://www.androidperformance.com/atom.xml"

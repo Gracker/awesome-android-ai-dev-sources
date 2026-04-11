@@ -16,56 +16,10 @@
 | **掘金** | [@Gracker](https://juejin.cn/user/1816846860560749) |
 | **微信** | 553000664（星球/群相关） |
 
-### 🌟 知识星球
-
-**特色服务：1v1 线上看 Trace / 学习 Trace 分析**
-
-- **平台**：腾讯视频 | **内容**：聚焦看 Trace，可自备 Trace 或现场抓
-- **预约时间**：周末晚 9:00 后 / 工作日晚 10:00 后（微信提前约）
-- **星球微信群**：仅限星球成员，讨论 Android 性能优化、Framework、Linux、大前端、面试等技术话题
-- **群满/二维码失效**：加微信 553000664 拉群
-
 **快速导航**
-[🤖 Android 官方资源](#androidofficial) · [📱 Android 技术博客](#androidblog) · [🌐 Android 社区](#androidcommunity) · [🧠 AI & LLM](#ai) · [💻 优质技术博客](#generaltech) · [🛠 开发工具](#tools) · [📚 推荐资源](#推荐资源) · [📡 订阅](#订阅)
+[🤖 Android 官方资源](#androidofficial) · [📱 Android 技术博客](#androidblog) · [🌐 Android 社区](#androidcommunity) · [🧠 AI & LLM](#ai) · [💻 优质技术博客](#generaltech) · [🛠 开发工具](#tools)
 
 ---
-
-<a id="推荐资源"></a>
-## 📚 推荐资源
-
-### 📖 书籍
-
-| 书名 | 说明 |
-|------|------|
-| [Android性能优化之道 + Android系统性能优化（套装）](https://item.jd.com/10143552877886.html) | 赵子健《性能优化之道》偏 App 优化；中兴团队《系统性能优化》偏系统层面 |
-| [性能之巅（第2版）：系统、企业与云可观测性](https://item.jd.com/13199661.html) | 大部头宝典，偏 Linux，可当参考书 |
-
-### 🎓 在线课程
-
-| 课程 | 说明 |
-|------|------|
-| [Pika · Android 应用稳定性剖析与优化](https://juejin.cn/book/7280546228559151162) | 掘金专栏，查漏补缺 |
-| [赵子健 · Android 性能优化](https://juejin.cn/book/7153836660768292878) | 掘金专栏，体系化学习 |
-
-### 🎬 推荐关注
-
-| 名称 | 平台 | 说明 |
-|------|------|------|
-| [赵俊民](https://www.zhihu.com/people/zhao-jun-min-80) | 知乎 | 很多系统优化方面的思考和文章 |
-| [王小二的技术栈](https://space.bilibili.com/485954104) | B站 | 很多系统原理方面的视频 |
-| [千里马学框架](https://space.bilibili.com/397723494) | B站 | 专门教 Framework 开发 |
-| [掘金](https://juejin.cn/) | 网站 | 搜索技术问题可优先看掘金 |
-
-### 🔧 学习建议
-
-**Perfetto / Systrace 学习路径**（参考 [博客系列](https://www.androidperformance.com/2019/12/01/BlogMap/)）：
-
-1. 找一个场景，抓 Trace
-2. 打开 Trace + [Perfetto 官方文档](https://perfetto.dev/docs/) + AOSP 源码（[cs.android.com](https://cs.android.com)）
-3. 对着 Trace + 博客文章 + AOSP 源码，梳理主要流程
-4. 记笔记，搞清楚 Trace 上每一个 Tag 的含义
-5. 遇到问题：提供上下文给 AI / 星球提问 / 微信找我
-
 ---
 
 ## 🔥 最近收录
@@ -250,8 +204,45 @@
 | **SimplePerf** [🔗](https://developer.android.com/ndk/guides/simpleperf) [🐙](https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/) | Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪 ⭐⭐⭐⭐☆ |
 
 ---
+<a id="推荐资源"></a>
+## 📚 推荐资源
 
-<a id="订阅"></a>
+### 📖 书籍
+
+| 书名 | 说明 |
+|------|------|
+| [Android性能优化之道 + Android系统性能优化（套装）](https://item.jd.com/10143552877886.html) | 赵子健《性能优化之道》偏 App 优化；中兴团队《系统性能优化》偏系统层面 |
+| [性能之巅（第2版）：系统、企业与云可观测性](https://item.jd.com/13199661.html) | 大部头宝典，偏 Linux，可当参考书 |
+
+### 🎓 在线课程
+
+| 课程 | 说明 |
+|------|------|
+| [Pika · Android 应用稳定性剖析与优化](https://juejin.cn/book/7280546228559151162) | 掘金专栏，查漏补缺 |
+| [赵子健 · Android 性能优化](https://juejin.cn/book/7153836660768292878) | 掘金专栏，体系化学习 |
+
+### 🎬 推荐关注
+
+| 名称 | 平台 | 说明 |
+|------|------|------|
+| [赵俊民](https://www.zhihu.com/people/zhao-jun-min-80) | 知乎 | 很多系统优化方面的思考和文章 |
+| [王小二的技术栈](https://space.bilibili.com/485954104) | B站 | 很多系统原理方面的视频 |
+| [千里马学框架](https://space.bilibili.com/397723494) | B站 | 专门教 Framework 开发 |
+| [掘金](https://juejin.cn/) | 网站 | 搜索技术问题可优先看掘金 |
+
+### 🔧 学习建议
+
+**Perfetto / Systrace 学习路径**（参考 [博客系列](https://www.androidperformance.com/2019/12/01/BlogMap/)）：
+
+1. 找一个场景，抓 Trace
+2. 打开 Trace + [Perfetto 官方文档](https://perfetto.dev/docs/) + AOSP 源码（[cs.android.com](https://cs.android.com)）
+3. 对着 Trace + 博客文章 + AOSP 源码，梳理主要流程
+4. 记笔记，搞清楚 Trace 上每一个 Tag 的含义
+5. 遇到问题：提供上下文给 AI / 星球提问 / 微信找我
+
+
+---
+
 ## 📋 贡献指南
 
 1. Fork 本仓库

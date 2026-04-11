@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-120-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-134-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -193,7 +193,7 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 5 个源
+*性能分析、调试、开发效率工具* · 19 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -202,6 +202,20 @@
 | **Android Debug Bridge (ADB)** [🔗](https://developer.android.com/tools/adb) | Android 调试核心工具，设备通信、应用安装、日志抓取 ⭐⭐⭐⭐⭐ |
 | **Booster** [🐙](https://github.com/didi/booster) | 滴滴开源的性能优化框架，支持多维度性能检测 ⭐⭐⭐⭐☆ |
 | **SimplePerf** [🔗](https://developer.android.com/ndk/guides/simpleperf) [🐙](https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/) | Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪 ⭐⭐⭐⭐☆ |
+| **Friends-Circle Demo APKs** [🐙](https://github.com/Gracker/Friends-Circle-Demo-Apks-For-Power-and-Performance-Test) | 性能功耗测试基准 App，包含启动、切换、列表滑动等场景，配合博客文章使用 ⭐⭐⭐⭐☆ |
+| **Friends-Circle Flutter Demo** [🐙](https://github.com/Gracker/Friends-Circle-Demo-Flutter-Apks-For-Power-and-Performance-Test) | Flutter 版朋友圈性能测试 Demo，对比 Flutter 与原生性能差异 ⭐⭐⭐⭐☆ |
+| **Android App Memory Analysis** [🐙](https://github.com/Gracker/Android-App-Memory-Analysis) | Android 内存分析工具，辅助博客内存优化系列文章 ⭐⭐⭐⭐☆ |
+| **TraceFix** [🐙](https://github.com/Gracker/TraceFix) | Android Systrace 插件，基于 ASM 和 Gradle 自动注入 Trace Tag ⭐⭐⭐⭐☆ |
+| **Perfetto AutoPin for Chrome** [🐙](https://github.com/Gracker/Perfetto-AutoPin-For-Chrome) | Chrome 插件，自动 Pin Perfetto 关键事件，提升 Trace 分析效率 ⭐⭐⭐⭐☆ |
+| **SystraceAnalysis** [🐙](https://github.com/Gracker/SystraceAnalysis) | Systrace/FTrace 自动分析工具 ⭐⭐⭐⭐☆ |
+| **SystraceForBlog** [🐙](https://github.com/Gracker/SystraceForBlog) | 博客 Systrace 系列配套代码示例 ⭐⭐⭐☆☆ |
+| **Android FPS Calculation** [🐙](https://github.com/Gracker/Android-FPS-Calculation) | Android 帧率计算 Demo，多种方式获取真实 FPS ⭐⭐⭐☆☆ |
+| **FPSDump** [🐙](https://github.com/Gracker/FPSDump) | FPS 抓取与分析工具 ⭐⭐⭐☆☆ |
+| **ListHeaderAnimationPerformance** [🐙](https://github.com/Gracker/ListHeaderAnimationPerformance) | RecyclerView Header 动画性能测试 Demo ⭐⭐⭐☆☆ |
+| **DelayLoadSample** [🐙](https://github.com/Gracker/DelayLoadSample) | Android 延迟加载示例，优化启动速度 ⭐⭐⭐☆☆ |
+| **GameBench** [🐙](https://github.com/Gracker/GameBench) | Android 游戏性能测试工具，含 Server 和 Client ⭐⭐⭐☆☆ |
+| **Android HardwareLayer Example** [🐙](https://github.com/Gracker/Android_HardwareLayer_Example) | Hardware Layer 动画性能测试示例，配合博客硬件加速系列 ⭐⭐⭐☆☆ |
+| **Android CPU Usage Calculation** [🐙](https://github.com/Gracker/android_cpu_usage_calculation) | Android CPU 使用率计算方法与代码 ⭐⭐⭐☆☆ |
 
 ---
 <a id="推荐资源"></a>

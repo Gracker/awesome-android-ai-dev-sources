@@ -2044,6 +2044,243 @@
       ],
       "quality": 5,
       "added_date": "2026-04-11"
+    },
+    {
+      "id": "friends-circle-demo-apks",
+      "name": "Friends-Circle Demo APKs",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "性能功耗测试基准 App，包含启动、切换、列表滑动等场景，配合博客文章使用",
+      "links": {
+        "github": "https://github.com/Gracker/Friends-Circle-Demo-Apks-For-Power-and-Performance-Test"
+      },
+      "tags": [
+        "performance",
+        "benchmark",
+        "demo"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "friends-circle-flutter-demo",
+      "name": "Friends-Circle Flutter Demo",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Flutter 版朋友圈性能测试 Demo，对比 Flutter 与原生性能差异",
+      "links": {
+        "github": "https://github.com/Gracker/Friends-Circle-Demo-Flutter-Apks-For-Power-and-Performance-Test"
+      },
+      "tags": [
+        "performance",
+        "flutter",
+        "benchmark",
+        "demo"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-memory-analysis",
+      "name": "Android App Memory Analysis",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 内存分析工具，辅助博客内存优化系列文章",
+      "links": {
+        "github": "https://github.com/Gracker/Android-App-Memory-Analysis"
+      },
+      "tags": [
+        "memory",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "tracefix",
+      "name": "TraceFix",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android Systrace 插件，基于 ASM 和 Gradle 自动注入 Trace Tag",
+      "links": {
+        "github": "https://github.com/Gracker/TraceFix"
+      },
+      "tags": [
+        "systrace",
+        "trace",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "perfetto-auto-pin-chrome",
+      "name": "Perfetto AutoPin for Chrome",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Chrome 插件，自动 Pin Perfetto 关键事件，提升 Trace 分析效率",
+      "links": {
+        "github": "https://github.com/Gracker/Perfetto-AutoPin-For-Chrome"
+      },
+      "tags": [
+        "perfetto",
+        "chrome",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "systrace-analysis",
+      "name": "SystraceAnalysis",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Systrace/FTrace 自动分析工具",
+      "links": {
+        "github": "https://github.com/Gracker/SystraceAnalysis"
+      },
+      "tags": [
+        "systrace",
+        "ftrace",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "systrace-for-blog",
+      "name": "SystraceForBlog",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "博客 Systrace 系列配套代码示例",
+      "links": {
+        "github": "https://github.com/Gracker/SystraceForBlog"
+      },
+      "tags": [
+        "systrace",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-fps-calculation",
+      "name": "Android FPS Calculation",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 帧率计算 Demo，多种方式获取真实 FPS",
+      "links": {
+        "github": "https://github.com/Gracker/Android-FPS-Calculation"
+      },
+      "tags": [
+        "fps",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "fpsdump",
+      "name": "FPSDump",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "FPS 抓取与分析工具",
+      "links": {
+        "github": "https://github.com/Gracker/FPSDump"
+      },
+      "tags": [
+        "fps",
+        "performance",
+        "tools"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "list-header-animation-perf",
+      "name": "ListHeaderAnimationPerformance",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "RecyclerView Header 动画性能测试 Demo",
+      "links": {
+        "github": "https://github.com/Gracker/ListHeaderAnimationPerformance"
+      },
+      "tags": [
+        "performance",
+        "animation",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "delay-load-sample",
+      "name": "DelayLoadSample",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 延迟加载示例，优化启动速度",
+      "links": {
+        "github": "https://github.com/Gracker/DelayLoadSample"
+      },
+      "tags": [
+        "startup",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "gamebench",
+      "name": "GameBench",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 游戏性能测试工具，含 Server 和 Client",
+      "links": {
+        "github": "https://github.com/Gracker/GameBench"
+      },
+      "tags": [
+        "gaming",
+        "performance",
+        "tools"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-hardware-layer-example",
+      "name": "Android HardwareLayer Example",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Hardware Layer 动画性能测试示例，配合博客硬件加速系列",
+      "links": {
+        "github": "https://github.com/Gracker/Android_HardwareLayer_Example"
+      },
+      "tags": [
+        "hardware-layer",
+        "animation",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-cpu-usage-calc",
+      "name": "Android CPU Usage Calculation",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android CPU 使用率计算方法与代码",
+      "links": {
+        "github": "https://github.com/Gracker/android_cpu_usage_calculation"
+      },
+      "tags": [
+        "cpu",
+        "performance"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
     }
   ]
 }

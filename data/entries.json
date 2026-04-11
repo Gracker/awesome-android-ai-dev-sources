@@ -241,7 +241,7 @@
       "desc": "GPU 性能分析工具，用于追踪渲染管线和着色器性能",
       "links": {
         "website": "https://gpuinspector.dev/",
-        "github": "https://github.com/nicowilliams/agi"
+        "github": "https://github.com/google/agi"
       },
       "tags": [
         "gpu",
@@ -293,8 +293,7 @@
       "author": "Mark Allison",
       "desc": "专注于 Android UI 开发，现已全面转向 Compose 系列，持续更新",
       "links": {
-        "blog": "https://blog.stylingandroid.com/",
-        "rss": "https://blog.stylingandroid.com/feed/"
+        "blog": "https://blog.stylingandroid.com/"
       },
       "tags": [
         "ui",
@@ -555,7 +554,7 @@
       "desc": "最权威的 Android 周报，每周精选全球最佳文章和工具",
       "links": {
         "website": "https://androidweekly.net/",
-        "rss": "https://androidweekly.net/rss/issue.rss",
+        "rss": "https://androidweekly.net/rss/issue_current.rss",
         "newsletter": "https://androidweekly.net/"
       },
       "tags": [
@@ -1131,8 +1130,7 @@
       "category": "android-official",
       "desc": "Google Android 官方 YouTube 频道视频更新",
       "links": {
-        "youtube": "https://www.youtube.com/@AndroidDevelopers",
-        "rss": "https://rsshub.app/youtube/user/%40AndroidDevelopers"
+        "youtube": "https://www.youtube.com/@AndroidDevelopers"
       },
       "tags": [
         "official",
@@ -1210,8 +1208,7 @@
       "category": "ai",
       "desc": "Google DeepMind 官方研究博客，AI 前沿突破",
       "links": {
-        "blog": "https://deepmind.google/blog/",
-        "rss": "https://rsshub.app/deepmind/blog"
+        "blog": "https://deepmind.google/blog/"
       },
       "tags": [
         "official",
@@ -1244,8 +1241,7 @@
       "category": "android-blog",
       "desc": "Android 性能优化和架构设计，持续产出高质量文章",
       "links": {
-        "juejin": "https://juejin.cn/user/4318537403878167",
-        "rss": "https://rsshub.app/juejin/dynamic/4318537403878167"
+        "juejin": "https://juejin.cn/user/4318537403878167"
       },
       "tags": [
         "cn",
@@ -1260,8 +1256,7 @@
       "category": "android-blog",
       "desc": "Kotlin 布道师，《深入理解 Kotlin 协程》作者",
       "links": {
-        "juejin": "https://juejin.cn/user/1187128286120631",
-        "rss": "https://rsshub.app/juejin/dynamic/1187128286120631"
+        "juejin": "https://juejin.cn/user/1187128286120631"
       },
       "tags": [
         "cn",
@@ -1276,8 +1271,7 @@
       "category": "android-blog",
       "desc": "Android 技术博主，覆盖 Compose、Jetpack、架构",
       "links": {
-        "juejin": "https://juejin.cn/user/3931509309842872",
-        "rss": "https://rsshub.app/juejin/dynamic/3931509309842872"
+        "juejin": "https://juejin.cn/user/3931509309842872"
       },
       "tags": [
         "cn",
@@ -1340,8 +1334,7 @@
       "category": "android-blog",
       "desc": "Android 系统开发专家，知乎深度回答",
       "links": {
-        "zhihu": "https://www.zhihu.com/people/rogeryi",
-        "rss": "https://rsshub.app/zhihu/people/activities/rogeryi"
+        "zhihu": "https://www.zhihu.com/people/rogeryi"
       },
       "tags": [
         "cn",
@@ -1448,8 +1441,7 @@
       "category": "android-blog",
       "desc": "字节跳动官方技术博客，覆盖 Android、后端、前端、AI",
       "links": {
-        "juejin": "https://juejin.cn/user/1838039172387262",
-        "rss": "https://rsshub.app/juejin/posts/1838039172387262"
+        "juejin": "https://juejin.cn/user/1838039172387262"
       },
       "tags": [
         "cn",
@@ -1464,8 +1456,7 @@
       "category": "android-blog",
       "desc": "Android 视频教程博主，Framework 和性能优化讲解",
       "links": {
-        "youtube": "https://space.bilibili.com/485954104",
-        "rss": "https://rsshub.app/bilibili/user/video/485954104"
+        "youtube": "https://space.bilibili.com/485954104"
       },
       "tags": [
         "cn",
@@ -1480,8 +1471,7 @@
       "category": "android-blog",
       "desc": "专注于 Android Framework 源码分析",
       "links": {
-        "juejin": "https://juejin.cn/user/342703355728382",
-        "rss": "https://rsshub.app/juejin/posts/342703355728382"
+        "juejin": "https://juejin.cn/user/342703355728382"
       },
       "tags": [
         "cn",
@@ -1496,8 +1486,7 @@
       "category": "android-blog",
       "desc": "看雪论坛 Android 安全方向精华帖",
       "links": {
-        "website": "https://bbs.kanxue.com/forum-161-1.htm?digest=1",
-        "rss": "https://rsshub.app/kanxue/topic/android/digest"
+        "website": "https://bbs.kanxue.com/forum-161-1.htm?digest=1"
       },
       "tags": [
         "cn",
@@ -1572,8 +1561,7 @@
       "category": "android-blog",
       "desc": "Android 开发教程博客，Kotlin 和 Compose",
       "links": {
-        "blog": "https://pl-coding.com/",
-        "rss": "https://pl-coding.com/feed/"
+        "blog": "https://pl-coding.com/"
       },
       "tags": [
         "kotlin",
@@ -1604,8 +1592,7 @@
       "category": "android-blog",
       "desc": "字节跳动 Android 团队，系统级技术分享",
       "links": {
-        "juejin": "https://juejin.cn/user/2585702698590472",
-        "rss": "https://rsshub.app/juejin/dynamic/2585702698590472"
+        "juejin": "https://juejin.cn/user/2585702698590472"
       },
       "tags": [
         "cn",
@@ -1762,7 +1749,7 @@
       "category": "general-tech",
       "desc": "AI 和技术分享博客",
       "links": {
-        "blog": "https://s.baoyu.io/",
+        "blog": "https://baoyu.io/",
         "rss": "https://s.baoyu.io/feed.xml"
       },
       "tags": [

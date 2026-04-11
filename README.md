@@ -57,11 +57,11 @@
 | **Kotlin for Android** [🔗](https://developer.android.com/kotlin) | Android 首选语言，官方文档和最佳实践指南 ⭐⭐⭐⭐⭐ |
 | **Google for Developers** [▶️](https://www.youtube.com/@GoogleDevelopers) | Google 开发者官方 YouTube 频道，涵盖 Android、Web、Cloud ⭐⭐⭐⭐⭐ |
 | **谷歌开发者 (公众号)** [💬](谷歌开发者) | Google 官方中文开发者公众号，Android/GCP/ML 技术资讯 ⭐⭐⭐⭐⭐ |
-| **Android Developers (YouTube)** [📡](https://rsshub.app/youtube/user/%40AndroidDevelopers) [▶️](https://www.youtube.com/@AndroidDevelopers) | Google Android 官方 YouTube 频道视频更新 ⭐⭐⭐⭐⭐ |
+| **Android Developers (YouTube)** [▶️](https://www.youtube.com/@AndroidDevelopers) | Google Android 官方 YouTube 频道视频更新 ⭐⭐⭐⭐⭐ |
 | **Kotlin Blog (JetBrains)** [🌐](https://blog.jetbrains.com/kotlin/) [📡](https://blog.jetbrains.com/kotlin/feed/) | JetBrains 官方 Kotlin 博客，语言特性、多平台、Compose ⭐⭐⭐⭐⭐ |
 | **Flutter Blog** [🌐](https://blog.flutter.dev/) [📡](https://medium.com/feed/flutter) | Google Flutter 官方博客，跨平台 UI 框架 ⭐⭐⭐⭐⭐ |
 | **Android (Google Blog)** [🌐](https://blog.google/products-and-platforms/platforms/android/) [📡](https://blog.google/products-and-platforms/platforms/android/rss/) | Google 官方 Android 产品动态博客 ⭐⭐⭐⭐⭐ |
-| **Android GPU Inspector (AGI)** [🔗](https://gpuinspector.dev/) [🐙](https://github.com/nicowilliams/agi) | GPU 性能分析工具，用于追踪渲染管线和着色器性能 ⭐⭐⭐⭐☆ |
+| **Android GPU Inspector (AGI)** [🔗](https://gpuinspector.dev/) [🐙](https://github.com/google/agi) | GPU 性能分析工具，用于追踪渲染管线和着色器性能 ⭐⭐⭐⭐☆ |
 | **Android Vitals** [🔗](https://developer.android.com/topic/performance/vitals) | Google Play Console 中的应用性能仪表盘，监控崩溃、ANR、启动时间 ⭐⭐⭐⭐☆ |
 | **Android Developers (Medium)** [🌐](https://medium.com/androiddevelopers) [📡](https://medium.com/feed/androiddevelopers) | Google Android 团队 Medium 博客 ⭐⭐⭐⭐☆ |
 
@@ -72,7 +72,7 @@
 | 信息源 | 描述 |
 |--------|------|
 | **Gityuan** [🌐](https://gityuan.com/) [📡](https://gityuan.com/feed.xml) | Android Framework 内核分析，源码级深度解读，质量极高 ⭐⭐⭐⭐⭐ |
-| **Styling Android** [🌐](https://blog.stylingandroid.com/) [📡](https://blog.stylingandroid.com/feed/) | 专注于 Android UI 开发，现已全面转向 Compose 系列，持续更新 ⭐⭐⭐⭐⭐ |
+| **Styling Android** [🌐](https://blog.stylingandroid.com/) | 专注于 Android UI 开发，现已全面转向 Compose 系列，持续更新 ⭐⭐⭐⭐⭐ |
 | **Romain Guy** [🌐](https://romainguy.dev/) [📝](https://medium.com/@romainguy) | 前 Android 团队核心成员，图形渲染专家，偶尔更新但篇篇精华 ⭐⭐⭐⭐⭐ |
 | **Jake Wharton** [🌐](https://jakewharton.com/blog/) [🐙](https://github.com/JakeWharton) | Android 开发传奇人物，虽转做其他语言但博客仍是经典参考 ⭐⭐⭐⭐⭐ |
 | **胡凯的博客** [🌐](https://hukai.me/) | Android 性能优化经典翻译，对国内社区贡献巨大 ⭐⭐⭐⭐⭐ |
@@ -80,10 +80,10 @@
 | **老罗的 Android 源码分析** [🌐](https://blog.csdn.net/luoshengyang) | Android 源码分析经典系列，深入 Framework 层面 ⭐⭐⭐⭐⭐ |
 | **Innost** [🌐](https://blog.csdn.net/innost) | 《深入理解 Android》系列作者，深入 Framework 和性能分析 ⭐⭐⭐⭐⭐ |
 | **扔物线 (Henley)** [🌐](https://rengwuxian.com/) [📡](https://rengwuxian.com/rss/) [💎](https://juejin.cn/user/2524134386185736) | Android 开发布道师，Kotlin/自定义 View/Jetpack 影响力极大 ⭐⭐⭐⭐⭐ |
-| **霍丙乾 (bennyhuo)** [📡](https://rsshub.app/juejin/dynamic/1187128286120631) [💎](https://juejin.cn/user/1187128286120631) | Kotlin 布道师，《深入理解 Kotlin 协程》作者 ⭐⭐⭐⭐⭐ |
+| **霍丙乾 (bennyhuo)** [💎](https://juejin.cn/user/1187128286120631) | Kotlin 布道师，《深入理解 Kotlin 协程》作者 ⭐⭐⭐⭐⭐ |
 | **美团技术团队** [🌐](https://tech.meituan.com/) [📡](https://tech.meituan.com/atom.xml) | 美团官方技术博客，Android/iOS/后端/工程实践 ⭐⭐⭐⭐⭐ |
 | **腾讯技术工程** [💬](腾讯技术工程) | 腾讯官方技术公众号，大前端和移动端 ⭐⭐⭐⭐⭐ |
-| **字节跳动技术团队** [📡](https://rsshub.app/juejin/posts/1838039172387262) [💎](https://juejin.cn/user/1838039172387262) | 字节跳动官方技术博客，覆盖 Android、后端、前端、AI ⭐⭐⭐⭐⭐ |
+| **字节跳动技术团队** [💎](https://juejin.cn/user/1838039172387262) | 字节跳动官方技术博客，覆盖 Android、后端、前端、AI ⭐⭐⭐⭐⭐ |
 | **Chris Banes** [🌐](https://banes.dev/) [🐙](https://github.com/chrisbanes) | Android 社区知名开发者，现 Google/Flutter 团队，历史文章价值极高 ⭐⭐⭐⭐☆ |
 | **Chet Haase** [📝](https://medium.com/@chethaase) | Developing for Android 系列，Android 团队老将，深入浅出 ⭐⭐⭐⭐☆ |
 | **Karumi Blog** [🌐](https://karumi.com/blog/) | 西班牙 Android 咨询公司技术博客，注重架构和测试 ⭐⭐⭐⭐☆ |
@@ -92,26 +92,26 @@
 | **鸿洋** [🌐](https://blog.csdn.net/lmj623565791) [💬](鸿洋) | CSDN 顶级博主，自定义 View 系列经典，仍活跃 ⭐⭐⭐⭐☆ |
 | **Trinea** [🌐](https://www.trinea.cn/) | Android 开源项目和技术博客经典，涵盖缓存、性能等 ⭐⭐⭐⭐☆ |
 | **Dan Lew** [🌐](https://blog.danlew.net/) | RxJava/Android 实用技巧博客，简洁有力 ⭐⭐⭐⭐☆ |
-| **jsonchao** [📡](https://rsshub.app/juejin/dynamic/4318537403878167) [💎](https://juejin.cn/user/4318537403878167) | Android 性能优化和架构设计，持续产出高质量文章 ⭐⭐⭐⭐☆ |
-| **fundroid (玉刚说)** [📡](https://rsshub.app/juejin/dynamic/3931509309842872) [💎](https://juejin.cn/user/3931509309842872) | Android 技术博主，覆盖 Compose、Jetpack、架构 ⭐⭐⭐⭐☆ |
+| **jsonchao** [💎](https://juejin.cn/user/4318537403878167) | Android 性能优化和架构设计，持续产出高质量文章 ⭐⭐⭐⭐☆ |
+| **fundroid (玉刚说)** [💎](https://juejin.cn/user/3931509309842872) | Android 技术博主，覆盖 Compose、Jetpack、架构 ⭐⭐⭐⭐☆ |
 | **张可** [🌐](https://zhangke.space/) [📡](https://zhangke.space/feed/) | 独立技术博客，Android 和通用技术话题 ⭐⭐⭐⭐☆ |
 | **码农明明桑** [🌐](https://isming.me/) [📡](https://isming.me/index.xml) | Android 独立开发者，移动开发技术分享 ⭐⭐⭐⭐☆ |
 | **BrowserLab (知乎专栏)** [🌐](https://zhuanlan.zhihu.com/browserlab) [📡](https://rss.lilydjwg.me/zhihuzhuanlan/browserlab) | 浏览器与 Web 技术深度分析专栏 ⭐⭐⭐⭐☆ |
-| **易旭昕 (知乎)** [📡](https://rsshub.app/zhihu/people/activities/rogeryi) [💙](https://www.zhihu.com/people/rogeryi) | Android 系统开发专家，知乎深度回答 ⭐⭐⭐⭐☆ |
+| **易旭昕 (知乎)** [💙](https://www.zhihu.com/people/rogeryi) | Android 系统开发专家，知乎深度回答 ⭐⭐⭐⭐☆ |
 | **有赞技术团队** [🌐](https://tech.youzan.com/) [📡](https://tech.youzan.com/rss/) | 有赞官方技术博客，电商技术实践 ⭐⭐⭐⭐☆ |
 | **小米技术** [💬](小米技术) | 小米官方技术公众号，MIUI/Android 系统开发 ⭐⭐⭐⭐☆ |
 | **哔哩哔哩技术** [💬](哔哩哔哩技术) | B站官方技术博客，大规模系统架构和移动端 ⭐⭐⭐⭐☆ |
 | **阿里云开发者** [💬](阿里云开发者) | 阿里云官方技术公众号，云原生和移动开发 ⭐⭐⭐⭐☆ |
-| **王小二 (B站)** [📡](https://rsshub.app/bilibili/user/video/485954104) [▶️](https://space.bilibili.com/485954104) | Android 视频教程博主，Framework 和性能优化讲解 ⭐⭐⭐⭐☆ |
-| **阿豪讲Framework** [📡](https://rsshub.app/juejin/posts/342703355728382) [💎](https://juejin.cn/user/342703355728382) | 专注于 Android Framework 源码分析 ⭐⭐⭐⭐☆ |
-| **看雪论坛 Android 安全** [🔗](https://bbs.kanxue.com/forum-161-1.htm?digest=1) [📡](https://rsshub.app/kanxue/topic/android/digest) | 看雪论坛 Android 安全方向精华帖 ⭐⭐⭐⭐☆ |
+| **王小二 (B站)** [▶️](https://space.bilibili.com/485954104) | Android 视频教程博主，Framework 和性能优化讲解 ⭐⭐⭐⭐☆ |
+| **阿豪讲Framework** [💎](https://juejin.cn/user/342703355728382) | 专注于 Android Framework 源码分析 ⭐⭐⭐⭐☆ |
+| **看雪论坛 Android 安全** [🔗](https://bbs.kanxue.com/forum-161-1.htm?digest=1) | 看雪论坛 Android 安全方向精华帖 ⭐⭐⭐⭐☆ |
 | **千里马学框架 (CSDN)** [🌐](https://blog.csdn.net/learnframework) [📡](https://rss.csdn.net/learnframework/rss/map) | 专注于 Android Framework 学习的 CSDN 博主 ⭐⭐⭐⭐☆ |
 | **Seb's Coding Blog** [🌐](https://blog.sellmair.io/) [📡](https://blog.sellmair.io/rss.xml) | Android/Kotlin 技术博客，实践导向 ⭐⭐⭐⭐☆ |
 | **Zach Klippenstein** [🌐](https://blog.zachklipp.com/) [📡](https://blog.zachklipp.com/rss/) | Android 开发者，Compose 深度技术博客 ⭐⭐⭐⭐☆ |
 | **P-Y's blog** [🌐](https://blog.p-y.wtf/) [📡](https://blog.p-y.wtf/rss.xml) | Android 开发技术博客 ⭐⭐⭐⭐☆ |
-| **pl-coding.com** [🌐](https://pl-coding.com/) [📡](https://pl-coding.com/feed/) | Android 开发教程博客，Kotlin 和 Compose ⭐⭐⭐⭐☆ |
+| **pl-coding.com** [🌐](https://pl-coding.com/) | Android 开发教程博客，Kotlin 和 Compose ⭐⭐⭐⭐☆ |
 | **Android Authority Podcast** [🔗](http://www.androidauthority.com/podcast) [📡](https://rss.libsyn.com/shows/62117/destinations/242501.xml) | Android 权威媒体播客，新设备、应用和系统动态 ⭐⭐⭐⭐☆ |
-| **离青 (字节跳动)** [📡](https://rsshub.app/juejin/dynamic/2585702698590472) [💎](https://juejin.cn/user/2585702698590472) | 字节跳动 Android 团队，系统级技术分享 ⭐⭐⭐⭐☆ |
+| **离青 (字节跳动)** [💎](https://juejin.cn/user/2585702698590472) | 字节跳动 Android 团队，系统级技术分享 ⭐⭐⭐⭐☆ |
 
 <a id="androidcommunity"></a>
 ## 🌐 Android 社区
@@ -119,7 +119,7 @@
 
 | 信息源 | 描述 |
 |--------|------|
-| **Android Weekly** [🔗](https://androidweekly.net/) [📡](https://androidweekly.net/rss/issue.rss) [📬](https://androidweekly.net/) | 最权威的 Android 周报，每周精选全球最佳文章和工具 ⭐⭐⭐⭐⭐ |
+| **Android Weekly** [🔗](https://androidweekly.net/) [📡](https://androidweekly.net/rss/issue_current.rss) [📬](https://androidweekly.net/) | 最权威的 Android 周报，每周精选全球最佳文章和工具 ⭐⭐⭐⭐⭐ |
 | **Now in Android** [🔗](https://developer.android.com/) [📡](https://feeds.libsyn.com/244409/rss) | Google 官方 Android 新闻播客，紧跟平台最新动态 ⭐⭐⭐⭐⭐ |
 | **Android Developer Weekly** [🔗](https://androidweekly.cn/) [📡](https://androidweekly.cn/rss/) | 中文 Android 开发周报，精选中英文技术文章 ⭐⭐⭐⭐☆ |
 | **Fragmented Podcast** [🔗](https://fragmentedpodcast.com/) [🎙️](https://fragmentedpodcast.com/) | 经典 Android 开发播客，访谈社区专家和技术深度探讨 ⭐⭐⭐⭐☆ |
@@ -140,7 +140,7 @@
 | **Hugging Face Blog** [🌐](https://huggingface.co/blog) | 开源 ML 社区核心博客，模型、数据集、Transformers 最新动态 ⭐⭐⭐⭐⭐ |
 | **Simon Willison** [🌐](https://simonwillison.net/) [📡](https://simonwillison.net/atom/everything/) | LLM 实战领域最活跃的博主之一，每天产出高质量技术笔记 ⭐⭐⭐⭐⭐ |
 | **The Batch** [🔗](https://www.deeplearning.ai/the-batch/) [📬](https://www.deeplearning.ai/the-batch/) | Andrew Ng 的 AI 周刊，面向从业者的 AI 新闻和深度解读 ⭐⭐⭐⭐⭐ |
-| **Google DeepMind Blog** [🌐](https://deepmind.google/blog/) [📡](https://rsshub.app/deepmind/blog) | Google DeepMind 官方研究博客，AI 前沿突破 ⭐⭐⭐⭐⭐ |
+| **Google DeepMind Blog** [🌐](https://deepmind.google/blog/) | Google DeepMind 官方研究博客，AI 前沿突破 ⭐⭐⭐⭐⭐ |
 | **Sam Altman Blog** [🌐](https://blog.samaltman.com/) [📡](https://blog.samaltman.com/posts.atom) | OpenAI CEO 官方博客 ⭐⭐⭐⭐⭐ |
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 ⭐⭐⭐⭐⭐ |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 ⭐⭐⭐⭐☆ |
@@ -180,7 +180,7 @@
 | **Hi, DIYgod** [🌐](https://diygod.cc/) [📡](https://diygod.cc/feed) | RSSHub 作者，前端和开源贡献 ⭐⭐⭐⭐☆ |
 | **Sukka's Blog** [🌐](https://blog.skk.moe/) [📡](https://blog.skk.moe/atom.xml) | 前端和 Web 性能，技术深度好 ⭐⭐⭐⭐☆ |
 | **云谦的博客** [🌐](https://sorrycc.com/) [📡](https://sorrycc.com/feed) | 前端开发者，Umi.js 作者 ⭐⭐⭐⭐☆ |
-| **宝玉的分享** [🌐](https://s.baoyu.io/) [📡](https://s.baoyu.io/feed.xml) | AI 和技术分享博客 ⭐⭐⭐⭐☆ |
+| **宝玉的分享** [🌐](https://baoyu.io/) [📡](https://s.baoyu.io/feed.xml) | AI 和技术分享博客 ⭐⭐⭐⭐☆ |
 | **Limboy** [🌐](https://limboy.me/) [📡](https://limboy.me/index.xml) | 移动端技术专家，iOS 和跨平台 ⭐⭐⭐⭐☆ |
 | **Frost's Blog** [🌐](https://frostming.com/) [📡](https://frostming.com/feed.xml) | Python 开发者，MVP 和开源贡献 ⭐⭐⭐⭐☆ |
 | **HackerNews 每日摘要** [🌐](https://supertechfans.com/cn/) [📡](https://www.supertechfans.com/cn/index.xml) | Hacker News 中文摘要翻译 ⭐⭐⭐⭐☆ |

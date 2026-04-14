@@ -275,6 +275,7 @@
 - 每日发现任务由 [OpenClaw](https://github.com/openclaw/openclaw) 自动执行
 - 扫描 Android Weekly、掘金、GitHub Trending、RSS 列表、Obsidian 产出
 - LLM 评估后自动收录，README + OPML 每日更新
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ---
 

@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/gracker-awesome-android-ai-dev-sources-badge.png)](https://mseep.ai/app/gracker-awesome-android-ai-dev-sources)
+
 # Awesome Android AI Dev Sources
 
 ![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-146-blue)

@@ -1,5 +1,66 @@
 {
-  "candidates": [],
-  "last_updated": "2026-04-19",
-  "discovered_count": 0
+  "candidates": [
+    {
+      "name": "巧摸博客",
+      "domain": "blog.qiaomu.ai",
+      "field": "AI",
+      "type": "Blog",
+      "reason": "专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比",
+      "quality": 5,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://blog.qiaomu.ai"
+    },
+    {
+      "name": "camel-ai/owl",
+      "domain": "github.com/camel-ai-owl",
+      "field": "Android",
+      "type": "GitHub",
+      "reason": "本周 GitHub Android Trending 热门项目，自然语言转 Android CLI 命令的 AI Agent 工具链，支持 Gemini/Claude Code/Codex 等主流 Agent 集成",
+      "quality": 4,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://github.com/camel-ai-owl/owl"
+    },
+    {
+      "name": "Android小码哥",
+      "domain": "mp.weixin.qq.com",
+      "field": "Android",
+      "type": "公众号",
+      "reason": "原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章",
+      "quality": 4,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyNTUyNDA5Nw=="
+    },
+    {
+      "name": "深度解析 Claude Code 系列",
+      "domain": "mp.weixin.qq.com",
+      "field": "AI",
+      "type": "公众号",
+      "reason": "42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践",
+      "quality": 4,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://github.com/lintsinghua/claude-code-book"
+    },
+    {
+      "name": "常利兵的技术分享",
+      "domain": "dxmwl.com",
+      "field": "Android",
+      "type": "Blog",
+      "reason": "Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容",
+      "quality": 4,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://make.dxmwl.com"
+    },
+    {
+      "name": "lintsinghua/claude-code-book",
+      "domain": "github.com/lintsinghua",
+      "field": "AI",
+      "type": "GitHub",
+      "reason": "GitHub 42万字 Claude Code 架构开源电子书，拆解 AI Agent 的 Harness 骨架与神经，对应公众号系列文字版",
+      "quality": 4,
+      "source": "Obsidian/Cubox 2026-04-20",
+      "url": "https://github.com/lintsinghua/claude-code-book"
+    }
+  ],
+  "last_updated": "2026-04-20",
+  "discovered_count": 6
 }

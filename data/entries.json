@@ -2456,6 +2456,25 @@
       "added_date": "2026-04-18"
     },
     {
+      "id": "aiworkflow-tutorials",
+      "name": "AI Workflow Tutorials",
+      "category": "ai",
+      "author": "Xiangyu Workflow",
+      "desc": "面向中文开发者的 AI 编程教程站，覆盖 OpenAI Codex、Claude Code、Cursor、GitHub Copilot、Gemini CLI 等主流 AI 编程工具的入门、配置和实战教程",
+      "links": {
+        "website": "https://aiworkflowtutorials.com/"
+      },
+      "tags": [
+        "ai-coding",
+        "codex",
+        "claude-code",
+        "cursor",
+        "developer"
+      ],
+      "quality": 4,
+      "added_date": "2026-05-18"
+    },
+    {
       "id": "samhenri-gold-blog",
       "name": "Sam Henri Gold",
       "category": "ai",

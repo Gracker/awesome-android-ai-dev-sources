@@ -2489,6 +2489,28 @@
       ],
       "quality": 5,
       "added_date": "2026-04-19"
+    },
+    {
+      "id": "xiangyu-workflow",
+      "name": "翔宇工作流",
+      "category": "ai",
+      "author": "翔宇",
+      "desc": "中文 AI 编程与自动化工作流实战博客，聚焦 Claude Code、Agentic Engineering、n8n、Make 和可复用工作流",
+      "links": {
+        "blog": "https://xiangyugongzuoliu.com/",
+        "rss": "https://xiangyugongzuoliu.com/latest/rss/",
+        "youtube": "https://www.youtube.com/@xiangyugongzuoliu",
+        "github": "https://github.com/xiangyugongzuoliu"
+      },
+      "tags": [
+        "ai",
+        "agentic-engineering",
+        "claude-code",
+        "workflow",
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-05-18"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-04-19",
+  "updated": "2026-06-05",
   "categories": [
     {
       "id": "android-official",
@@ -2489,6 +2489,25 @@
       ],
       "quality": 5,
       "added_date": "2026-04-19"
+    },
+    {
+      "id": "android-debug-mcp",
+      "name": "Android Debug MCP",
+      "category": "tools",
+      "author": "lukelmouse",
+      "desc": "MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态",
+      "links": {
+        "github": "https://github.com/lukelmouse-github/android-debug-mcp"
+      },
+      "tags": [
+        "mcp",
+        "android",
+        "ai-agent",
+        "runtime-debug",
+        "tooling"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-05"
     }
   ]
 }

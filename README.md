@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-146-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-155-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,20 +23,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-19
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-06
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **巧摸博客** [🌐](https://blog.qiaomu.ai) | AI | 专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比 |
+| **camel-ai/owl** [🐙](https://github.com/camel-ai-owl/owl) | android | GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成 |
+| **Android小码哥** [💬](Android小码哥) | Android | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
+| **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | AI | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
+| **常利兵的技术分享** [🌐](https://make.dxmwl.com) | Android | Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容 |
+| **realCaigu** [𝕏](https://x.com/realCaigu) | AI | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
+| **xiaogaifun** [𝕏](https://x.com/xiaogaifun) | AI | Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读 |
+| **马哥的Android技术分享** [💬](马哥的Android技术分享) | Android | Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧 |
+| **Android Debug MCP** [🐙](https://github.com/lukelmouse-github/android-debug-mcp) | 工具 | MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态 |
 | **Sam Henri Gold** [🌐](https://samhenri.gold) | AI | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
-| **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
-| **PerCetto (olvaffe/percetto)** [🐙](https://github.com/olvaffe/percetto) | 工具 | C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高 |
-| **TraceTools** [🐙](https://github.com/joychic/TraceTools) | 工具 | 动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型 |
-| **SoloX** [🐙](https://github.com/smart-test-ti/SoloX) | 工具 | Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景 |
-| **PerfSuite Android** [🐙](https://github.com/bookingcom/perfsuite-android) | 工具 | Booking.com开源的线上轻量性能指标采集SDK，面向生产环境监控，与Perfetto形成抓取→监控的互补 |
-| **perfetto-mcp** [🐙](https://github.com/antarikshc/perfetto-mcp) | 工具 | MCP协议NL→SQL Perfetto分析工具，用自然语言查询trace，开创性地将LLM引入Perfetto分析流程 |
-| **adbutils** [🐙](https://github.com/openatx/adbutils) | 工具 | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
-| **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 工具 | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
-| **Synacktiv** [🔗](https://synacktiv.com) | Android | 欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容 |
 
 
 <a id="androidofficial"></a>
@@ -66,7 +66,7 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 43 个源
+*独立博客、掘金、知乎、公众号* · 46 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -84,6 +84,9 @@
 | **腾讯技术工程** [💬](腾讯技术工程) | 腾讯官方技术公众号，大前端和移动端 |
 | **字节跳动技术团队** [💎](https://juejin.cn/user/1838039172387262) | 字节跳动官方技术博客，覆盖 Android、后端、前端、AI |
 | **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
+| **Android小码哥** [💬](Android小码哥) | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
+| **常利兵的技术分享** [🌐](https://make.dxmwl.com) | Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容 |
+| **马哥的Android技术分享** [💬](马哥的Android技术分享) | Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧 |
 | **Chris Banes** [🌐](https://banes.dev/) [🐙](https://github.com/chrisbanes) | Android 社区知名开发者，现 Google/Flutter 团队，历史文章价值极高 |
 | **Chet Haase** [📝](https://medium.com/@chethaase) | Developing for Android 系列，Android 团队老将，深入浅出 |
 | **Karumi Blog** [🌐](https://karumi.com/blog/) | 西班牙 Android 咨询公司技术博客，注重架构和测试 |
@@ -129,10 +132,12 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 15 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 19 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **巧摸博客** [🌐](https://blog.qiaomu.ai) | 专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比 |
+| **xiaogaifun** [𝕏](https://x.com/xiaogaifun) | Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读 |
 | **Awesome AI Field Notes** [🔗](https://godofgpt.com/) [🐙](https://github.com/Gracker/awesome-ai-field-notes) | AI 领域 608 条精选资源，每日更新，覆盖 LLM/Agent/工具链 |
 | **Google AI Blog** [🌐](https://ai.googleblog.com/) | Google AI 研究博客，发布前沿研究成果和技术突破 |
 | **OpenAI Blog** [🌐](https://openai.com/blog) | OpenAI 官方博客，GPT 系列模型发布和技术解读 |
@@ -145,6 +150,8 @@
 | **Sam Altman Blog** [🌐](https://blog.samaltman.com/) [📡](https://blog.samaltman.com/posts.atom) | OpenAI CEO 官方博客 |
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 |
 | **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
+| **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
+| **realCaigu** [𝕏](https://x.com/realCaigu) | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |
 | **seanguo** [💬](seanguo) | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
 | **Sam Henri Gold** [🌐](https://samhenri.gold) | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
@@ -197,7 +204,7 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 27 个源
+*性能分析、调试、开发效率工具* · 28 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -206,6 +213,7 @@
 | **Android Debug Bridge (ADB)** [🔗](https://developer.android.com/tools/adb) | Android 调试核心工具，设备通信、应用安装、日志抓取 |
 | **PerCetto (olvaffe/percetto)** [🐙](https://github.com/olvaffe/percetto) | C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高 |
 | **adbutils** [🐙](https://github.com/openatx/adbutils) | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
+| **Android Debug MCP** [🐙](https://github.com/lukelmouse-github/android-debug-mcp) | MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态 |
 | **Booster** [🐙](https://github.com/didi/booster) | 滴滴开源的性能优化框架，支持多维度性能检测 |
 | **SimplePerf** [🔗](https://developer.android.com/ndk/guides/simpleperf) [🐙](https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/) | Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪 |
 | **Friends-Circle Demo APKs** [🐙](https://github.com/Gracker/Friends-Circle-Demo-Apks-For-Power-and-Performance-Test) | 性能功耗测试基准 App，包含启动、切换、列表滑动等场景，配合博客文章使用 |

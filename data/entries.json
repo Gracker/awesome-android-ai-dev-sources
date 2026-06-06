@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-05",
+  "updated": "2026-06-06",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,158 @@
     }
   ],
   "entries": [
+    {
+      "id": "qiaomu-ai-blog",
+      "name": "巧摸博客",
+      "category": "ai",
+      "author": "巧摸",
+      "desc": "专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比",
+      "links": {
+        "blog": "https://blog.qiaomu.ai"
+      },
+      "tags": [
+        "ai",
+        "agent-harness",
+        "claude-code",
+        "openai",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "camel-ai-owl",
+      "name": "camel-ai/owl",
+      "category": "android",
+      "author": "camel-ai-owl",
+      "desc": "GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成",
+      "links": {
+        "github": "https://github.com/camel-ai-owl/owl"
+      },
+      "tags": [
+        "android",
+        "ai-agent",
+        "cli",
+        "gemini",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "android-xiaomage",
+      "name": "Android小码哥",
+      "category": "android-blog",
+      "author": "常利兵",
+      "desc": "原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章",
+      "links": {
+        "wechat": "Android小码哥"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "performance",
+        "公众号",
+        "底层技术"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "claude-code-analysis",
+      "name": "深度解析 Claude Code 系列",
+      "category": "ai",
+      "author": "深度解析团队",
+      "desc": "42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践",
+      "links": {
+        "github": "https://github.com/lintsinghua/claude-code-book"
+      },
+      "tags": [
+        "ai",
+        "claude-code",
+        "agent-harness",
+        "architecture",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "chang-libing-tech",
+      "name": "常利兵的技术分享",
+      "category": "android-blog",
+      "author": "常利兵",
+      "desc": "Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容",
+      "links": {
+        "blog": "https://make.dxmwl.com"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "performance",
+        "底层",
+        "独立博客"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "realcaigu-twitter",
+      "name": "realCaigu",
+      "category": "ai",
+      "author": "realCaigu",
+      "desc": "专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者",
+      "links": {
+        "x": "https://x.com/realCaigu"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "codex",
+        "methodology",
+        "workflow"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "xiaogaifun-twitter",
+      "name": "xiaogaifun",
+      "category": "ai",
+      "author": "xiaogaifun",
+      "desc": "Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读",
+      "links": {
+        "x": "https://x.com/xiaogaifun"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "harness",
+        "stability",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "ma-ge-android-tech",
+      "name": "马哥的Android技术分享",
+      "category": "android-blog",
+      "author": "马哥",
+      "desc": "Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧",
+      "links": {
+        "wechat": "马哥的Android技术分享"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "实战",
+        "编译优化",
+        "系统级"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
     {
       "id": "android-developers-blog",
       "name": "Android Developers Blog",

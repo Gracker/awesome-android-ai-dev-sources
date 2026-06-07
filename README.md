@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-155-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-163-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,20 +23,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-06
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-07
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **BetterCallMedhi** [𝕏](https://x.com/BetterCallMedhi/status/2059384524950384942) | AI | 华为半导体新突破分享，聚焦AI与硬件融合的前沿技术 |
+| **AndrewYNg** [𝕏](https://x.com/AndrewYNg/status/2049886895530967534) | AI | 《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论 |
+| **joshwoodward** [𝕏](https://x.com/joshwoodward/status/2062667951485108354) | AI | Google Gemini产品负责人，分享Gemini客户端使用技巧与产品洞察 |
+| **realmadhuguru** [𝕏](https://x.com/realmadhuguru/status/2055414865146327088) | AI | Meta前产品总监，AI时代产品管理转型观察与策略思考 |
+| **JustinLin610** [𝕏](https://x.com/JustinLin610/status/2043749803780432338) | AI | 前阿里P10，反思"AI-First"战略实践与AI时代团队协作模式 |
+| **realpaulsmith** [𝕏](https://x.com/realpaulsmith/status/2062948966291939843) | AI | 数据团队自动化95%分析查询观察，企业级AI落地实践经验 |
+| **thinkszyg** [𝕏](https://x.com/thinkszyg/status/2062788095146381326) | AI | AI编程Review流程重建三步法，AI时代代码审查流程优化方案 |
+| **ai_suxiaole** [𝕏](https://x.com/ai_suxiaole/status/2061349780002058571) | 通用 | GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源 |
 | **巧摸博客** [🌐](https://blog.qiaomu.ai) | AI | 专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比 |
 | **camel-ai/owl** [🐙](https://github.com/camel-ai-owl/owl) | android | GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成 |
-| **Android小码哥** [💬](Android小码哥) | Android | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
-| **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | AI | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
-| **常利兵的技术分享** [🌐](https://make.dxmwl.com) | Android | Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容 |
-| **realCaigu** [𝕏](https://x.com/realCaigu) | AI | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
-| **xiaogaifun** [𝕏](https://x.com/xiaogaifun) | AI | Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读 |
-| **马哥的Android技术分享** [💬](马哥的Android技术分享) | Android | Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧 |
-| **Android Debug MCP** [🐙](https://github.com/lukelmouse-github/android-debug-mcp) | 工具 | MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态 |
-| **Sam Henri Gold** [🌐](https://samhenri.gold) | AI | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
 
 
 <a id="androidofficial"></a>
@@ -132,7 +132,7 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 19 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 26 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -150,17 +150,24 @@
 | **Sam Altman Blog** [🌐](https://blog.samaltman.com/) [📡](https://blog.samaltman.com/posts.atom) | OpenAI CEO 官方博客 |
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 |
 | **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
+| **AndrewYNg** [𝕏](https://x.com/AndrewYNg/status/2049886895530967534) | 《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论 |
 | **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
 | **realCaigu** [𝕏](https://x.com/realCaigu) | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |
 | **seanguo** [💬](seanguo) | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
 | **Sam Henri Gold** [🌐](https://samhenri.gold) | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
+| **BetterCallMedhi** [𝕏](https://x.com/BetterCallMedhi/status/2059384524950384942) | 华为半导体新突破分享，聚焦AI与硬件融合的前沿技术 |
+| **joshwoodward** [𝕏](https://x.com/joshwoodward/status/2062667951485108354) | Google Gemini产品负责人，分享Gemini客户端使用技巧与产品洞察 |
+| **realmadhuguru** [𝕏](https://x.com/realmadhuguru/status/2055414865146327088) | Meta前产品总监，AI时代产品管理转型观察与策略思考 |
+| **JustinLin610** [𝕏](https://x.com/JustinLin610/status/2043749803780432338) | 前阿里P10，反思"AI-First"战略实践与AI时代团队协作模式 |
+| **realpaulsmith** [𝕏](https://x.com/realpaulsmith/status/2062948966291939843) | 数据团队自动化95%分析查询观察，企业级AI落地实践经验 |
+| **thinkszyg** [𝕏](https://x.com/thinkszyg/status/2062788095146381326) | AI编程Review流程重建三步法，AI时代代码审查流程优化方案 |
 
 > 📌 更多 AI 资源见 [awesome-ai-field-notes](https://github.com/Gracker/awesome-ai-field-notes)（608 条，每日更新）
 
 <a id="generaltech"></a>
 ## 💻 优质技术博客
-*通用技术、架构、工程实践* · 37 个源
+*通用技术、架构、工程实践* · 38 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -201,6 +208,7 @@
 | **Aeon** [🔗](https://aeon.co/) [📡](https://aeon.co/feed.rss) | 深度思想杂志，哲学、科学、文化 |
 | **Scott H Young** [🌐](https://www.scotthyoung.com/blog/) [📡](https://www.scotthyoung.com/blog/feed/) | 学习方法论和效率博客，MIT Challenge 作者 |
 | **Rest of World** [🔗](https://restofworld.org/) [📡](https://restofworld.org/feed/latest) | 全球科技报道，聚焦新兴市场 |
+| **ai_suxiaole** [𝕏](https://x.com/ai_suxiaole/status/2061349780002058571) | GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源 |
 
 <a id="tools"></a>
 ## 🛠 开发工具

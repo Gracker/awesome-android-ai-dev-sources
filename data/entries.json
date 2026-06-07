@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-06",
+  "updated": "2026-06-07",
   "categories": [
     {
       "id": "android-official",
@@ -2660,6 +2660,150 @@
       ],
       "quality": 5,
       "added_date": "2026-06-05"
+    },
+    {
+      "id": "bettercallmedhi-twitter",
+      "name": "BetterCallMedhi",
+      "category": "ai",
+      "author": "BetterCallMedhi",
+      "desc": "华为半导体新突破分享，聚焦AI与硬件融合的前沿技术",
+      "links": {
+        "x": "https://x.com/BetterCallMedhi/status/2059384524950384942"
+      },
+      "tags": [
+        "ai",
+        "hardware",
+        "semiconductor",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "andrewyng-twitter",
+      "name": "AndrewYNg",
+      "category": "ai",
+      "author": "AndrewYNg",
+      "desc": "《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论",
+      "links": {
+        "x": "https://x.com/AndrewYNg/status/2049886895530967534"
+      },
+      "tags": [
+        "ai",
+        "prompting",
+        "education",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "joshwoodward-twitter",
+      "name": "joshwoodward",
+      "category": "ai",
+      "author": "joshwoodward",
+      "desc": "Google Gemini产品负责人，分享Gemini客户端使用技巧与产品洞察",
+      "links": {
+        "x": "https://x.com/joshwoodward/status/2062667951485108354"
+      },
+      "tags": [
+        "ai",
+        "gemini",
+        "product",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "realmadhuguru-twitter",
+      "name": "realmadhuguru",
+      "category": "ai",
+      "author": "realmadhuguru",
+      "desc": "Meta前产品总监，AI时代产品管理转型观察与策略思考",
+      "links": {
+        "x": "https://x.com/realmadhuguru/status/2055414865146327088"
+      },
+      "tags": [
+        "ai",
+        "product-management",
+        "strategy",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "justinlin610-twitter",
+      "name": "JustinLin610",
+      "category": "ai",
+      "author": "JustinLin610",
+      "desc": "前阿里P10，反思\"AI-First\"战略实践与AI时代团队协作模式",
+      "links": {
+        "x": "https://x.com/JustinLin610/status/2043749803780432338"
+      },
+      "tags": [
+        "ai",
+        "strategy",
+        "teamwork",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "realpaulsmith-twitter",
+      "name": "realpaulsmith",
+      "category": "ai",
+      "author": "realpaulsmith",
+      "desc": "数据团队自动化95%分析查询观察，企业级AI落地实践经验",
+      "links": {
+        "x": "https://x.com/realpaulsmith/status/2062948966291939843"
+      },
+      "tags": [
+        "ai",
+        "data-team",
+        "automation",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "thinkszyg-twitter",
+      "name": "thinkszyg",
+      "category": "ai",
+      "author": "爆裂队长NEXT",
+      "desc": "AI编程Review流程重建三步法，AI时代代码审查流程优化方案",
+      "links": {
+        "x": "https://x.com/thinkszyg/status/2062788095146381326"
+      },
+      "tags": [
+        "ai",
+        "code-review",
+        "engineering",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "ai_suxiaole-twitter",
+      "name": "ai_suxiaole",
+      "category": "general-tech",
+      "author": "苏乐",
+      "desc": "GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源",
+      "links": {
+        "x": "https://x.com/ai_suxiaole/status/2061349780002058571"
+      },
+      "tags": [
+        "english",
+        "programming",
+        "github",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
     }
   ]
 }

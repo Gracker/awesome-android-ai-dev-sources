@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-163-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-188-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,20 +23,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-07
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-08
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
-| **BetterCallMedhi** [𝕏](https://x.com/BetterCallMedhi/status/2059384524950384942) | AI | 华为半导体新突破分享，聚焦AI与硬件融合的前沿技术 |
-| **AndrewYNg** [𝕏](https://x.com/AndrewYNg/status/2049886895530967534) | AI | 《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论 |
-| **joshwoodward** [𝕏](https://x.com/joshwoodward/status/2062667951485108354) | AI | Google Gemini产品负责人，分享Gemini客户端使用技巧与产品洞察 |
-| **realmadhuguru** [𝕏](https://x.com/realmadhuguru/status/2055414865146327088) | AI | Meta前产品总监，AI时代产品管理转型观察与策略思考 |
-| **JustinLin610** [𝕏](https://x.com/JustinLin610/status/2043749803780432338) | AI | 前阿里P10，反思"AI-First"战略实践与AI时代团队协作模式 |
-| **realpaulsmith** [𝕏](https://x.com/realpaulsmith/status/2062948966291939843) | AI | 数据团队自动化95%分析查询观察，企业级AI落地实践经验 |
-| **thinkszyg** [𝕏](https://x.com/thinkszyg/status/2062788095146381326) | AI | AI编程Review流程重建三步法，AI时代代码审查流程优化方案 |
-| **ai_suxiaole** [𝕏](https://x.com/ai_suxiaole/status/2061349780002058571) | 通用 | GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源 |
-| **巧摸博客** [🌐](https://blog.qiaomu.ai) | AI | 专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比 |
-| **camel-ai/owl** [🐙](https://github.com/camel-ai-owl/owl) | android | GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成 |
+| **纵横有道管理咨询** [🌐](https://www.zhdao.cn) | 通用 | 深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究 |
+| **AIW · 每日源码调研** [🌐](https://aiw-research.substack.com) | Android | Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高 |
+| **潜龙勿用之化骨龙** [💎](https://juejin.cn/user/2313028195058471) | Android | Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合 |
+| **Peter Yang** [𝕏](https://x.com/petergyang) | AI | AI 内容创作者，Claude Skills 教程专家，5 步给 Skills 加自评分与记忆，让 AI 工具越用越贴合个人工作流 |
+| **Cat Wu (Anthropic)** [𝕏](https://x.com/_catwu) | AI | Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板 |
+| **MiniMax AI** [𝕏](https://x.com/MiniMax_AI) | AI | MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考 |
+| **Sam Altman** [𝕏](https://x.com/sama) | AI | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
+| **Demis Hassabis** [𝕏](https://x.com/demishassabis) | AI | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
+| **chopratejas/headroom** [🐙](https://github.com/chopratejas/headroom) | AI | GitHub Trending 周榜，LLM Token 优化工具，自动压缩上下文以降低 API 成本与延迟 |
+| **supermemoryai/supermemory** [🐙](https://github.com/supermemoryai/supermemory) | AI | GitHub Trending 周榜，AI 应用的持久记忆层基础设施，支持跨会话/跨工具的上下文记忆与检索 |
 
 
 <a id="androidofficial"></a>
@@ -66,7 +66,7 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 46 个源
+*独立博客、掘金、知乎、公众号* · 58 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -84,6 +84,10 @@
 | **腾讯技术工程** [💬](腾讯技术工程) | 腾讯官方技术公众号，大前端和移动端 |
 | **字节跳动技术团队** [💎](https://juejin.cn/user/1838039172387262) | 字节跳动官方技术博客，覆盖 Android、后端、前端、AI |
 | **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
+| **AIW · 每日源码调研** [🌐](https://aiw-research.substack.com) | Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高 |
+| **Koin Blog** [🌐](https://blog.insert-koin.io) | Koin 官方博客，Koin Compiler 1.0 DSL + Annotations 推出，Kotlin 编译时安全依赖注入方案 |
+| **Typealias** [🌐](https://typealias.com) | Kotlin 协程深度技术博客，《Prevent Race Conditions in Coroutines》系统讲解 Kotlinx 协程竞态条件识别与防御 |
+| **Kotlin Academy** [🌐](https://kt.academy) | Marcin Moskala 创办的 Kotlin 深度技术学习平台，《Kotlin in 3 Minutes》《Future of Mobile》系列高质量教程 |
 | **Android小码哥** [💬](Android小码哥) | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
 | **常利兵的技术分享** [🌐](https://make.dxmwl.com) | Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容 |
 | **马哥的Android技术分享** [💬](马哥的Android技术分享) | Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧 |
@@ -116,10 +120,18 @@
 | **Android Authority Podcast** [🔗](http://www.androidauthority.com/podcast) [📡](https://rss.libsyn.com/shows/62117/destinations/242501.xml) | Android 权威媒体播客，新设备、应用和系统动态 |
 | **离青 (字节跳动)** [💎](https://juejin.cn/user/2585702698590472) | 字节跳动 Android 团队，系统级技术分享 |
 | **Synacktiv** [🔗](https://synacktiv.com) | 欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容 |
+| **潜龙勿用之化骨龙** [💎](https://juejin.cn/user/2313028195058471) | Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合 |
+| **KMP Bits** [📝](https://medium.com/@kmpbits) | Kotlin Multiplatform 实战系列专栏，深度解析 Ktor 客户端配置、Maven Central 发布等生产级 KMP 工程实践 |
+| **Santiago Mattiauda** [📝](https://medium.com/@santimattius) | Jetpack Compose 性能优化专家，《Compose Performance 2026: stability as the key lever against jank》系统讲解稳定性与掉帧 |
+| **Barbossa Fama** [📝](https://medium.com/@barbossa.fama.dev) | Android 架构深度分析，《AI Is Changing Android Architecture More Than Most Developers Realize》探讨 AI 时代的架构演进 |
+| **Andrew Malitchuk** [📝](https://medium.com/@andrew.malitchuk) | Android 折叠屏与 Kotlin Multiplatform 专家，《Foldable Hinge as a Design Element》系列，axiom-sdk 作者 |
+| **Urja Labs** [🌐](https://urjalabs.in/blog) | Urja Labs 技术博客，《NativeLM P2P Sync》介绍 P2P 同步方案在 LLM 与本地模型中的应用 |
+| **John O'Reilly** [🌐](https://johnoreilly.dev) | 资深 Android/KMP 开发者，Confetti 作者，《Confetti + Koog RAG》探讨 Kotlin 生态与 RAG 集成 |
+| **Eevis Codes** [🌐](https://eevis.codes/blog) | Android UI 工程师个人博客，《Autofilling in the Blanks》深入解析 Android autofill 框架与最佳实践 |
 
 <a id="androidcommunity"></a>
 ## 🌐 Android 社区
-*周报、论坛、Telegram群* · 6 个源
+*周报、论坛、Telegram群* · 7 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -129,10 +141,11 @@
 | **Fragmented Podcast** [🔗](https://fragmentedpodcast.com/) [🎙️](https://fragmentedpodcast.com/) | 经典 Android 开发播客，访谈社区专家和技术深度探讨 |
 | **Android Arsenal** [🔗](https://android-arsenal.com/) | Android 开源库目录和发现平台，分类齐全 |
 | **r/androiddev** [🔗](https://www.reddit.com/r/androiddev/) | Reddit 上最活跃的 Android 开发社区，讨论和问题解答 |
+| **Android Engineers** [📬](https://androidengineers.substack.com) | Substack 平台 Android 工程师通讯，《Announcing ADK for Kotlin》专业报道 Android 开发者生态与 AI Agent 进展 |
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 26 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 37 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -151,6 +164,9 @@
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 |
 | **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
 | **AndrewYNg** [𝕏](https://x.com/AndrewYNg/status/2049886895530967534) | 《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论 |
+| **Cat Wu (Anthropic)** [𝕏](https://x.com/_catwu) | Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板 |
+| **Sam Altman** [𝕏](https://x.com/sama) | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
+| **Demis Hassabis** [𝕏](https://x.com/demishassabis) | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
 | **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
 | **realCaigu** [𝕏](https://x.com/realCaigu) | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |
@@ -162,12 +178,20 @@
 | **JustinLin610** [𝕏](https://x.com/JustinLin610/status/2043749803780432338) | 前阿里P10，反思"AI-First"战略实践与AI时代团队协作模式 |
 | **realpaulsmith** [𝕏](https://x.com/realpaulsmith/status/2062948966291939843) | 数据团队自动化95%分析查询观察，企业级AI落地实践经验 |
 | **thinkszyg** [𝕏](https://x.com/thinkszyg/status/2062788095146381326) | AI编程Review流程重建三步法，AI时代代码审查流程优化方案 |
+| **Peter Yang** [𝕏](https://x.com/petergyang) | AI 内容创作者，Claude Skills 教程专家，5 步给 Skills 加自评分与记忆，让 AI 工具越用越贴合个人工作流 |
+| **MiniMax AI** [𝕏](https://x.com/MiniMax_AI) | MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考 |
+| **chopratejas/headroom** [🐙](https://github.com/chopratejas/headroom) | GitHub Trending 周榜，LLM Token 优化工具，自动压缩上下文以降低 API 成本与延迟 |
+| **supermemoryai/supermemory** [🐙](https://github.com/supermemoryai/supermemory) | GitHub Trending 周榜，AI 应用的持久记忆层基础设施，支持跨会话/跨工具的上下文记忆与检索 |
+| **revfactory/harness** [🐙](https://github.com/revfactory/harness) | GitHub Trending 周榜，Harness Engineering 工程化框架，模型外层基础设施（工具注册表/护栏/验证等）参考实现 |
+| **NousResearch/hermes-agent** [🐙](https://github.com/NousResearch/hermes-agent) | GitHub Trending 周榜，Nous Research 推出的 Hermes Agent 框架，Hermes 系列 LLM 的 Agent 集成方案 |
+| **lfnovo/open-notebook** [🐙](https://github.com/lfnovo/open-notebook) | GitHub Trending 周榜，开源 AI 笔记本工具，支持多模型接入与本地知识库管理，NotebookLM 开源替代品 |
+| **EveryInc/compound-engineering-plugin** [🐙](https://github.com/EveryInc/compound-engineering-plugin) | GitHub Trending 周榜，复合工程（Compound Engineering）插件，AI 时代工程实践自动化工具链 |
 
 > 📌 更多 AI 资源见 [awesome-ai-field-notes](https://github.com/Gracker/awesome-ai-field-notes)（608 条，每日更新）
 
 <a id="generaltech"></a>
 ## 💻 优质技术博客
-*通用技术、架构、工程实践* · 38 个源
+*通用技术、架构、工程实践* · 39 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -209,6 +233,7 @@
 | **Scott H Young** [🌐](https://www.scotthyoung.com/blog/) [📡](https://www.scotthyoung.com/blog/feed/) | 学习方法论和效率博客，MIT Challenge 作者 |
 | **Rest of World** [🔗](https://restofworld.org/) [📡](https://restofworld.org/feed/latest) | 全球科技报道，聚焦新兴市场 |
 | **ai_suxiaole** [𝕏](https://x.com/ai_suxiaole/status/2061349780002058571) | GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源 |
+| **纵横有道管理咨询** [🌐](https://www.zhdao.cn) | 深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究 |
 
 <a id="tools"></a>
 ## 🛠 开发工具

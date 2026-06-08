@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-07",
+  "updated": "2026-06-08",
   "categories": [
     {
       "id": "android-official",
@@ -2804,6 +2804,482 @@
       ],
       "quality": 4,
       "added_date": "2026-06-07"
+    },
+    {
+      "id": "zhengzongdaoji",
+      "name": "纵横有道管理咨询",
+      "category": "general-tech",
+      "author": "纵横有道团队",
+      "desc": "深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究",
+      "links": {
+        "blog": "https://www.zhdao.cn"
+      },
+      "tags": [
+        "industry-analysis",
+        "android",
+        "ai",
+        "hardware",
+        "market-research"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "aiw-research",
+      "name": "AIW · 每日源码调研",
+      "category": "android-blog",
+      "author": "AIW团队",
+      "desc": "Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高",
+      "links": {
+        "blog": "https://aiw-research.substack.com"
+      },
+      "tags": [
+        "android",
+        "source-code",
+        "aosp",
+        "performance",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "qianlongwuyong-zhigulong",
+      "name": "潜龙勿用之化骨龙",
+      "category": "android-blog",
+      "author": "潜龙勿用之化骨龙",
+      "desc": "Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合",
+      "links": {
+        "juejin": "https://juejin.cn/user/2313028195058471"
+      },
+      "tags": [
+        "android",
+        "architecture",
+        "design",
+        "juejin"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "petergyang-twitter",
+      "name": "Peter Yang",
+      "category": "ai",
+      "author": "Peter Yang",
+      "desc": "AI 内容创作者，Claude Skills 教程专家，5 步给 Skills 加自评分与记忆，让 AI 工具越用越贴合个人工作流",
+      "links": {
+        "x": "https://x.com/petergyang"
+      },
+      "tags": [
+        "ai",
+        "claude-skills",
+        "tutorial",
+        "workflow",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "_catwu-twitter",
+      "name": "Cat Wu (Anthropic)",
+      "category": "ai",
+      "author": "_catwu",
+      "desc": "Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板",
+      "links": {
+        "x": "https://x.com/_catwu"
+      },
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "data-engineering",
+        "skills",
+        "enterprise"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "MiniMax_AI-twitter",
+      "name": "MiniMax AI",
+      "category": "ai",
+      "author": "MiniMax AI Official",
+      "desc": "MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考",
+      "links": {
+        "x": "https://x.com/MiniMax_AI"
+      },
+      "tags": [
+        "ai",
+        "speech",
+        "voice-agent",
+        "realtime",
+        "multilingual"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "sama-twitter",
+      "name": "Sam Altman",
+      "category": "ai",
+      "author": "Sam Altman",
+      "desc": "OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号",
+      "links": {
+        "x": "https://x.com/sama"
+      },
+      "tags": [
+        "ai",
+        "openai",
+        "ceo",
+        "agi",
+        "strategic"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "demishassabis-twitter",
+      "name": "Demis Hassabis",
+      "category": "ai",
+      "author": "Demis Hassabis",
+      "desc": "Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源",
+      "links": {
+        "x": "https://x.com/demishassabis"
+      },
+      "tags": [
+        "ai",
+        "deepmind",
+        "ceo",
+        "gemma",
+        "research",
+        "nobel"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "chopratejas-headroom",
+      "name": "chopratejas/headroom",
+      "category": "ai",
+      "author": "chopratejas",
+      "desc": "GitHub Trending 周榜，LLM Token 优化工具，自动压缩上下文以降低 API 成本与延迟",
+      "links": {
+        "github": "https://github.com/chopratejas/headroom"
+      },
+      "tags": [
+        "ai",
+        "llm",
+        "token-optimization",
+        "cost-reduction",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "supermemory-supermemory",
+      "name": "supermemoryai/supermemory",
+      "category": "ai",
+      "author": "supermemoryai",
+      "desc": "GitHub Trending 周榜，AI 应用的持久记忆层基础设施，支持跨会话/跨工具的上下文记忆与检索",
+      "links": {
+        "github": "https://github.com/supermemoryai/supermemory"
+      },
+      "tags": [
+        "ai",
+        "memory",
+        "context",
+        "infrastructure",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "revfactory-harness",
+      "name": "revfactory/harness",
+      "category": "ai",
+      "author": "revfactory",
+      "desc": "GitHub Trending 周榜，Harness Engineering 工程化框架，模型外层基础设施（工具注册表/护栏/验证等）参考实现",
+      "links": {
+        "github": "https://github.com/revfactory/harness"
+      },
+      "tags": [
+        "ai",
+        "harness",
+        "agent",
+        "engineering",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "NousResearch-hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "category": "ai",
+      "author": "NousResearch",
+      "desc": "GitHub Trending 周榜，Nous Research 推出的 Hermes Agent 框架，Hermes 系列 LLM 的 Agent 集成方案",
+      "links": {
+        "github": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "hermes",
+        "llm",
+        "open-source"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "lfnovo-open-notebook",
+      "name": "lfnovo/open-notebook",
+      "category": "ai",
+      "author": "lfnovo",
+      "desc": "GitHub Trending 周榜，开源 AI 笔记本工具，支持多模型接入与本地知识库管理，NotebookLM 开源替代品",
+      "links": {
+        "github": "https://github.com/lfnovo/open-notebook"
+      },
+      "tags": [
+        "ai",
+        "notebook",
+        "knowledge-base",
+        "open-source",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "EveryInc-compound-engineering",
+      "name": "EveryInc/compound-engineering-plugin",
+      "category": "ai",
+      "author": "EveryInc",
+      "desc": "GitHub Trending 周榜，复合工程（Compound Engineering）插件，AI 时代工程实践自动化工具链",
+      "links": {
+        "github": "https://github.com/EveryInc/compound-engineering-plugin"
+      },
+      "tags": [
+        "ai",
+        "engineering",
+        "automation",
+        "plugin",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "kmpbits-medium",
+      "name": "KMP Bits",
+      "category": "android-blog",
+      "author": "kmpbits",
+      "desc": "Kotlin Multiplatform 实战系列专栏，深度解析 Ktor 客户端配置、Maven Central 发布等生产级 KMP 工程实践",
+      "links": {
+        "medium": "https://medium.com/@kmpbits"
+      },
+      "tags": [
+        "kmp",
+        "kotlin-multiplatform",
+        "ktor",
+        "android",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "santimattius-medium",
+      "name": "Santiago Mattiauda",
+      "category": "android-blog",
+      "author": "santimattius",
+      "desc": "Jetpack Compose 性能优化专家，《Compose Performance 2026: stability as the key lever against jank》系统讲解稳定性与掉帧",
+      "links": {
+        "medium": "https://medium.com/@santimattius"
+      },
+      "tags": [
+        "android",
+        "compose",
+        "performance",
+        "stability",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "barbossa-fama-medium",
+      "name": "Barbossa Fama",
+      "category": "android-blog",
+      "author": "barbossa.fama.dev",
+      "desc": "Android 架构深度分析，《AI Is Changing Android Architecture More Than Most Developers Realize》探讨 AI 时代的架构演进",
+      "links": {
+        "medium": "https://medium.com/@barbossa.fama.dev"
+      },
+      "tags": [
+        "android",
+        "architecture",
+        "ai",
+        "design",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "andrew-malitchuk-medium",
+      "name": "Andrew Malitchuk",
+      "category": "android-blog",
+      "author": "andrew.malitchuk",
+      "desc": "Android 折叠屏与 Kotlin Multiplatform 专家，《Foldable Hinge as a Design Element》系列，axiom-sdk 作者",
+      "links": {
+        "medium": "https://medium.com/@andrew.malitchuk"
+      },
+      "tags": [
+        "android",
+        "foldable",
+        "kmp",
+        "design",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "insert-koin-blog",
+      "name": "Koin Blog",
+      "category": "android-blog",
+      "author": "Koin Team",
+      "desc": "Koin 官方博客，Koin Compiler 1.0 DSL + Annotations 推出，Kotlin 编译时安全依赖注入方案",
+      "links": {
+        "blog": "https://blog.insert-koin.io"
+      },
+      "tags": [
+        "android",
+        "koin",
+        "di",
+        "kotlin",
+        "compiler"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "typealias-blog",
+      "name": "Typealias",
+      "category": "android-blog",
+      "author": "Typealias 团队",
+      "desc": "Kotlin 协程深度技术博客，《Prevent Race Conditions in Coroutines》系统讲解 Kotlinx 协程竞态条件识别与防御",
+      "links": {
+        "blog": "https://typealias.com"
+      },
+      "tags": [
+        "kotlin",
+        "coroutines",
+        "concurrency",
+        "android",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "kt-academy",
+      "name": "Kotlin Academy",
+      "category": "android-blog",
+      "author": "Marcin Moskala",
+      "desc": "Marcin Moskala 创办的 Kotlin 深度技术学习平台，《Kotlin in 3 Minutes》《Future of Mobile》系列高质量教程",
+      "links": {
+        "blog": "https://kt.academy"
+      },
+      "tags": [
+        "kotlin",
+        "android",
+        "tutorial",
+        "deep-dive",
+        "academy"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "android-engineers-substack",
+      "name": "Android Engineers",
+      "category": "android-community",
+      "author": "Android Engineers Team",
+      "desc": "Substack 平台 Android 工程师通讯，《Announcing ADK for Kotlin》专业报道 Android 开发者生态与 AI Agent 进展",
+      "links": {
+        "newsletter": "https://androidengineers.substack.com"
+      },
+      "tags": [
+        "android",
+        "newsletter",
+        "substack",
+        "adk",
+        "agent"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "urjalabs-blog",
+      "name": "Urja Labs",
+      "category": "android-blog",
+      "author": "Urja Labs",
+      "desc": "Urja Labs 技术博客，《NativeLM P2P Sync》介绍 P2P 同步方案在 LLM 与本地模型中的应用",
+      "links": {
+        "blog": "https://urjalabs.in/blog"
+      },
+      "tags": [
+        "p2p",
+        "sync",
+        "llm",
+        "local-ai",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "johnoreilly-blog",
+      "name": "John O'Reilly",
+      "category": "android-blog",
+      "author": "John O'Reilly",
+      "desc": "资深 Android/KMP 开发者，Confetti 作者，《Confetti + Koog RAG》探讨 Kotlin 生态与 RAG 集成",
+      "links": {
+        "blog": "https://johnoreilly.dev"
+      },
+      "tags": [
+        "android",
+        "kmp",
+        "kotlin",
+        "rag",
+        "koog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "eevis-codes-blog",
+      "name": "Eevis Codes",
+      "category": "android-blog",
+      "author": "Eevis",
+      "desc": "Android UI 工程师个人博客，《Autofilling in the Blanks》深入解析 Android autofill 框架与最佳实践",
+      "links": {
+        "blog": "https://eevis.codes/blog"
+      },
+      "tags": [
+        "android",
+        "autofill",
+        "ui",
+        "framework",
+        "personal-blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-188-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-190-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,10 +23,12 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-08
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-09
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **ninthbit_ai** [𝕏](https://x.com/ninthbit_ai) | AI | AI 编程工具领域专家，分享 Pi 配置和开发实践 |
+| **Xudong07452910** [𝕏](https://x.com/Xudong07452910) | AI | Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法 |
 | **纵横有道管理咨询** [🌐](https://www.zhdao.cn) | 通用 | 深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究 |
 | **AIW · 每日源码调研** [🌐](https://aiw-research.substack.com) | Android | Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高 |
 | **潜龙勿用之化骨龙** [💎](https://juejin.cn/user/2313028195058471) | Android | Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合 |
@@ -35,8 +37,6 @@
 | **MiniMax AI** [𝕏](https://x.com/MiniMax_AI) | AI | MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考 |
 | **Sam Altman** [𝕏](https://x.com/sama) | AI | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
 | **Demis Hassabis** [𝕏](https://x.com/demishassabis) | AI | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
-| **chopratejas/headroom** [🐙](https://github.com/chopratejas/headroom) | AI | GitHub Trending 周榜，LLM Token 优化工具，自动压缩上下文以降低 API 成本与延迟 |
-| **supermemoryai/supermemory** [🐙](https://github.com/supermemoryai/supermemory) | AI | GitHub Trending 周榜，AI 应用的持久记忆层基础设施，支持跨会话/跨工具的上下文记忆与检索 |
 
 
 <a id="androidofficial"></a>
@@ -145,7 +145,7 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 37 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 39 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -167,6 +167,8 @@
 | **Cat Wu (Anthropic)** [𝕏](https://x.com/_catwu) | Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板 |
 | **Sam Altman** [𝕏](https://x.com/sama) | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
 | **Demis Hassabis** [𝕏](https://x.com/demishassabis) | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
+| **ninthbit_ai** [𝕏](https://x.com/ninthbit_ai) | AI 编程工具领域专家，分享 Pi 配置和开发实践 |
+| **Xudong07452910** [𝕏](https://x.com/Xudong07452910) | Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法 |
 | **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
 | **realCaigu** [𝕏](https://x.com/realCaigu) | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |

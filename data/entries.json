@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-08",
+  "updated": "2026-06-09",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,43 @@
     }
   ],
   "entries": [
+    {
+      "id": "ninthbit_ai-twitter",
+      "name": "ninthbit_ai",
+      "category": "ai",
+      "author": "ninthbit_ai",
+      "desc": "AI 编程工具领域专家，分享 Pi 配置和开发实践",
+      "links": {
+        "x": "https://x.com/ninthbit_ai"
+      },
+      "tags": [
+        "ai",
+        "programming",
+        "pi",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-09"
+    },
+    {
+      "id": "xudong07452910-twitter",
+      "name": "Xudong07452910",
+      "category": "ai",
+      "author": "Xudong07452910",
+      "desc": "Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法",
+      "links": {
+        "x": "https://x.com/Xudong07452910"
+      },
+      "tags": [
+        "ai",
+        "codex",
+        "network-optimization",
+        "case-driven",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-09"
+    },
     {
       "id": "qiaomu-ai-blog",
       "name": "巧摸博客",

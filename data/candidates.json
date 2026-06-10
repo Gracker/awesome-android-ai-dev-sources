@@ -1,7 +1,11 @@
 {
   "candidates": [],
-  "last_updated": "2026-06-09",
-  "discovered_count": 28,
-  "processed_count": 30,
-  "processed_date": "2026-06-09"
+  "last_updated": "2026-06-10",
+  "discovered_count": 0,
+  "processed_count": 0,
+  "processed_date": "2026-06-10",
+  "scan_sources": [
+    "obsidian-mining",
+    "local-content-analysis"
+  ]
 }

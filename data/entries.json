@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-09",
+  "updated": "2026-06-10",
   "categories": [
     {
       "id": "android-official",
@@ -3317,6 +3317,101 @@
       ],
       "quality": 4,
       "added_date": "2026-06-08"
+    },
+    {
+      "id": "bohutang-twitter",
+      "name": "BohuTANG",
+      "category": "ai",
+      "author": "BohuTANG",
+      "desc": "AI Agent 轨迹分析专家，专注于工程实践，深度研究 Agent Harness 工程化",
+      "links": {
+        "x": "https://x.com/BohuTANG"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "trace",
+        "engineering",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "sairahul1-twitter",
+      "name": "Rahul",
+      "category": "ai",
+      "author": "Rahul",
+      "desc": "AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式",
+      "links": {
+        "x": "https://x.com/sairahul1"
+      },
+      "tags": [
+        "ai",
+        "engineering",
+        "loops",
+        "architecture",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "yudapeathree-twitter",
+      "name": "yudapeathree",
+      "category": "ai",
+      "author": "yudapeathree",
+      "desc": "高效注意力机制研究专家，大型语言模型计算优化领域权威",
+      "links": {
+        "x": "https://x.com/yudapeathree"
+      },
+      "tags": [
+        "ai",
+        "attention",
+        "optimization",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "karpathy-twitter",
+      "name": "karpathy",
+      "category": "ai",
+      "author": "karpathy",
+      "desc": "AI 领域传奇人物，深度学习专家，技术分享极具价值，深度学习教育与 LLM 训练实践第一手信号",
+      "links": {
+        "x": "https://x.com/karpathy"
+      },
+      "tags": [
+        "ai",
+        "deep-learning",
+        "legend",
+        "openai",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "hardmaru-twitter",
+      "name": "hardmaru",
+      "category": "ai",
+      "author": "hardmaru",
+      "desc": "AI 模型优化与架构研究专家，专注于模型训练与推理优化",
+      "links": {
+        "x": "https://x.com/hardmaru"
+      },
+      "tags": [
+        "ai",
+        "optimization",
+        "architecture",
+        "training",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
     }
   ]
 }

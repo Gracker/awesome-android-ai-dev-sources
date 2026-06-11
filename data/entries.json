@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-10",
+  "updated": "2026-06-11",
   "categories": [
     {
       "id": "android-official",
@@ -3412,6 +3412,162 @@
       ],
       "quality": 5,
       "added_date": "2026-06-10"
+    },
+    {
+      "id": "bohutang-me-blog",
+      "name": "Bohu (bohutang.me)",
+      "category": "ai",
+      "author": "Bohu",
+      "desc": "AI Agent 轨迹分析专家 Bohu 的个人博客/talks 页，《Trace 即 Evals》系列 slide 完整解析 Agent harness 的 token 成本差异和 trace-driven 量化闭环",
+      "links": {
+        "blog": "https://bohutang.me",
+        "x": "https://x.com/BohuTANG"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "trace",
+        "harness",
+        "evals",
+        "blog"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "rlancemartin-twitter",
+      "name": "Lance Martin (@RLanceMartin)",
+      "category": "ai",
+      "author": "Lance Martin",
+      "desc": "Anthropic 研究员，分享 Fable 5 self-correction loops 和 memory 设计实战技巧，《Designing loops with Fable 5》深度长文作者",
+      "links": {
+        "x": "https://x.com/RLanceMartin"
+      },
+      "tags": [
+        "ai",
+        "anthropic",
+        "fable-5",
+        "loops",
+        "agent",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "grapeot-twitter",
+      "name": "grapeot",
+      "category": "ai",
+      "author": "grapeot",
+      "desc": "AI 视觉领域深度研究员，《Vision Banana：生成即理解终于来到视觉领域》深度拆解 Google DeepMind Vision Banana 与 LLM 路径对称性，yage.ai 主理人",
+      "links": {
+        "x": "https://x.com/grapeot"
+      },
+      "tags": [
+        "ai",
+        "vision",
+        "deepmind",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "yage-ai-blog",
+      "name": "yage.ai (grapeot 博客)",
+      "category": "ai",
+      "author": "grapeot",
+      "desc": "grapeot 创办的 AI 视觉/多模态深度分析博客，对 Vision Banana 等前沿模型做工程级拆解",
+      "links": {
+        "blog": "https://yage.ai"
+      },
+      "tags": [
+        "ai",
+        "vision",
+        "multimodal",
+        "research",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "jonready-blog",
+      "name": "Jon Ready (jonready.com)",
+      "category": "ai",
+      "author": "Jon Ready",
+      "desc": "深度分析 AI 模型供应链风险，首篇爆款《Claude Fable5 隐形降质：被允许在你不察觉时破坏你的应用》揭示 Anthropic 前端 AI 开发的不可见 steering vectors/PEFT 限制",
+      "links": {
+        "blog": "https://jonready.com/blog/"
+      },
+      "tags": [
+        "ai",
+        "safety",
+        "supply-chain",
+        "anthropic",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "oneusefulthing-blog",
+      "name": "One Useful Thing (Ethan Mollick)",
+      "category": "ai",
+      "author": "Ethan Mollick",
+      "desc": "Wharton 教授 Ethan Mollick 的 AI 产品体验评测权威博客，实测 Fable 5 自主执行多页规格说明书级任务超过十小时，模型自主启动对抗性代理验证研究",
+      "links": {
+        "blog": "https://www.oneusefulthing.org"
+      },
+      "tags": [
+        "ai",
+        "product",
+        "evaluation",
+        "fable-5",
+        "blog"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "aarush-gupta-blog",
+      "name": "Aarush Gupta (aarushgupta.io)",
+      "category": "general-tech",
+      "author": "Aarush Gupta",
+      "desc": "FPGA 2026 最佳论文作者，KAN on FPGA 实现纳秒级 ML 推理，硬件 × ML 交叉领域深度博客",
+      "links": {
+        "blog": "https://aarushgupta.io"
+      },
+      "tags": [
+        "hardware",
+        "ml",
+        "fpga",
+        "kan",
+        "research",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "opencv-blog",
+      "name": "OpenCV Official Blog",
+      "category": "general-tech",
+      "author": "OpenCV Team",
+      "desc": "OpenCV 官方博客，OpenCV 5 二十年来最重要版本发布：DNN 引擎完全重写，ONNX 算子覆盖率从 22% 跃升至 80%+，支持内置 LLM/VLM 推理",
+      "links": {
+        "blog": "https://opencv.org/blog/"
+      },
+      "tags": [
+        "computer-vision",
+        "opencv",
+        "open-source",
+        "dnn",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
     }
   ]
 }

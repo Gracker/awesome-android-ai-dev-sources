@@ -1,11 +1,14 @@
 {
   "candidates": [],
-  "last_updated": "2026-06-10",
-  "discovered_count": 0,
-  "processed_count": 0,
-  "processed_date": "2026-06-10",
+  "last_updated": "2026-06-11",
+  "discovered_count": 11,
+  "processed_count": 11,
+  "processed_date": "2026-06-11",
   "scan_sources": [
-    "obsidian-mining",
-    "local-content-analysis"
-  ]
+    "obsidian-mining:Android-Internal-Wiki/intake/daily-info/2026-06-11.md",
+    "obsidian-mining:OpenClaw定时任务/资讯简报（综合）/2026-06-10-资讯简报（综合）.md",
+    "obsidian-mining:X 文章/2026-06-10-1235-*.md",
+    "obsidian-mining:OpenClaw定时任务/掘金Android技术文章抓取/2026-06-11-掘金Android技术文章抓取.md"
+  ],
+  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘"
 }

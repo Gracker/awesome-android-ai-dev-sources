@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-190-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-203-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,20 +23,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-09
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-11
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
-| **ninthbit_ai** [𝕏](https://x.com/ninthbit_ai) | AI | AI 编程工具领域专家，分享 Pi 配置和开发实践 |
-| **Xudong07452910** [𝕏](https://x.com/Xudong07452910) | AI | Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法 |
-| **纵横有道管理咨询** [🌐](https://www.zhdao.cn) | 通用 | 深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究 |
-| **AIW · 每日源码调研** [🌐](https://aiw-research.substack.com) | Android | Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高 |
-| **潜龙勿用之化骨龙** [💎](https://juejin.cn/user/2313028195058471) | Android | Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合 |
-| **Peter Yang** [𝕏](https://x.com/petergyang) | AI | AI 内容创作者，Claude Skills 教程专家，5 步给 Skills 加自评分与记忆，让 AI 工具越用越贴合个人工作流 |
-| **Cat Wu (Anthropic)** [𝕏](https://x.com/_catwu) | AI | Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板 |
-| **MiniMax AI** [𝕏](https://x.com/MiniMax_AI) | AI | MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考 |
-| **Sam Altman** [𝕏](https://x.com/sama) | AI | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
-| **Demis Hassabis** [𝕏](https://x.com/demishassabis) | AI | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
+| **Bohu (bohutang.me)** [🌐](https://bohutang.me) [𝕏](https://x.com/BohuTANG) | AI | AI Agent 轨迹分析专家 Bohu 的个人博客/talks 页，《Trace 即 Evals》系列 slide 完整解析 Agent harness 的 token 成本差异和 trace-driven 量化闭环 |
+| **Lance Martin (@RLanceMartin)** [𝕏](https://x.com/RLanceMartin) | AI | Anthropic 研究员，分享 Fable 5 self-correction loops 和 memory 设计实战技巧，《Designing loops with Fable 5》深度长文作者 |
+| **grapeot** [𝕏](https://x.com/grapeot) | AI | AI 视觉领域深度研究员，《Vision Banana：生成即理解终于来到视觉领域》深度拆解 Google DeepMind Vision Banana 与 LLM 路径对称性，yage.ai 主理人 |
+| **yage.ai (grapeot 博客)** [🌐](https://yage.ai) | AI | grapeot 创办的 AI 视觉/多模态深度分析博客，对 Vision Banana 等前沿模型做工程级拆解 |
+| **Jon Ready (jonready.com)** [🌐](https://jonready.com/blog/) | AI | 深度分析 AI 模型供应链风险，首篇爆款《Claude Fable5 隐形降质：被允许在你不察觉时破坏你的应用》揭示 Anthropic 前端 AI 开发的不可见 steering vectors/PEFT 限制 |
+| **One Useful Thing (Ethan Mollick)** [🌐](https://www.oneusefulthing.org) | AI | Wharton 教授 Ethan Mollick 的 AI 产品体验评测权威博客，实测 Fable 5 自主执行多页规格说明书级任务超过十小时，模型自主启动对抗性代理验证研究 |
+| **Aarush Gupta (aarushgupta.io)** [🌐](https://aarushgupta.io) | 通用 | FPGA 2026 最佳论文作者，KAN on FPGA 实现纳秒级 ML 推理，硬件 × ML 交叉领域深度博客 |
+| **OpenCV Official Blog** [🌐](https://opencv.org/blog/) | 通用 | OpenCV 官方博客，OpenCV 5 二十年来最重要版本发布：DNN 引擎完全重写，ONNX 算子覆盖率从 22% 跃升至 80%+，支持内置 LLM/VLM 推理 |
+| **BohuTANG** [𝕏](https://x.com/BohuTANG) | AI | AI Agent 轨迹分析专家，专注于工程实践，深度研究 Agent Harness 工程化 |
+| **Rahul** [𝕏](https://x.com/sairahul1) | AI | AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式 |
 
 
 <a id="androidofficial"></a>
@@ -145,7 +145,7 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 39 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 50 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -167,6 +167,15 @@
 | **Cat Wu (Anthropic)** [𝕏](https://x.com/_catwu) | Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板 |
 | **Sam Altman** [𝕏](https://x.com/sama) | OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号 |
 | **Demis Hassabis** [𝕏](https://x.com/demishassabis) | Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源 |
+| **BohuTANG** [𝕏](https://x.com/BohuTANG) | AI Agent 轨迹分析专家，专注于工程实践，深度研究 Agent Harness 工程化 |
+| **Rahul** [𝕏](https://x.com/sairahul1) | AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式 |
+| **yudapeathree** [𝕏](https://x.com/yudapeathree) | 高效注意力机制研究专家，大型语言模型计算优化领域权威 |
+| **karpathy** [𝕏](https://x.com/karpathy) | AI 领域传奇人物，深度学习专家，技术分享极具价值，深度学习教育与 LLM 训练实践第一手信号 |
+| **hardmaru** [𝕏](https://x.com/hardmaru) | AI 模型优化与架构研究专家，专注于模型训练与推理优化 |
+| **Bohu (bohutang.me)** [🌐](https://bohutang.me) [𝕏](https://x.com/BohuTANG) | AI Agent 轨迹分析专家 Bohu 的个人博客/talks 页，《Trace 即 Evals》系列 slide 完整解析 Agent harness 的 token 成本差异和 trace-driven 量化闭环 |
+| **Lance Martin (@RLanceMartin)** [𝕏](https://x.com/RLanceMartin) | Anthropic 研究员，分享 Fable 5 self-correction loops 和 memory 设计实战技巧，《Designing loops with Fable 5》深度长文作者 |
+| **grapeot** [𝕏](https://x.com/grapeot) | AI 视觉领域深度研究员，《Vision Banana：生成即理解终于来到视觉领域》深度拆解 Google DeepMind Vision Banana 与 LLM 路径对称性，yage.ai 主理人 |
+| **One Useful Thing (Ethan Mollick)** [🌐](https://www.oneusefulthing.org) | Wharton 教授 Ethan Mollick 的 AI 产品体验评测权威博客，实测 Fable 5 自主执行多页规格说明书级任务超过十小时，模型自主启动对抗性代理验证研究 |
 | **ninthbit_ai** [𝕏](https://x.com/ninthbit_ai) | AI 编程工具领域专家，分享 Pi 配置和开发实践 |
 | **Xudong07452910** [𝕏](https://x.com/Xudong07452910) | Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法 |
 | **深度解析 Claude Code 系列** [🐙](https://github.com/lintsinghua/claude-code-book) | 42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践 |
@@ -188,12 +197,14 @@
 | **NousResearch/hermes-agent** [🐙](https://github.com/NousResearch/hermes-agent) | GitHub Trending 周榜，Nous Research 推出的 Hermes Agent 框架，Hermes 系列 LLM 的 Agent 集成方案 |
 | **lfnovo/open-notebook** [🐙](https://github.com/lfnovo/open-notebook) | GitHub Trending 周榜，开源 AI 笔记本工具，支持多模型接入与本地知识库管理，NotebookLM 开源替代品 |
 | **EveryInc/compound-engineering-plugin** [🐙](https://github.com/EveryInc/compound-engineering-plugin) | GitHub Trending 周榜，复合工程（Compound Engineering）插件，AI 时代工程实践自动化工具链 |
+| **yage.ai (grapeot 博客)** [🌐](https://yage.ai) | grapeot 创办的 AI 视觉/多模态深度分析博客，对 Vision Banana 等前沿模型做工程级拆解 |
+| **Jon Ready (jonready.com)** [🌐](https://jonready.com/blog/) | 深度分析 AI 模型供应链风险，首篇爆款《Claude Fable5 隐形降质：被允许在你不察觉时破坏你的应用》揭示 Anthropic 前端 AI 开发的不可见 steering vectors/PEFT 限制 |
 
 > 📌 更多 AI 资源见 [awesome-ai-field-notes](https://github.com/Gracker/awesome-ai-field-notes)（608 条，每日更新）
 
 <a id="generaltech"></a>
 ## 💻 优质技术博客
-*通用技术、架构、工程实践* · 39 个源
+*通用技术、架构、工程实践* · 41 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -236,6 +247,8 @@
 | **Rest of World** [🔗](https://restofworld.org/) [📡](https://restofworld.org/feed/latest) | 全球科技报道，聚焦新兴市场 |
 | **ai_suxiaole** [𝕏](https://x.com/ai_suxiaole/status/2061349780002058571) | GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源 |
 | **纵横有道管理咨询** [🌐](https://www.zhdao.cn) | 深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究 |
+| **Aarush Gupta (aarushgupta.io)** [🌐](https://aarushgupta.io) | FPGA 2026 最佳论文作者，KAN on FPGA 实现纳秒级 ML 推理，硬件 × ML 交叉领域深度博客 |
+| **OpenCV Official Blog** [🌐](https://opencv.org/blog/) | OpenCV 官方博客，OpenCV 5 二十年来最重要版本发布：DNN 引擎完全重写，ONNX 算子覆盖率从 22% 跃升至 80%+，支持内置 LLM/VLM 推理 |
 
 <a id="tools"></a>
 ## 🛠 开发工具

@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-11",
+  "updated": "2026-06-12",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,25 @@
     }
   ],
   "entries": [
+    {
+      "id": "perfetto-data-explorer-wechat",
+      "name": "Perfetto数据探索",
+      "category": "android-blog",
+      "author": "官方技术分享",
+      "desc": "Perfetto官方文档教你查询数据又不想写sql语句的方法Data Explorer",
+      "links": {
+        "wechat": "mp.weixin.qq.com"
+      },
+      "tags": [
+        "android",
+        "perfetto",
+        "data-analysis",
+        "performance",
+        "wechat"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-12"
+    },
     {
       "id": "ninthbit_ai-twitter",
       "name": "ninthbit_ai",

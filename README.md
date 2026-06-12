@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-203-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-204-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,10 +23,11 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-11
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-12
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **Perfetto数据探索** [💬](mp.weixin.qq.com) | Android | Perfetto官方文档教你查询数据又不想写sql语句的方法Data Explorer |
 | **Bohu (bohutang.me)** [🌐](https://bohutang.me) [𝕏](https://x.com/BohuTANG) | AI | AI Agent 轨迹分析专家 Bohu 的个人博客/talks 页，《Trace 即 Evals》系列 slide 完整解析 Agent harness 的 token 成本差异和 trace-driven 量化闭环 |
 | **Lance Martin (@RLanceMartin)** [𝕏](https://x.com/RLanceMartin) | AI | Anthropic 研究员，分享 Fable 5 self-correction loops 和 memory 设计实战技巧，《Designing loops with Fable 5》深度长文作者 |
 | **grapeot** [𝕏](https://x.com/grapeot) | AI | AI 视觉领域深度研究员，《Vision Banana：生成即理解终于来到视觉领域》深度拆解 Google DeepMind Vision Banana 与 LLM 路径对称性，yage.ai 主理人 |
@@ -36,7 +37,6 @@
 | **Aarush Gupta (aarushgupta.io)** [🌐](https://aarushgupta.io) | 通用 | FPGA 2026 最佳论文作者，KAN on FPGA 实现纳秒级 ML 推理，硬件 × ML 交叉领域深度博客 |
 | **OpenCV Official Blog** [🌐](https://opencv.org/blog/) | 通用 | OpenCV 官方博客，OpenCV 5 二十年来最重要版本发布：DNN 引擎完全重写，ONNX 算子覆盖率从 22% 跃升至 80%+，支持内置 LLM/VLM 推理 |
 | **BohuTANG** [𝕏](https://x.com/BohuTANG) | AI | AI Agent 轨迹分析专家，专注于工程实践，深度研究 Agent Harness 工程化 |
-| **Rahul** [𝕏](https://x.com/sairahul1) | AI | AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式 |
 
 
 <a id="androidofficial"></a>
@@ -66,7 +66,7 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 58 个源
+*独立博客、掘金、知乎、公众号* · 59 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -88,6 +88,7 @@
 | **Koin Blog** [🌐](https://blog.insert-koin.io) | Koin 官方博客，Koin Compiler 1.0 DSL + Annotations 推出，Kotlin 编译时安全依赖注入方案 |
 | **Typealias** [🌐](https://typealias.com) | Kotlin 协程深度技术博客，《Prevent Race Conditions in Coroutines》系统讲解 Kotlinx 协程竞态条件识别与防御 |
 | **Kotlin Academy** [🌐](https://kt.academy) | Marcin Moskala 创办的 Kotlin 深度技术学习平台，《Kotlin in 3 Minutes》《Future of Mobile》系列高质量教程 |
+| **Perfetto数据探索** [💬](mp.weixin.qq.com) | Perfetto官方文档教你查询数据又不想写sql语句的方法Data Explorer |
 | **Android小码哥** [💬](Android小码哥) | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
 | **常利兵的技术分享** [🌐](https://make.dxmwl.com) | Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容 |
 | **马哥的Android技术分享** [💬](马哥的Android技术分享) | Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧 |

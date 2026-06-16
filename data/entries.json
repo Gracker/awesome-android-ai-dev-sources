@@ -1,0 +1,3835 @@
+{
+  "schema": "3.0",
+  "name": "Awesome Android AI Dev Sources",
+  "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
+  "updated": "2026-06-16",
+  "categories": [
+    {
+      "id": "android-official",
+      "name": "🤖 Android 官方资源",
+      "desc": "官方Blog、工具、YouTube、GitHub源码库"
+    },
+    {
+      "id": "android-blog",
+      "name": "📱 Android 技术博客",
+      "desc": "独立博客、掘金、知乎、公众号"
+    },
+    {
+      "id": "android-community",
+      "name": "🌐 Android 社区",
+      "desc": "周报、论坛、Telegram群"
+    },
+    {
+      "id": "ai",
+      "name": "🧠 AI & LLM",
+      "desc": "AI 领域精选资源（详见 awesome-ai-field-notes）"
+    },
+    {
+      "id": "general-tech",
+      "name": "💻 优质技术博客",
+      "desc": "通用技术、架构、工程实践"
+    },
+    {
+      "id": "tools",
+      "name": "🛠 开发工具",
+      "desc": "性能分析、调试、开发效率工具"
+    }
+  ],
+  "entries": [
+    {
+      "id": "perfetto-data-explorer-wechat",
+      "name": "Perfetto数据探索",
+      "category": "android-blog",
+      "author": "官方技术分享",
+      "desc": "Perfetto官方文档教你查询数据又不想写sql语句的方法Data Explorer",
+      "links": {
+        "wechat": "mp.weixin.qq.com"
+      },
+      "tags": [
+        "android",
+        "perfetto",
+        "data-analysis",
+        "performance",
+        "wechat"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-12"
+    },
+    {
+      "id": "ninthbit_ai-twitter",
+      "name": "ninthbit_ai",
+      "category": "ai",
+      "author": "ninthbit_ai",
+      "desc": "AI 编程工具领域专家，分享 Pi 配置和开发实践",
+      "links": {
+        "x": "https://x.com/ninthbit_ai"
+      },
+      "tags": [
+        "ai",
+        "programming",
+        "pi",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-09"
+    },
+    {
+      "id": "xudong07452910-twitter",
+      "name": "Xudong07452910",
+      "category": "ai",
+      "author": "Xudong07452910",
+      "desc": "Codex 案例驱动网络优化技巧专家，分享真实案例驱动的 AI 使用方法",
+      "links": {
+        "x": "https://x.com/Xudong07452910"
+      },
+      "tags": [
+        "ai",
+        "codex",
+        "network-optimization",
+        "case-driven",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-09"
+    },
+    {
+      "id": "qiaomu-ai-blog",
+      "name": "巧摸博客",
+      "category": "ai",
+      "author": "巧摸",
+      "desc": "专注 AI Agent Harness 工程的独立博客，文章《Agent Harness：让AI从聊天机器人变成真正的智能体》深入系统化，涵盖 Claude Code/OpenAI/LangChain/CrewAI 等框架对比",
+      "links": {
+        "blog": "https://blog.qiaomu.ai"
+      },
+      "tags": [
+        "ai",
+        "agent-harness",
+        "claude-code",
+        "openai",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "camel-ai-owl",
+      "name": "camel-ai/owl",
+      "category": "android",
+      "author": "camel-ai-owl",
+      "desc": "GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成",
+      "links": {
+        "github": "https://github.com/camel-ai-owl/owl"
+      },
+      "tags": [
+        "android",
+        "ai-agent",
+        "cli",
+        "gemini",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "android-xiaomage",
+      "name": "Android小码哥",
+      "category": "android-blog",
+      "author": "常利兵",
+      "desc": "原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章",
+      "links": {
+        "wechat": "Android小码哥"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "performance",
+        "公众号",
+        "底层技术"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "claude-code-analysis",
+      "name": "深度解析 Claude Code 系列",
+      "category": "ai",
+      "author": "深度解析团队",
+      "desc": "42万字 Claude Code 架构深度剖析系列，PDF版本见 lintsinghua/claude-code-book，从 Prompt/Context/Harness 三个维度解析 AI Coding Agent 工程实践",
+      "links": {
+        "github": "https://github.com/lintsinghua/claude-code-book"
+      },
+      "tags": [
+        "ai",
+        "claude-code",
+        "agent-harness",
+        "architecture",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "chang-libing-tech",
+      "name": "常利兵的技术分享",
+      "category": "android-blog",
+      "author": "常利兵",
+      "desc": "Android 开发者独立博客，公众号 Android小码哥 背后的作者，专注 Android Framework、内核及性能优化等硬核底层内容",
+      "links": {
+        "blog": "https://make.dxmwl.com"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "performance",
+        "底层",
+        "独立博客"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "realcaigu-twitter",
+      "name": "realCaigu",
+      "category": "ai",
+      "author": "realCaigu",
+      "desc": "专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者",
+      "links": {
+        "x": "https://x.com/realCaigu"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "codex",
+        "methodology",
+        "workflow"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "xiaogaifun-twitter",
+      "name": "xiaogaifun",
+      "category": "ai",
+      "author": "xiaogaifun",
+      "desc": "Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读",
+      "links": {
+        "x": "https://x.com/xiaogaifun"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "harness",
+        "stability",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "ma-ge-android-tech",
+      "name": "马哥的Android技术分享",
+      "category": "android-blog",
+      "author": "马哥",
+      "desc": "Android Framework 实战技术分享，专注 adb sync、编译优化、系统级开发技巧",
+      "links": {
+        "wechat": "马哥的Android技术分享"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "实战",
+        "编译优化",
+        "系统级"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-06"
+    },
+    {
+      "id": "android-developers-blog",
+      "name": "Android Developers Blog",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 官方技术博客，发布平台更新、最佳实践和新功能",
+      "links": {
+        "blog": "https://android-developers.googleblog.com/",
+        "x": "https://x.com/AndroidDev",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers",
+        "github": "https://github.com/android"
+      },
+      "tags": [
+        "official",
+        "platform",
+        "best-practices"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-developers-backstage",
+      "name": "Android Developers Backstage",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google 工程师主持的 Android 开发播客，深入探讨技术话题",
+      "links": {
+        "website": "https://androidbackstage.blogspot.com/",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers",
+        "podcast": "https://feeds.feedburner.com/AndroidDevelopersBackstage"
+      },
+      "tags": [
+        "podcast",
+        "official",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "perfetto",
+      "name": "Perfetto",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案",
+      "links": {
+        "website": "https://perfetto.dev/",
+        "github": "https://github.com/google/perfetto"
+      },
+      "tags": [
+        "tracing",
+        "performance",
+        "profiling"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-studio",
+      "name": "Android Studio",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "官方 IDE，集成 Profiler、Layout Inspector、App Inspection 等工具",
+      "links": {
+        "website": "https://developer.android.com/studio",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers"
+      },
+      "tags": [
+        "ide",
+        "profiling",
+        "tools"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "platform-tools",
+      "name": "Android Platform Tools",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "ADB、fastboot、dmtracedump 等命令行工具集合",
+      "links": {
+        "website": "https://developer.android.com/tools"
+      },
+      "tags": [
+        "adb",
+        "tools",
+        "debugging"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "androidx",
+      "name": "AndroidX",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Jetpack 组件库，提供现代 Android 开发的核心构建块",
+      "links": {
+        "website": "https://androidx.tech/",
+        "github": "https://github.com/androidx"
+      },
+      "tags": [
+        "jetpack",
+        "libraries",
+        "architecture"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jetpack-compose",
+      "name": "Jetpack Compose",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 声明式 UI 框架，简化 UI 开发流程",
+      "links": {
+        "website": "https://developer.android.com/jetpack/compose",
+        "github": "https://github.com/androidx/androidx"
+      },
+      "tags": [
+        "ui",
+        "compose",
+        "declarative"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "aosp",
+      "name": "Android Open Source Project",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 系统源码仓库，理解 Framework 底层机制的必备资源",
+      "links": {
+        "website": "https://source.android.com/",
+        "github": "https://github.com/android"
+      },
+      "tags": [
+        "source-code",
+        "framework",
+        "system"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "kotlin-for-android",
+      "name": "Kotlin for Android",
+      "category": "android-official",
+      "author": "Google, JetBrains",
+      "desc": "Android 首选语言，官方文档和最佳实践指南",
+      "links": {
+        "website": "https://developer.android.com/kotlin"
+      },
+      "tags": [
+        "kotlin",
+        "language",
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-developers-youtube",
+      "name": "Google for Developers",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google 开发者官方 YouTube 频道，涵盖 Android、Web、Cloud",
+      "links": {
+        "youtube": "https://www.youtube.com/@GoogleDevelopers"
+      },
+      "tags": [
+        "video",
+        "official",
+        "conference"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-gpu-inspector",
+      "name": "Android GPU Inspector (AGI)",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "GPU 性能分析工具，用于追踪渲染管线和着色器性能",
+      "links": {
+        "website": "https://gpuinspector.dev/",
+        "github": "https://github.com/google/agi"
+      },
+      "tags": [
+        "gpu",
+        "profiling",
+        "rendering"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-vitals",
+      "name": "Android Vitals",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google Play Console 中的应用性能仪表盘，监控崩溃、ANR、启动时间",
+      "links": {
+        "website": "https://developer.android.com/topic/performance/vitals"
+      },
+      "tags": [
+        "monitoring",
+        "performance",
+        "production"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "gityuan",
+      "name": "Gityuan",
+      "category": "android-blog",
+      "author": "Gityuan",
+      "desc": "Android Framework 内核分析，源码级深度解读，质量极高",
+      "links": {
+        "blog": "https://gityuan.com/",
+        "rss": "https://gityuan.com/feed.xml"
+      },
+      "tags": [
+        "framework",
+        "source-code",
+        "performance"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "styling-android",
+      "name": "Styling Android",
+      "category": "android-blog",
+      "author": "Mark Allison",
+      "desc": "专注于 Android UI 开发，现已全面转向 Compose 系列，持续更新",
+      "links": {
+        "blog": "https://blog.stylingandroid.com/"
+      },
+      "tags": [
+        "ui",
+        "compose",
+        "active"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chris-banes",
+      "name": "Chris Banes",
+      "category": "android-blog",
+      "author": "Chris Banes",
+      "desc": "Android 社区知名开发者，现 Google/Flutter 团队，历史文章价值极高",
+      "links": {
+        "blog": "https://banes.dev/",
+        "github": "https://github.com/chrisbanes"
+      },
+      "tags": [
+        "classic",
+        "ui",
+        "best-practices"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "romain-guy",
+      "name": "Romain Guy",
+      "category": "android-blog",
+      "author": "Romain Guy",
+      "desc": "前 Android 团队核心成员，图形渲染专家，偶尔更新但篇篇精华",
+      "links": {
+        "blog": "https://romainguy.dev/",
+        "medium": "https://medium.com/@romainguy"
+      },
+      "tags": [
+        "graphics",
+        "rendering",
+        "classic"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chet-haase",
+      "name": "Chet Haase",
+      "category": "android-blog",
+      "author": "Chet Haase",
+      "desc": "Developing for Android 系列，Android 团队老将，深入浅出",
+      "links": {
+        "medium": "https://medium.com/@chethaase"
+      },
+      "tags": [
+        "classic",
+        "animation",
+        "ui"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jake-wharton",
+      "name": "Jake Wharton",
+      "category": "android-blog",
+      "author": "Jake Wharton",
+      "desc": "Android 开发传奇人物，虽转做其他语言但博客仍是经典参考",
+      "links": {
+        "blog": "https://jakewharton.com/blog/",
+        "github": "https://github.com/JakeWharton"
+      },
+      "tags": [
+        "classic",
+        "libraries",
+        "best-practices"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "karumi-blog",
+      "name": "Karumi Blog",
+      "category": "android-blog",
+      "author": "Karumi",
+      "desc": "西班牙 Android 咨询公司技术博客，注重架构和测试",
+      "links": {
+        "blog": "https://karumi.com/blog/"
+      },
+      "tags": [
+        "architecture",
+        "testing",
+        "kotlin"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "antonio-leiva",
+      "name": "Antonio Leiva",
+      "category": "android-blog",
+      "author": "Antonio Leiva",
+      "desc": "Kotlin/Android 开发博客，教程风格清晰易懂",
+      "links": {
+        "blog": "https://antonioleiva.com/"
+      },
+      "tags": [
+        "kotlin",
+        "tutorial"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "hukai-me",
+      "name": "胡凯的博客",
+      "category": "android-blog",
+      "author": "胡凯",
+      "desc": "Android 性能优化经典翻译，对国内社区贡献巨大",
+      "links": {
+        "blog": "https://hukai.me/"
+      },
+      "tags": [
+        "performance",
+        "translation",
+        "classic"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "androidperformance",
+      "name": "AndroidPerformance",
+      "category": "android-blog",
+      "author": "Gracker",
+      "desc": "Android 性能优化技术博客，专注启动速度、内存、功耗、滑动流畅度，Systrace/Perfetto 系列深度教程",
+      "links": {
+        "blog": "https://www.androidperformance.com/",
+        "rss": "https://www.androidperformance.com/atom.xml"
+      },
+      "tags": [
+        "performance",
+        "optimization",
+        "cn"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "guolin-csdn",
+      "name": "郭霖",
+      "category": "android-blog",
+      "author": "郭霖",
+      "desc": "CSDN 知名博主，公众号「郭霖」，持续活跃，覆盖 Android 广泛话题",
+      "links": {
+        "blog": "https://blog.csdn.net/guolin_blog",
+        "wechat": "郭霖"
+      },
+      "tags": [
+        "cn",
+        "active",
+        "tutorial"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "hongyang-csdn",
+      "name": "鸿洋",
+      "category": "android-blog",
+      "author": "鸿洋",
+      "desc": "CSDN 顶级博主，自定义 View 系列经典，仍活跃",
+      "links": {
+        "blog": "https://blog.csdn.net/lmj623565791",
+        "wechat": "鸿洋"
+      },
+      "tags": [
+        "cn",
+        "custom-view",
+        "classic"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "luoshengyang-csdn",
+      "name": "老罗的 Android 源码分析",
+      "category": "android-blog",
+      "author": "老罗",
+      "desc": "Android 源码分析经典系列，深入 Framework 层面",
+      "links": {
+        "blog": "https://blog.csdn.net/luoshengyang"
+      },
+      "tags": [
+        "source-code",
+        "framework",
+        "classic"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "innost-csdn",
+      "name": "Innost",
+      "category": "android-blog",
+      "author": "Innost (邓凡平)",
+      "desc": "《深入理解 Android》系列作者，深入 Framework 和性能分析",
+      "links": {
+        "blog": "https://blog.csdn.net/innost"
+      },
+      "tags": [
+        "framework",
+        "performance",
+        "classic"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "trinea",
+      "name": "Trinea",
+      "category": "android-blog",
+      "author": "Trinea",
+      "desc": "Android 开源项目和技术博客经典，涵盖缓存、性能等",
+      "links": {
+        "blog": "https://www.trinea.cn/"
+      },
+      "tags": [
+        "cn",
+        "classic",
+        "open-source"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "danlew",
+      "name": "Dan Lew",
+      "category": "android-blog",
+      "author": "Dan Lew",
+      "desc": "RxJava/Android 实用技巧博客，简洁有力",
+      "links": {
+        "blog": "https://blog.danlew.net/"
+      },
+      "tags": [
+        "rxjava",
+        "practical",
+        "classic"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-weekly",
+      "name": "Android Weekly",
+      "category": "android-community",
+      "author": "Android Weekly",
+      "desc": "最权威的 Android 周报，每周精选全球最佳文章和工具",
+      "links": {
+        "website": "https://androidweekly.net/",
+        "rss": "https://androidweekly.net/rss/issue_current.rss",
+        "newsletter": "https://androidweekly.net/"
+      },
+      "tags": [
+        "newsletter",
+        "weekly",
+        "curated"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-developer-weekly",
+      "name": "Android Developer Weekly",
+      "category": "android-community",
+      "author": "Gracker",
+      "desc": "中文 Android 开发周报，精选中英文技术文章",
+      "links": {
+        "website": "https://androidweekly.cn/",
+        "rss": "https://androidweekly.cn/rss/"
+      },
+      "tags": [
+        "cn",
+        "weekly",
+        "curated"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "fragmented-podcast",
+      "name": "Fragmented Podcast",
+      "category": "android-community",
+      "author": "Donn Felker, Kaushik Gopal",
+      "desc": "经典 Android 开发播客，访谈社区专家和技术深度探讨",
+      "links": {
+        "website": "https://fragmentedpodcast.com/",
+        "podcast": "https://fragmentedpodcast.com/"
+      },
+      "tags": [
+        "podcast",
+        "community",
+        "classic"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-arsenal",
+      "name": "Android Arsenal",
+      "category": "android-community",
+      "author": "Android Arsenal",
+      "desc": "Android 开源库目录和发现平台，分类齐全",
+      "links": {
+        "website": "https://android-arsenal.com/"
+      },
+      "tags": [
+        "open-source",
+        "libraries",
+        "discovery"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "reddit-androiddev",
+      "name": "r/androiddev",
+      "category": "android-community",
+      "author": "Reddit",
+      "desc": "Reddit 上最活跃的 Android 开发社区，讨论和问题解答",
+      "links": {
+        "website": "https://www.reddit.com/r/androiddev/"
+      },
+      "tags": [
+        "community",
+        "discussion",
+        "qa"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "awesome-ai-field-notes",
+      "name": "Awesome AI Field Notes",
+      "category": "ai",
+      "author": "Gracker",
+      "desc": "AI 领域 608 条精选资源，每日更新，覆盖 LLM/Agent/工具链",
+      "links": {
+        "website": "https://godofgpt.com/",
+        "github": "https://github.com/Gracker/awesome-ai-field-notes"
+      },
+      "tags": [
+        "ai",
+        "curated",
+        "comprehensive"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "category": "ai",
+      "author": "Google",
+      "desc": "Google AI 研究博客，发布前沿研究成果和技术突破",
+      "links": {
+        "blog": "https://ai.googleblog.com/"
+      },
+      "tags": [
+        "research",
+        "official",
+        "cutting-edge"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "openai-blog",
+      "name": "OpenAI Blog",
+      "category": "ai",
+      "author": "OpenAI",
+      "desc": "OpenAI 官方博客，GPT 系列模型发布和技术解读",
+      "links": {
+        "blog": "https://openai.com/blog"
+      },
+      "tags": [
+        "llm",
+        "official",
+        "gpt"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "anthropic-blog",
+      "name": "Anthropic Blog",
+      "category": "ai",
+      "author": "Anthropic",
+      "desc": "Claude 系列模型发布和 AI 安全研究",
+      "links": {
+        "blog": "https://www.anthropic.com/blog"
+      },
+      "tags": [
+        "llm",
+        "safety",
+        "claude"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "category": "ai",
+      "author": "Lilian Weng",
+      "desc": "AI 领域经典技术博客，深入浅出讲解 LLM、Agent、RL 等核心概念",
+      "links": {
+        "blog": "https://lilianweng.github.io/",
+        "rss": "https://lilianweng.github.io/index.xml"
+      },
+      "tags": [
+        "tutorial",
+        "llm",
+        "agent"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "hugging-face-blog",
+      "name": "Hugging Face Blog",
+      "category": "ai",
+      "author": "Hugging Face",
+      "desc": "开源 ML 社区核心博客，模型、数据集、Transformers 最新动态",
+      "links": {
+        "blog": "https://huggingface.co/blog"
+      },
+      "tags": [
+        "open-source",
+        "models",
+        "community"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "category": "ai",
+      "author": "Simon Willison",
+      "desc": "LLM 实战领域最活跃的博主之一，每天产出高质量技术笔记",
+      "links": {
+        "blog": "https://simonwillison.net/",
+        "rss": "https://simonwillison.net/atom/everything/"
+      },
+      "tags": [
+        "llm",
+        "practical",
+        "active"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "the-batch",
+      "name": "The Batch",
+      "category": "ai",
+      "author": "Andrew Ng / deeplearning.ai",
+      "desc": "Andrew Ng 的 AI 周刊，面向从业者的 AI 新闻和深度解读",
+      "links": {
+        "website": "https://www.deeplearning.ai/the-batch/",
+        "newsletter": "https://www.deeplearning.ai/the-batch/"
+      },
+      "tags": [
+        "newsletter",
+        "weekly",
+        "ai-news"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "ai-supremacy",
+      "name": "AI Supremacy",
+      "category": "ai",
+      "author": "AI Supremacy",
+      "desc": "AI 领域深度 Newsletter，追踪行业动态和技术趋势",
+      "links": {
+        "website": "https://aisupremacy.substack.com/",
+        "newsletter": "https://aisupremacy.substack.com/"
+      },
+      "tags": [
+        "newsletter",
+        "trends",
+        "analysis"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "coolshell",
+      "name": "酷壳 CoolShell",
+      "category": "general-tech",
+      "author": "陈皓 (左耳朵耗子)",
+      "desc": "中文技术博客天花板，系统设计、编程思维、职业发展",
+      "links": {
+        "blog": "https://coolshell.cn/",
+        "rss": "https://coolshell.cn/feed"
+      },
+      "tags": [
+        "cn",
+        "classic",
+        "system-design"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "category": "general-tech",
+      "author": "阮一峰",
+      "desc": "持续 20 年的技术写作，ES6 标准入门作者，涉猎广泛",
+      "links": {
+        "blog": "https://www.ruanyifeng.com/",
+        "rss": "https://www.ruanyifeng.com/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "tutorial",
+        "web"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "codingnow",
+      "name": "云风的 BLOG",
+      "category": "general-tech",
+      "author": "云风",
+      "desc": "游戏引擎开发者，底层编程、C/C++、图形学，技术深度极高",
+      "links": {
+        "blog": "https://blog.codingnow.com/",
+        "rss": "https://blog.codingnow.com/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "game-dev",
+        "low-level"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "laruence",
+      "name": "鸟哥 (Laruence)",
+      "category": "general-tech",
+      "author": "惠新辰 (鸟哥)",
+      "desc": "PHP/HHVM/PHPNG 核心开发者，深入底层的技术分享",
+      "links": {
+        "blog": "https://www.laruence.com/",
+        "rss": "https://www.laruence.com/feed"
+      },
+      "tags": [
+        "cn",
+        "php",
+        "internals"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "martin-fowler",
+      "name": "Martin Fowler",
+      "category": "general-tech",
+      "author": "Martin Fowler",
+      "desc": "软件架构大师博客，微服务、重构、设计模式等经典文章",
+      "links": {
+        "blog": "https://martinfowler.com/"
+      },
+      "tags": [
+        "architecture",
+        "design-patterns",
+        "classic"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "dan-abramov",
+      "name": "Dan Abramov",
+      "category": "general-tech",
+      "author": "Dan Abramov",
+      "desc": "React 核心团队成员，Overreacted 博客，深度技术文章",
+      "links": {
+        "blog": "https://overreacted.io/",
+        "rss": "https://overreacted.io/rss.xml"
+      },
+      "tags": [
+        "react",
+        "javascript",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "julia-evans",
+      "name": "Julia Evans",
+      "category": "general-tech",
+      "author": "Julia Evans",
+      "desc": "技术漫画博主，用 zine 形式讲解网络、Linux、Git 等概念",
+      "links": {
+        "blog": "https://jvns.ca/",
+        "rss": "https://jvns.ca/atom.xml"
+      },
+      "tags": [
+        "visual",
+        "beginner-friendly",
+        "networking"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "category": "general-tech",
+      "author": "Gergely Orosz",
+      "desc": "大厂工程实践、技术管理、行业洞察，Substack 顶流技术 Newsletter",
+      "links": {
+        "blog": "https://blog.pragmaticengineer.com/",
+        "newsletter": "https://blog.pragmaticengineer.com/"
+      },
+      "tags": [
+        "newsletter",
+        "engineering",
+        "management"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "high-scalability",
+      "name": "High Scalability",
+      "category": "general-tech",
+      "author": "High Scalability",
+      "desc": "大规模系统架构案例分析，学习顶级公司的架构设计",
+      "links": {
+        "blog": "https://highscalability.com/"
+      },
+      "tags": [
+        "architecture",
+        "scalability",
+        "case-study"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "joel-on-software",
+      "name": "Joel on Software",
+      "category": "general-tech",
+      "author": "Joel Spolsky",
+      "desc": "软件开发博客开山鼻祖，Stack Overflow 联合创始人的经典文章",
+      "links": {
+        "blog": "https://www.joelonsoftware.com/"
+      },
+      "tags": [
+        "classic",
+        "management",
+        "best-practices"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "klotz",
+      "name": "Klotz",
+      "category": "general-tech",
+      "author": "Paul Irish, Addy Osmani 等",
+      "desc": "Chrome DevTools 团队博客，前端性能和调试技巧",
+      "links": {
+        "blog": "https://klotz.me/"
+      },
+      "tags": [
+        "chrome",
+        "devtools",
+        "debugging"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "addy-osmani",
+      "name": "Addy Osmani",
+      "category": "general-tech",
+      "author": "Addy Osmani",
+      "desc": "Chrome 团队成员，Web 性能专家，《JavaScript 设计模式》作者",
+      "links": {
+        "blog": "https://addyosmani.com/",
+        "github": "https://github.com/addyosmani"
+      },
+      "tags": [
+        "web-performance",
+        "chrome",
+        "javascript"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "alex-russell",
+      "name": "Alex Russell",
+      "category": "general-tech",
+      "author": "Alex Russell",
+      "desc": "Web 标准推动者，深入分析 Web 性能和浏览器生态问题",
+      "links": {
+        "blog": "https://infrequently.org/"
+      },
+      "tags": [
+        "web-performance",
+        "standards",
+        "browser"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "leakcanary",
+      "name": "LeakCanary",
+      "category": "tools",
+      "author": "Square",
+      "desc": "Android 内存泄漏检测神器，开发阶段自动发现内存问题",
+      "links": {
+        "github": "https://github.com/square/leakcanary",
+        "website": "https://square.github.io/leakcanary/"
+      },
+      "tags": [
+        "memory",
+        "leak-detection",
+        "debugging"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "booster",
+      "name": "Booster",
+      "category": "tools",
+      "author": "滴滴出行",
+      "desc": "滴滴开源的性能优化框架，支持多维度性能检测",
+      "links": {
+        "github": "https://github.com/didi/booster"
+      },
+      "tags": [
+        "performance",
+        "optimization",
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-studio-profiler",
+      "name": "Android Studio Profiler",
+      "category": "tools",
+      "author": "Google",
+      "desc": "集成在 Android Studio 中的 CPU/内存/网络性能分析器",
+      "links": {
+        "website": "https://developer.android.com/studio/profile"
+      },
+      "tags": [
+        "profiling",
+        "cpu",
+        "memory"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "simpleperf",
+      "name": "SimplePerf",
+      "category": "tools",
+      "author": "Google",
+      "desc": "Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪",
+      "links": {
+        "website": "https://developer.android.com/ndk/guides/simpleperf",
+        "github": "https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/"
+      },
+      "tags": [
+        "native",
+        "profiling",
+        "cpu"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "adb",
+      "name": "Android Debug Bridge (ADB)",
+      "category": "tools",
+      "author": "Google",
+      "desc": "Android 调试核心工具，设备通信、应用安装、日志抓取",
+      "links": {
+        "website": "https://developer.android.com/tools/adb"
+      },
+      "tags": [
+        "debugging",
+        "tools",
+        "essential"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-developer-cn-wechat",
+      "name": "谷歌开发者 (公众号)",
+      "category": "android-official",
+      "desc": "Google 官方中文开发者公众号，Android/GCP/ML 技术资讯",
+      "links": {
+        "wechat": "谷歌开发者"
+      },
+      "tags": [
+        "official",
+        "cn"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-dev-youtube-rss",
+      "name": "Android Developers (YouTube)",
+      "category": "android-official",
+      "desc": "Google Android 官方 YouTube 频道视频更新",
+      "links": {
+        "youtube": "https://www.youtube.com/@AndroidDevelopers"
+      },
+      "tags": [
+        "official",
+        "video"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-dev-medium",
+      "name": "Android Developers (Medium)",
+      "category": "android-official",
+      "desc": "Google Android 团队 Medium 博客",
+      "links": {
+        "blog": "https://medium.com/androiddevelopers",
+        "rss": "https://medium.com/feed/androiddevelopers"
+      },
+      "tags": [
+        "official",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "kotlin-blog-jetbrains",
+      "name": "Kotlin Blog (JetBrains)",
+      "category": "android-official",
+      "desc": "JetBrains 官方 Kotlin 博客，语言特性、多平台、Compose",
+      "links": {
+        "blog": "https://blog.jetbrains.com/kotlin/",
+        "rss": "https://blog.jetbrains.com/kotlin/feed/"
+      },
+      "tags": [
+        "official",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "flutter-blog",
+      "name": "Flutter Blog",
+      "category": "android-official",
+      "desc": "Google Flutter 官方博客，跨平台 UI 框架",
+      "links": {
+        "blog": "https://blog.flutter.dev/",
+        "rss": "https://medium.com/feed/flutter"
+      },
+      "tags": [
+        "official",
+        "flutter"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-google-blog",
+      "name": "Android (Google Blog)",
+      "category": "android-official",
+      "desc": "Google 官方 Android 产品动态博客",
+      "links": {
+        "blog": "https://blog.google/products-and-platforms/platforms/android/",
+        "rss": "https://blog.google/products-and-platforms/platforms/android/rss/"
+      },
+      "tags": [
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "category": "ai",
+      "desc": "Google DeepMind 官方研究博客，AI 前沿突破",
+      "links": {
+        "blog": "https://deepmind.google/blog/"
+      },
+      "tags": [
+        "official",
+        "research"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "rengwuxian",
+      "name": "扔物线 (Henley)",
+      "category": "android-blog",
+      "desc": "Android 开发布道师，Kotlin/自定义 View/Jetpack 影响力极大",
+      "links": {
+        "blog": "https://rengwuxian.com/",
+        "juejin": "https://juejin.cn/user/2524134386185736",
+        "rss": "https://rengwuxian.com/rss/"
+      },
+      "tags": [
+        "cn",
+        "active",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jsonchao",
+      "name": "jsonchao",
+      "category": "android-blog",
+      "desc": "Android 性能优化和架构设计，持续产出高质量文章",
+      "links": {
+        "juejin": "https://juejin.cn/user/4318537403878167"
+      },
+      "tags": [
+        "cn",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bennyhuo",
+      "name": "霍丙乾 (bennyhuo)",
+      "category": "android-blog",
+      "desc": "Kotlin 布道师，《深入理解 Kotlin 协程》作者",
+      "links": {
+        "juejin": "https://juejin.cn/user/1187128286120631"
+      },
+      "tags": [
+        "cn",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "fundroid",
+      "name": "fundroid (玉刚说)",
+      "category": "android-blog",
+      "desc": "Android 技术博主，覆盖 Compose、Jetpack、架构",
+      "links": {
+        "juejin": "https://juejin.cn/user/3931509309842872"
+      },
+      "tags": [
+        "cn",
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "zhangke",
+      "name": "张可",
+      "category": "android-blog",
+      "desc": "独立技术博客，Android 和通用技术话题",
+      "links": {
+        "blog": "https://zhangke.space/",
+        "rss": "https://zhangke.space/feed/"
+      },
+      "tags": [
+        "cn",
+        "independent"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "isming",
+      "name": "码农明明桑",
+      "category": "android-blog",
+      "desc": "Android 独立开发者，移动开发技术分享",
+      "links": {
+        "blog": "https://isming.me/",
+        "rss": "https://isming.me/index.xml"
+      },
+      "tags": [
+        "cn",
+        "independent"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "browserlab-zhihu",
+      "name": "BrowserLab (知乎专栏)",
+      "category": "android-blog",
+      "desc": "浏览器与 Web 技术深度分析专栏",
+      "links": {
+        "blog": "https://zhuanlan.zhihu.com/browserlab",
+        "rss": "https://rss.lilydjwg.me/zhihuzhuanlan/browserlab"
+      },
+      "tags": [
+        "cn",
+        "browser"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "yixuxin-zhihu",
+      "name": "易旭昕 (知乎)",
+      "category": "android-blog",
+      "desc": "Android 系统开发专家，知乎深度回答",
+      "links": {
+        "zhihu": "https://www.zhihu.com/people/rogeryi"
+      },
+      "tags": [
+        "cn",
+        "system"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "meituan-tech",
+      "name": "美团技术团队",
+      "category": "android-blog",
+      "desc": "美团官方技术博客，Android/iOS/后端/工程实践",
+      "links": {
+        "blog": "https://tech.meituan.com/",
+        "rss": "https://tech.meituan.com/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "youzan-tech",
+      "name": "有赞技术团队",
+      "category": "android-blog",
+      "desc": "有赞官方技术博客，电商技术实践",
+      "links": {
+        "blog": "https://tech.youzan.com/",
+        "rss": "https://tech.youzan.com/rss/"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "tencent-tech",
+      "name": "腾讯技术工程",
+      "category": "android-blog",
+      "desc": "腾讯官方技术公众号，大前端和移动端",
+      "links": {
+        "wechat": "腾讯技术工程"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "xiaomi-tech",
+      "name": "小米技术",
+      "category": "android-blog",
+      "desc": "小米官方技术公众号，MIUI/Android 系统开发",
+      "links": {
+        "wechat": "小米技术"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bilibili-tech",
+      "name": "哔哩哔哩技术",
+      "category": "android-blog",
+      "desc": "B站官方技术博客，大规模系统架构和移动端",
+      "links": {
+        "wechat": "哔哩哔哩技术"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "aliyun-dev",
+      "name": "阿里云开发者",
+      "category": "android-blog",
+      "desc": "阿里云官方技术公众号，云原生和移动开发",
+      "links": {
+        "wechat": "阿里云开发者"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bytedance-tech",
+      "name": "字节跳动技术团队",
+      "category": "android-blog",
+      "desc": "字节跳动官方技术博客，覆盖 Android、后端、前端、AI",
+      "links": {
+        "juejin": "https://juejin.cn/user/1838039172387262"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "wangxiaoer-bilibili",
+      "name": "王小二 (B站)",
+      "category": "android-blog",
+      "desc": "Android 视频教程博主，Framework 和性能优化讲解",
+      "links": {
+        "youtube": "https://space.bilibili.com/485954104"
+      },
+      "tags": [
+        "cn",
+        "video"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "ahaoframework",
+      "name": "阿豪讲Framework",
+      "category": "android-blog",
+      "desc": "专注于 Android Framework 源码分析",
+      "links": {
+        "juejin": "https://juejin.cn/user/342703355728382"
+      },
+      "tags": [
+        "cn",
+        "framework"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "kanxue-android",
+      "name": "看雪论坛 Android 安全",
+      "category": "android-blog",
+      "desc": "看雪论坛 Android 安全方向精华帖",
+      "links": {
+        "website": "https://bbs.kanxue.com/forum-161-1.htm?digest=1"
+      },
+      "tags": [
+        "cn",
+        "security"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "qianlima-framework",
+      "name": "千里马学框架 (CSDN)",
+      "category": "android-blog",
+      "desc": "专注于 Android Framework 学习的 CSDN 博主",
+      "links": {
+        "blog": "https://blog.csdn.net/learnframework",
+        "rss": "https://rss.csdn.net/learnframework/rss/map"
+      },
+      "tags": [
+        "cn",
+        "framework"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "seb-sellmair",
+      "name": "Seb's Coding Blog",
+      "category": "android-blog",
+      "desc": "Android/Kotlin 技术博客，实践导向",
+      "links": {
+        "blog": "https://blog.sellmair.io/",
+        "rss": "https://blog.sellmair.io/rss.xml"
+      },
+      "tags": [
+        "kotlin",
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "zach-klippenstein",
+      "name": "Zach Klippenstein",
+      "category": "android-blog",
+      "desc": "Android 开发者，Compose 深度技术博客",
+      "links": {
+        "blog": "https://blog.zachklipp.com/",
+        "rss": "https://blog.zachklipp.com/rss/"
+      },
+      "tags": [
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "py-blog",
+      "name": "P-Y's blog",
+      "category": "android-blog",
+      "desc": "Android 开发技术博客",
+      "links": {
+        "blog": "https://blog.p-y.wtf/",
+        "rss": "https://blog.p-y.wtf/rss.xml"
+      },
+      "tags": [],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "pl-coding",
+      "name": "pl-coding.com",
+      "category": "android-blog",
+      "desc": "Android 开发教程博客，Kotlin 和 Compose",
+      "links": {
+        "blog": "https://pl-coding.com/"
+      },
+      "tags": [
+        "kotlin",
+        "compose",
+        "tutorial"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-authority-podcast",
+      "name": "Android Authority Podcast",
+      "category": "android-blog",
+      "desc": "Android 权威媒体播客，新设备、应用和系统动态",
+      "links": {
+        "website": "http://www.androidauthority.com/podcast",
+        "rss": "https://rss.libsyn.com/shows/62117/destinations/242501.xml"
+      },
+      "tags": [
+        "podcast"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "liqing-bytedance",
+      "name": "离青 (字节跳动)",
+      "category": "android-blog",
+      "desc": "字节跳动 Android 团队，系统级技术分享",
+      "links": {
+        "juejin": "https://juejin.cn/user/2585702698590472"
+      },
+      "tags": [
+        "cn",
+        "system"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "now-in-android",
+      "name": "Now in Android",
+      "category": "android-community",
+      "desc": "Google 官方 Android 新闻播客，紧跟平台最新动态",
+      "links": {
+        "website": "https://developer.android.com/",
+        "rss": "https://feeds.libsyn.com/244409/rss"
+      },
+      "tags": [
+        "podcast",
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "raye-journey",
+      "name": "Raye's Journey",
+      "category": "general-tech",
+      "desc": "技术和安全博客，内容质量高",
+      "links": {
+        "blog": "https://rayepeng.net/",
+        "rss": "https://rayepeng.net/feed"
+      },
+      "tags": [
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "pythoncat",
+      "name": "豌豆花下猫",
+      "category": "general-tech",
+      "desc": "Python 技术博客，内容质量高",
+      "links": {
+        "blog": "https://pythoncat.top/",
+        "rss": "https://pythoncat.top/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "python"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jerryqu",
+      "name": "JerryQu 的博客",
+      "category": "general-tech",
+      "desc": "Web 性能和前端技术专家",
+      "links": {
+        "blog": "https://imququ.com/",
+        "rss": "https://imququ.com/rss.html"
+      },
+      "tags": [
+        "cn",
+        "web-performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "williamlong",
+      "name": "月光博客",
+      "category": "general-tech",
+      "desc": "中文老牌科技博客，互联网观察",
+      "links": {
+        "blog": "https://www.williamlong.info/",
+        "rss": "https://www.williamlong.info/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "classic"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "owenyoung",
+      "name": "Owen的博客",
+      "category": "general-tech",
+      "desc": "独立开发者博客，工具和效率",
+      "links": {
+        "blog": "https://www.owenyoung.com/",
+        "rss": "https://www.owenyoung.com/atom.xml"
+      },
+      "tags": [
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "diygod",
+      "name": "Hi, DIYgod",
+      "category": "general-tech",
+      "desc": "RSSHub 作者，前端和开源贡献",
+      "links": {
+        "blog": "https://diygod.cc/",
+        "rss": "https://diygod.cc/feed"
+      },
+      "tags": [
+        "cn",
+        "open-source"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sukka-blog",
+      "name": "Sukka's Blog",
+      "category": "general-tech",
+      "desc": "前端和 Web 性能，技术深度好",
+      "links": {
+        "blog": "https://blog.skk.moe/",
+        "rss": "https://blog.skk.moe/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "web-performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sorrycc",
+      "name": "云谦的博客",
+      "category": "general-tech",
+      "desc": "前端开发者，Umi.js 作者",
+      "links": {
+        "blog": "https://sorrycc.com/",
+        "rss": "https://sorrycc.com/feed"
+      },
+      "tags": [
+        "cn",
+        "frontend"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "baoyu-share",
+      "name": "宝玉的分享",
+      "category": "general-tech",
+      "desc": "AI 和技术分享博客",
+      "links": {
+        "blog": "https://baoyu.io/",
+        "rss": "https://s.baoyu.io/feed.xml"
+      },
+      "tags": [
+        "cn",
+        "ai"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "limboy",
+      "name": "Limboy",
+      "category": "general-tech",
+      "desc": "移动端技术专家，iOS 和跨平台",
+      "links": {
+        "blog": "https://limboy.me/",
+        "rss": "https://limboy.me/index.xml"
+      },
+      "tags": [
+        "cn",
+        "ios"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "frostming",
+      "name": "Frost's Blog",
+      "category": "general-tech",
+      "desc": "Python 开发者，MVP 和开源贡献",
+      "links": {
+        "blog": "https://frostming.com/",
+        "rss": "https://frostming.com/feed.xml"
+      },
+      "tags": [
+        "cn",
+        "python"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "hn-daily-cn",
+      "name": "HackerNews 每日摘要",
+      "category": "general-tech",
+      "desc": "Hacker News 中文摘要翻译",
+      "links": {
+        "blog": "https://supertechfans.com/cn/",
+        "rss": "https://www.supertechfans.com/cn/index.xml"
+      },
+      "tags": [
+        "cn",
+        "hn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "techmeme",
+      "name": "Techmeme",
+      "category": "general-tech",
+      "desc": "科技新闻聚合器，行业必读",
+      "links": {
+        "website": "https://www.techmeme.com/",
+        "rss": "https://www.techmeme.com/feed.xml"
+      },
+      "tags": [
+        "news",
+        "aggregator"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chaoliu-weekly",
+      "name": "潮流周刊",
+      "category": "general-tech",
+      "desc": "Tw93 的科技和潮流周刊",
+      "links": {
+        "website": "https://weekly.tw93.fun/",
+        "rss": "https://weekly.tw93.fun/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "newsletter",
+        "weekly"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "melting-asphalt",
+      "name": "Melting Asphalt",
+      "category": "general-tech",
+      "desc": "Andy Matuschak 深度思考博客，学习科学和工具设计",
+      "links": {
+        "blog": "https://meltingasphalt.com/",
+        "rss": "http://feeds.feedburner.com/MeltingAsphalt"
+      },
+      "tags": [
+        "en",
+        "learning"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "nicholas-carlini",
+      "name": "Nicholas Carlini",
+      "category": "general-tech",
+      "desc": "机器学习安全研究员，技术博客深度极高",
+      "links": {
+        "blog": "https://nicholas.carlini.com/",
+        "rss": "https://nicholas.carlini.com/writing/feed.xml"
+      },
+      "tags": [
+        "en",
+        "ml-security"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "michael-nielsen",
+      "name": "Michael Nielsen",
+      "category": "general-tech",
+      "desc": "量子计算和 AI 研究，写作质量极高",
+      "links": {
+        "blog": "https://michaelnielsen.org/blog",
+        "rss": "https://michaelnielsen.org/blog/feed/"
+      },
+      "tags": [
+        "en",
+        "research"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "wait-but-why",
+      "name": "Wait But Why",
+      "category": "general-tech",
+      "desc": "深度长文博客，用漫画解释复杂概念",
+      "links": {
+        "blog": "https://waitbutwhy.com/",
+        "rss": "https://waitbutwhy.com/feed"
+      },
+      "tags": [
+        "en",
+        "longform"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "steph-ango",
+      "name": "Steph Ango",
+      "category": "general-tech",
+      "desc": "Obsidian CEO，产品和设计博客",
+      "links": {
+        "blog": "https://stephango.com/",
+        "rss": "https://stephango.com/feed.xml"
+      },
+      "tags": [
+        "en",
+        "product"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "paul-graham-essays",
+      "name": "Paul Graham Essays",
+      "category": "general-tech",
+      "desc": "Y Combinator 联合创始人，创业和技术随笔",
+      "links": {
+        "blog": "https://paulgraham.com/articles.html",
+        "rss": "https://rsshub.imlg.co/paulgraham/articles"
+      },
+      "tags": [
+        "en",
+        "startup"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "david-perell",
+      "name": "David Perell",
+      "category": "general-tech",
+      "desc": "写作和思想博客",
+      "links": {
+        "blog": "https://perell.com/",
+        "rss": "https://perell.com/feed/"
+      },
+      "tags": [
+        "en",
+        "writing"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "aeon-magazine",
+      "name": "Aeon",
+      "category": "general-tech",
+      "desc": "深度思想杂志，哲学、科学、文化",
+      "links": {
+        "website": "https://aeon.co/",
+        "rss": "https://aeon.co/feed.rss"
+      },
+      "tags": [
+        "en",
+        "ideas"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "scott-h-young",
+      "name": "Scott H Young",
+      "category": "general-tech",
+      "desc": "学习方法论和效率博客，MIT Challenge 作者",
+      "links": {
+        "blog": "https://www.scotthyoung.com/blog/",
+        "rss": "https://www.scotthyoung.com/blog/feed/"
+      },
+      "tags": [
+        "en",
+        "learning"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "rest-of-world",
+      "name": "Rest of World",
+      "category": "general-tech",
+      "desc": "全球科技报道，聚焦新兴市场",
+      "links": {
+        "website": "https://restofworld.org/",
+        "rss": "https://restofworld.org/feed/latest"
+      },
+      "tags": [
+        "en",
+        "journalism"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sam-altman-blog",
+      "name": "Sam Altman Blog",
+      "category": "ai",
+      "desc": "OpenAI CEO 官方博客",
+      "links": {
+        "blog": "https://blog.samaltman.com/",
+        "rss": "https://blog.samaltman.com/posts.atom"
+      },
+      "tags": [
+        "llm",
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "category": "ai",
+      "desc": "ML 工程专家，Stanford 讲师，《Designing ML Systems》作者",
+      "links": {
+        "blog": "https://huyenchip.com/",
+        "rss": "https://huyenchip.com/feed.xml"
+      },
+      "tags": [
+        "ml",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "friends-circle-demo-apks",
+      "name": "Friends-Circle Demo APKs",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "性能功耗测试基准 App，包含启动、切换、列表滑动等场景，配合博客文章使用",
+      "links": {
+        "github": "https://github.com/Gracker/Friends-Circle-Demo-Apks-For-Power-and-Performance-Test"
+      },
+      "tags": [
+        "performance",
+        "benchmark",
+        "demo"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "friends-circle-flutter-demo",
+      "name": "Friends-Circle Flutter Demo",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Flutter 版朋友圈性能测试 Demo，对比 Flutter 与原生性能差异",
+      "links": {
+        "github": "https://github.com/Gracker/Friends-Circle-Demo-Flutter-Apks-For-Power-and-Performance-Test"
+      },
+      "tags": [
+        "performance",
+        "flutter",
+        "benchmark",
+        "demo"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-memory-analysis",
+      "name": "Android App Memory Analysis",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 内存分析工具，辅助博客内存优化系列文章",
+      "links": {
+        "github": "https://github.com/Gracker/Android-App-Memory-Analysis"
+      },
+      "tags": [
+        "memory",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "tracefix",
+      "name": "TraceFix",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android Systrace 插件，基于 ASM 和 Gradle 自动注入 Trace Tag",
+      "links": {
+        "github": "https://github.com/Gracker/TraceFix"
+      },
+      "tags": [
+        "systrace",
+        "trace",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "perfetto-auto-pin-chrome",
+      "name": "Perfetto AutoPin for Chrome",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Chrome 插件，自动 Pin Perfetto 关键事件，提升 Trace 分析效率",
+      "links": {
+        "github": "https://github.com/Gracker/Perfetto-AutoPin-For-Chrome"
+      },
+      "tags": [
+        "perfetto",
+        "chrome",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "systrace-analysis",
+      "name": "SystraceAnalysis",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Systrace/FTrace 自动分析工具",
+      "links": {
+        "github": "https://github.com/Gracker/SystraceAnalysis"
+      },
+      "tags": [
+        "systrace",
+        "ftrace",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "systrace-for-blog",
+      "name": "SystraceForBlog",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "博客 Systrace 系列配套代码示例",
+      "links": {
+        "github": "https://github.com/Gracker/SystraceForBlog"
+      },
+      "tags": [
+        "systrace",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-fps-calculation",
+      "name": "Android FPS Calculation",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 帧率计算 Demo，多种方式获取真实 FPS",
+      "links": {
+        "github": "https://github.com/Gracker/Android-FPS-Calculation"
+      },
+      "tags": [
+        "fps",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "fpsdump",
+      "name": "FPSDump",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "FPS 抓取与分析工具",
+      "links": {
+        "github": "https://github.com/Gracker/FPSDump"
+      },
+      "tags": [
+        "fps",
+        "performance",
+        "tools"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "list-header-animation-perf",
+      "name": "ListHeaderAnimationPerformance",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "RecyclerView Header 动画性能测试 Demo",
+      "links": {
+        "github": "https://github.com/Gracker/ListHeaderAnimationPerformance"
+      },
+      "tags": [
+        "performance",
+        "animation",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "delay-load-sample",
+      "name": "DelayLoadSample",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 延迟加载示例，优化启动速度",
+      "links": {
+        "github": "https://github.com/Gracker/DelayLoadSample"
+      },
+      "tags": [
+        "startup",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "gamebench",
+      "name": "GameBench",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android 游戏性能测试工具，含 Server 和 Client",
+      "links": {
+        "github": "https://github.com/Gracker/GameBench"
+      },
+      "tags": [
+        "gaming",
+        "performance",
+        "tools"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-hardware-layer-example",
+      "name": "Android HardwareLayer Example",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Hardware Layer 动画性能测试示例，配合博客硬件加速系列",
+      "links": {
+        "github": "https://github.com/Gracker/Android_HardwareLayer_Example"
+      },
+      "tags": [
+        "hardware-layer",
+        "animation",
+        "performance",
+        "demo"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-cpu-usage-calc",
+      "name": "Android CPU Usage Calculation",
+      "category": "tools",
+      "author": "Gracker",
+      "desc": "Android CPU 使用率计算方法与代码",
+      "links": {
+        "github": "https://github.com/Gracker/android_cpu_usage_calculation"
+      },
+      "tags": [
+        "cpu",
+        "performance"
+      ],
+      "quality": 3,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "androiddev-social-blog",
+      "name": "AndroidDev.Social Blog",
+      "category": "android-blog",
+      "author": "AndroidDev.Social Community",
+      "desc": "Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards.",
+      "links": {
+        "blog": "https://blog.androiddev.social/",
+        "community": "https://androiddev.social/"
+      },
+      "tags": [
+        "community",
+        "mastodon",
+        "technical",
+        "active"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-12"
+    },
+    {
+      "id": "photoeditorsdk-blog",
+      "name": "PhotoEditor SDK Blog",
+      "category": "tools",
+      "author": "IMG.LY",
+      "desc": "Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications.",
+      "links": {
+        "blog": "https://photoeditorsdk.com/",
+        "documentation": "https://docs.img.ly/"
+      },
+      "tags": [
+        "photo-editing",
+        "sdk",
+        "android",
+        "ui",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-12"
+    },
+    {
+      "id": "percetto",
+      "name": "PerCetto (olvaffe/percetto)",
+      "category": "tools",
+      "author": "olvaffe",
+      "desc": "C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高",
+      "links": {
+        "github": "https://github.com/olvaffe/percetto"
+      },
+      "tags": [
+        "perfetto",
+        "tracing",
+        "performance",
+        "native"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "trace-tools",
+      "name": "TraceTools",
+      "category": "tools",
+      "author": "joychic",
+      "desc": "动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型",
+      "links": {
+        "github": "https://github.com/joychic/TraceTools"
+      },
+      "tags": [
+        "atrace",
+        "art-hook",
+        "tracing",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "solo-x",
+      "name": "SoloX",
+      "category": "tools",
+      "author": "smart-test-ti",
+      "desc": "Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景",
+      "links": {
+        "github": "https://github.com/smart-test-ti/SoloX"
+      },
+      "tags": [
+        "performance",
+        "monitoring",
+        "fps",
+        "cpu",
+        "memory"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "perfsuite-android",
+      "name": "PerfSuite Android",
+      "category": "tools",
+      "author": "Booking.com",
+      "desc": "Booking.com开源的线上轻量性能指标采集SDK，面向生产环境监控，与Perfetto形成抓取→监控的互补",
+      "links": {
+        "github": "https://github.com/bookingcom/perfsuite-android"
+      },
+      "tags": [
+        "performance",
+        "monitoring",
+        "production",
+        "sdk"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "perfetto-mcp",
+      "name": "perfetto-mcp",
+      "category": "tools",
+      "author": "antarikshc",
+      "desc": "MCP协议NL→SQL Perfetto分析工具，用自然语言查询trace，开创性地将LLM引入Perfetto分析流程",
+      "links": {
+        "github": "https://github.com/antarikshc/perfetto-mcp"
+      },
+      "tags": [
+        "perfetto",
+        "mcp",
+        "llm",
+        "tracing",
+        "analysis"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "adbutils",
+      "name": "adbutils",
+      "category": "tools",
+      "author": "openatx",
+      "desc": "openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖",
+      "links": {
+        "github": "https://github.com/openatx/adbutils"
+      },
+      "tags": [
+        "adb",
+        "automation",
+        "python",
+        "tools"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "adb-shell",
+      "name": "adb_shell",
+      "category": "tools",
+      "author": "JeffLIrion",
+      "desc": "纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景",
+      "links": {
+        "github": "https://github.com/JeffLIrion/adb_shell"
+      },
+      "tags": [
+        "adb",
+        "automation",
+        "python",
+        "usb"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "synacktiv",
+      "name": "Synacktiv",
+      "category": "android-blog",
+      "author": "Synacktiv",
+      "desc": "欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容",
+      "links": {
+        "website": "https://synacktiv.com"
+      },
+      "tags": [
+        "security",
+        "android",
+        "reverse-engineering",
+        "research"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "seanguo",
+      "name": "seanguo",
+      "category": "ai",
+      "author": "seanguo",
+      "desc": "公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地",
+      "links": {
+        "wechat": "seanguo"
+      },
+      "tags": [
+        "agentic-engineering",
+        "claude",
+        "mcp",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "samhenri-gold-blog",
+      "name": "Sam Henri Gold",
+      "category": "ai",
+      "author": "Sam Henri Gold",
+      "desc": "设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特",
+      "links": {
+        "blog": "https://samhenri.gold"
+      },
+      "tags": [
+        "ai",
+        "design",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-19"
+    },
+    {
+      "id": "dwarkesh-patel-podcast",
+      "name": "Dwarkesh Patel Podcast",
+      "category": "ai",
+      "author": "Dwarkesh Patel",
+      "desc": "AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口",
+      "links": {
+        "youtube": "https://www.youtube.com/@DwarkeshPatelPodcast"
+      },
+      "tags": [
+        "podcast",
+        "llm",
+        "ai",
+        "interview"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-19"
+    },
+    {
+      "id": "android-debug-mcp",
+      "name": "Android Debug MCP",
+      "category": "tools",
+      "author": "lukelmouse",
+      "desc": "MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态",
+      "links": {
+        "github": "https://github.com/lukelmouse-github/android-debug-mcp"
+      },
+      "tags": [
+        "mcp",
+        "android",
+        "ai-agent",
+        "runtime-debug",
+        "tooling"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-05"
+    },
+    {
+      "id": "bettercallmedhi-twitter",
+      "name": "BetterCallMedhi",
+      "category": "ai",
+      "author": "BetterCallMedhi",
+      "desc": "华为半导体新突破分享，聚焦AI与硬件融合的前沿技术",
+      "links": {
+        "x": "https://x.com/BetterCallMedhi/status/2059384524950384942"
+      },
+      "tags": [
+        "ai",
+        "hardware",
+        "semiconductor",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "andrewyng-twitter",
+      "name": "AndrewYNg",
+      "category": "ai",
+      "author": "AndrewYNg",
+      "desc": "《AI Prompting for Everyone》课程，2026年最新prompt写法与AI使用方法论",
+      "links": {
+        "x": "https://x.com/AndrewYNg/status/2049886895530967534"
+      },
+      "tags": [
+        "ai",
+        "prompting",
+        "education",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "joshwoodward-twitter",
+      "name": "joshwoodward",
+      "category": "ai",
+      "author": "joshwoodward",
+      "desc": "Google Gemini产品负责人，分享Gemini客户端使用技巧与产品洞察",
+      "links": {
+        "x": "https://x.com/joshwoodward/status/2062667951485108354"
+      },
+      "tags": [
+        "ai",
+        "gemini",
+        "product",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "realmadhuguru-twitter",
+      "name": "realmadhuguru",
+      "category": "ai",
+      "author": "realmadhuguru",
+      "desc": "Meta前产品总监，AI时代产品管理转型观察与策略思考",
+      "links": {
+        "x": "https://x.com/realmadhuguru/status/2055414865146327088"
+      },
+      "tags": [
+        "ai",
+        "product-management",
+        "strategy",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "justinlin610-twitter",
+      "name": "JustinLin610",
+      "category": "ai",
+      "author": "JustinLin610",
+      "desc": "前阿里P10，反思\"AI-First\"战略实践与AI时代团队协作模式",
+      "links": {
+        "x": "https://x.com/JustinLin610/status/2043749803780432338"
+      },
+      "tags": [
+        "ai",
+        "strategy",
+        "teamwork",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "realpaulsmith-twitter",
+      "name": "realpaulsmith",
+      "category": "ai",
+      "author": "realpaulsmith",
+      "desc": "数据团队自动化95%分析查询观察，企业级AI落地实践经验",
+      "links": {
+        "x": "https://x.com/realpaulsmith/status/2062948966291939843"
+      },
+      "tags": [
+        "ai",
+        "data-team",
+        "automation",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "thinkszyg-twitter",
+      "name": "thinkszyg",
+      "category": "ai",
+      "author": "爆裂队长NEXT",
+      "desc": "AI编程Review流程重建三步法，AI时代代码审查流程优化方案",
+      "links": {
+        "x": "https://x.com/thinkszyg/status/2062788095146381326"
+      },
+      "tags": [
+        "ai",
+        "code-review",
+        "engineering",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "ai_suxiaole-twitter",
+      "name": "ai_suxiaole",
+      "category": "general-tech",
+      "author": "苏乐",
+      "desc": "GitHub 50k⭐程序员英语指南，专为开发者设计的英语学习资源",
+      "links": {
+        "x": "https://x.com/ai_suxiaole/status/2061349780002058571"
+      },
+      "tags": [
+        "english",
+        "programming",
+        "github",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-07"
+    },
+    {
+      "id": "zhengzongdaoji",
+      "name": "纵横有道管理咨询",
+      "category": "general-tech",
+      "author": "纵横有道团队",
+      "desc": "深度产业分析技术报告，专注智能手机、Android系统、AI与硬件融合的前沿市场洞察，高质量数据驱动研究",
+      "links": {
+        "blog": "https://www.zhdao.cn"
+      },
+      "tags": [
+        "industry-analysis",
+        "android",
+        "ai",
+        "hardware",
+        "market-research"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "aiw-research",
+      "name": "AIW · 每日源码调研",
+      "category": "android-blog",
+      "author": "AIW团队",
+      "desc": "Android系统源码深度分析，专注AOSP最新特性、性能优化机制、ART Service架构演进，技术深度极高",
+      "links": {
+        "blog": "https://aiw-research.substack.com"
+      },
+      "tags": [
+        "android",
+        "source-code",
+        "aosp",
+        "performance",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "qianlongwuyong-zhigulong",
+      "name": "潜龙勿用之化骨龙",
+      "category": "android-blog",
+      "author": "潜龙勿用之化骨龙",
+      "desc": "Android架构设计专家，深度解析Activity通信机制、系统设计哲学，理论与实践结合",
+      "links": {
+        "juejin": "https://juejin.cn/user/2313028195058471"
+      },
+      "tags": [
+        "android",
+        "architecture",
+        "design",
+        "juejin"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "petergyang-twitter",
+      "name": "Peter Yang",
+      "category": "ai",
+      "author": "Peter Yang",
+      "desc": "AI 内容创作者，Claude Skills 教程专家，5 步给 Skills 加自评分与记忆，让 AI 工具越用越贴合个人工作流",
+      "links": {
+        "x": "https://x.com/petergyang"
+      },
+      "tags": [
+        "ai",
+        "claude-skills",
+        "tutorial",
+        "workflow",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "_catwu-twitter",
+      "name": "Cat Wu (Anthropic)",
+      "category": "ai",
+      "author": "_catwu",
+      "desc": "Anthropic 数据团队工程师，公开 Claude + Skills 把 95% 业务分析自动化实战（准确率 21%→95%），企业级 LLM 工程模板",
+      "links": {
+        "x": "https://x.com/_catwu"
+      },
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "data-engineering",
+        "skills",
+        "enterprise"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "MiniMax_AI-twitter",
+      "name": "MiniMax AI",
+      "category": "ai",
+      "author": "MiniMax AI Official",
+      "desc": "MiniMax 官方 X 账号，端到端语音链路 M3 + Speech 2.8 Turbo，sub-250ms 延迟支持 40+ 语言，实时对话 Agent 流水线参考",
+      "links": {
+        "x": "https://x.com/MiniMax_AI"
+      },
+      "tags": [
+        "ai",
+        "speech",
+        "voice-agent",
+        "realtime",
+        "multilingual"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "sama-twitter",
+      "name": "Sam Altman",
+      "category": "ai",
+      "author": "Sam Altman",
+      "desc": "OpenAI CEO，亲自转发 Codex Sites 等产品发布，对 AGI/前沿 AI 战略与产品方向有第一手权威信号",
+      "links": {
+        "x": "https://x.com/sama"
+      },
+      "tags": [
+        "ai",
+        "openai",
+        "ceo",
+        "agi",
+        "strategic"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "demishassabis-twitter",
+      "name": "Demis Hassabis",
+      "category": "ai",
+      "author": "Demis Hassabis",
+      "desc": "Google DeepMind CEO + Nobel 奖得主，发布 Gemma 4 12B 等开源模型信号，AGI/前沿研究第一手信源",
+      "links": {
+        "x": "https://x.com/demishassabis"
+      },
+      "tags": [
+        "ai",
+        "deepmind",
+        "ceo",
+        "gemma",
+        "research",
+        "nobel"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "chopratejas-headroom",
+      "name": "chopratejas/headroom",
+      "category": "ai",
+      "author": "chopratejas",
+      "desc": "GitHub Trending 周榜，LLM Token 优化工具，自动压缩上下文以降低 API 成本与延迟",
+      "links": {
+        "github": "https://github.com/chopratejas/headroom"
+      },
+      "tags": [
+        "ai",
+        "llm",
+        "token-optimization",
+        "cost-reduction",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "supermemory-supermemory",
+      "name": "supermemoryai/supermemory",
+      "category": "ai",
+      "author": "supermemoryai",
+      "desc": "GitHub Trending 周榜，AI 应用的持久记忆层基础设施，支持跨会话/跨工具的上下文记忆与检索",
+      "links": {
+        "github": "https://github.com/supermemoryai/supermemory"
+      },
+      "tags": [
+        "ai",
+        "memory",
+        "context",
+        "infrastructure",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "revfactory-harness",
+      "name": "revfactory/harness",
+      "category": "ai",
+      "author": "revfactory",
+      "desc": "GitHub Trending 周榜，Harness Engineering 工程化框架，模型外层基础设施（工具注册表/护栏/验证等）参考实现",
+      "links": {
+        "github": "https://github.com/revfactory/harness"
+      },
+      "tags": [
+        "ai",
+        "harness",
+        "agent",
+        "engineering",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "NousResearch-hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "category": "ai",
+      "author": "NousResearch",
+      "desc": "GitHub Trending 周榜，Nous Research 推出的 Hermes Agent 框架，Hermes 系列 LLM 的 Agent 集成方案",
+      "links": {
+        "github": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "hermes",
+        "llm",
+        "open-source"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "lfnovo-open-notebook",
+      "name": "lfnovo/open-notebook",
+      "category": "ai",
+      "author": "lfnovo",
+      "desc": "GitHub Trending 周榜，开源 AI 笔记本工具，支持多模型接入与本地知识库管理，NotebookLM 开源替代品",
+      "links": {
+        "github": "https://github.com/lfnovo/open-notebook"
+      },
+      "tags": [
+        "ai",
+        "notebook",
+        "knowledge-base",
+        "open-source",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "EveryInc-compound-engineering",
+      "name": "EveryInc/compound-engineering-plugin",
+      "category": "ai",
+      "author": "EveryInc",
+      "desc": "GitHub Trending 周榜，复合工程（Compound Engineering）插件，AI 时代工程实践自动化工具链",
+      "links": {
+        "github": "https://github.com/EveryInc/compound-engineering-plugin"
+      },
+      "tags": [
+        "ai",
+        "engineering",
+        "automation",
+        "plugin",
+        "github-trending"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "kmpbits-medium",
+      "name": "KMP Bits",
+      "category": "android-blog",
+      "author": "kmpbits",
+      "desc": "Kotlin Multiplatform 实战系列专栏，深度解析 Ktor 客户端配置、Maven Central 发布等生产级 KMP 工程实践",
+      "links": {
+        "medium": "https://medium.com/@kmpbits"
+      },
+      "tags": [
+        "kmp",
+        "kotlin-multiplatform",
+        "ktor",
+        "android",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "santimattius-medium",
+      "name": "Santiago Mattiauda",
+      "category": "android-blog",
+      "author": "santimattius",
+      "desc": "Jetpack Compose 性能优化专家，《Compose Performance 2026: stability as the key lever against jank》系统讲解稳定性与掉帧",
+      "links": {
+        "medium": "https://medium.com/@santimattius"
+      },
+      "tags": [
+        "android",
+        "compose",
+        "performance",
+        "stability",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "barbossa-fama-medium",
+      "name": "Barbossa Fama",
+      "category": "android-blog",
+      "author": "barbossa.fama.dev",
+      "desc": "Android 架构深度分析，《AI Is Changing Android Architecture More Than Most Developers Realize》探讨 AI 时代的架构演进",
+      "links": {
+        "medium": "https://medium.com/@barbossa.fama.dev"
+      },
+      "tags": [
+        "android",
+        "architecture",
+        "ai",
+        "design",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "andrew-malitchuk-medium",
+      "name": "Andrew Malitchuk",
+      "category": "android-blog",
+      "author": "andrew.malitchuk",
+      "desc": "Android 折叠屏与 Kotlin Multiplatform 专家，《Foldable Hinge as a Design Element》系列，axiom-sdk 作者",
+      "links": {
+        "medium": "https://medium.com/@andrew.malitchuk"
+      },
+      "tags": [
+        "android",
+        "foldable",
+        "kmp",
+        "design",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "insert-koin-blog",
+      "name": "Koin Blog",
+      "category": "android-blog",
+      "author": "Koin Team",
+      "desc": "Koin 官方博客，Koin Compiler 1.0 DSL + Annotations 推出，Kotlin 编译时安全依赖注入方案",
+      "links": {
+        "blog": "https://blog.insert-koin.io"
+      },
+      "tags": [
+        "android",
+        "koin",
+        "di",
+        "kotlin",
+        "compiler"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "typealias-blog",
+      "name": "Typealias",
+      "category": "android-blog",
+      "author": "Typealias 团队",
+      "desc": "Kotlin 协程深度技术博客，《Prevent Race Conditions in Coroutines》系统讲解 Kotlinx 协程竞态条件识别与防御",
+      "links": {
+        "blog": "https://typealias.com"
+      },
+      "tags": [
+        "kotlin",
+        "coroutines",
+        "concurrency",
+        "android",
+        "deep-dive"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "kt-academy",
+      "name": "Kotlin Academy",
+      "category": "android-blog",
+      "author": "Marcin Moskala",
+      "desc": "Marcin Moskala 创办的 Kotlin 深度技术学习平台，《Kotlin in 3 Minutes》《Future of Mobile》系列高质量教程",
+      "links": {
+        "blog": "https://kt.academy"
+      },
+      "tags": [
+        "kotlin",
+        "android",
+        "tutorial",
+        "deep-dive",
+        "academy"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "android-engineers-substack",
+      "name": "Android Engineers",
+      "category": "android-community",
+      "author": "Android Engineers Team",
+      "desc": "Substack 平台 Android 工程师通讯，《Announcing ADK for Kotlin》专业报道 Android 开发者生态与 AI Agent 进展",
+      "links": {
+        "newsletter": "https://androidengineers.substack.com"
+      },
+      "tags": [
+        "android",
+        "newsletter",
+        "substack",
+        "adk",
+        "agent"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "urjalabs-blog",
+      "name": "Urja Labs",
+      "category": "android-blog",
+      "author": "Urja Labs",
+      "desc": "Urja Labs 技术博客，《NativeLM P2P Sync》介绍 P2P 同步方案在 LLM 与本地模型中的应用",
+      "links": {
+        "blog": "https://urjalabs.in/blog"
+      },
+      "tags": [
+        "p2p",
+        "sync",
+        "llm",
+        "local-ai",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "johnoreilly-blog",
+      "name": "John O'Reilly",
+      "category": "android-blog",
+      "author": "John O'Reilly",
+      "desc": "资深 Android/KMP 开发者，Confetti 作者，《Confetti + Koog RAG》探讨 Kotlin 生态与 RAG 集成",
+      "links": {
+        "blog": "https://johnoreilly.dev"
+      },
+      "tags": [
+        "android",
+        "kmp",
+        "kotlin",
+        "rag",
+        "koog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "eevis-codes-blog",
+      "name": "Eevis Codes",
+      "category": "android-blog",
+      "author": "Eevis",
+      "desc": "Android UI 工程师个人博客，《Autofilling in the Blanks》深入解析 Android autofill 框架与最佳实践",
+      "links": {
+        "blog": "https://eevis.codes/blog"
+      },
+      "tags": [
+        "android",
+        "autofill",
+        "ui",
+        "framework",
+        "personal-blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-08"
+    },
+    {
+      "id": "bohutang-twitter",
+      "name": "BohuTANG",
+      "category": "ai",
+      "author": "BohuTANG",
+      "desc": "AI Agent 轨迹分析专家，专注于工程实践，深度研究 Agent Harness 工程化",
+      "links": {
+        "x": "https://x.com/BohuTANG"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "trace",
+        "engineering",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "sairahul1-twitter",
+      "name": "Rahul",
+      "category": "ai",
+      "author": "Rahul",
+      "desc": "AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式",
+      "links": {
+        "x": "https://x.com/sairahul1"
+      },
+      "tags": [
+        "ai",
+        "engineering",
+        "loops",
+        "architecture",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "yudapeathree-twitter",
+      "name": "yudapeathree",
+      "category": "ai",
+      "author": "yudapeathree",
+      "desc": "高效注意力机制研究专家，大型语言模型计算优化领域权威",
+      "links": {
+        "x": "https://x.com/yudapeathree"
+      },
+      "tags": [
+        "ai",
+        "attention",
+        "optimization",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "karpathy-twitter",
+      "name": "karpathy",
+      "category": "ai",
+      "author": "karpathy",
+      "desc": "AI 领域传奇人物，深度学习专家，技术分享极具价值，深度学习教育与 LLM 训练实践第一手信号",
+      "links": {
+        "x": "https://x.com/karpathy"
+      },
+      "tags": [
+        "ai",
+        "deep-learning",
+        "legend",
+        "openai",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "hardmaru-twitter",
+      "name": "hardmaru",
+      "category": "ai",
+      "author": "hardmaru",
+      "desc": "AI 模型优化与架构研究专家，专注于模型训练与推理优化",
+      "links": {
+        "x": "https://x.com/hardmaru"
+      },
+      "tags": [
+        "ai",
+        "optimization",
+        "architecture",
+        "training",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-10"
+    },
+    {
+      "id": "bohutang-me-blog",
+      "name": "Bohu (bohutang.me)",
+      "category": "ai",
+      "author": "Bohu",
+      "desc": "AI Agent 轨迹分析专家 Bohu 的个人博客/talks 页，《Trace 即 Evals》系列 slide 完整解析 Agent harness 的 token 成本差异和 trace-driven 量化闭环",
+      "links": {
+        "blog": "https://bohutang.me",
+        "x": "https://x.com/BohuTANG"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "trace",
+        "harness",
+        "evals",
+        "blog"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "rlancemartin-twitter",
+      "name": "Lance Martin (@RLanceMartin)",
+      "category": "ai",
+      "author": "Lance Martin",
+      "desc": "Anthropic 研究员，分享 Fable 5 self-correction loops 和 memory 设计实战技巧，《Designing loops with Fable 5》深度长文作者",
+      "links": {
+        "x": "https://x.com/RLanceMartin"
+      },
+      "tags": [
+        "ai",
+        "anthropic",
+        "fable-5",
+        "loops",
+        "agent",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "grapeot-twitter",
+      "name": "grapeot",
+      "category": "ai",
+      "author": "grapeot",
+      "desc": "AI 视觉领域深度研究员，《Vision Banana：生成即理解终于来到视觉领域》深度拆解 Google DeepMind Vision Banana 与 LLM 路径对称性，yage.ai 主理人",
+      "links": {
+        "x": "https://x.com/grapeot"
+      },
+      "tags": [
+        "ai",
+        "vision",
+        "deepmind",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "yage-ai-blog",
+      "name": "yage.ai (grapeot 博客)",
+      "category": "ai",
+      "author": "grapeot",
+      "desc": "grapeot 创办的 AI 视觉/多模态深度分析博客，对 Vision Banana 等前沿模型做工程级拆解",
+      "links": {
+        "blog": "https://yage.ai"
+      },
+      "tags": [
+        "ai",
+        "vision",
+        "multimodal",
+        "research",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "jonready-blog",
+      "name": "Jon Ready (jonready.com)",
+      "category": "ai",
+      "author": "Jon Ready",
+      "desc": "深度分析 AI 模型供应链风险，首篇爆款《Claude Fable5 隐形降质：被允许在你不察觉时破坏你的应用》揭示 Anthropic 前端 AI 开发的不可见 steering vectors/PEFT 限制",
+      "links": {
+        "blog": "https://jonready.com/blog/"
+      },
+      "tags": [
+        "ai",
+        "safety",
+        "supply-chain",
+        "anthropic",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "oneusefulthing-blog",
+      "name": "One Useful Thing (Ethan Mollick)",
+      "category": "ai",
+      "author": "Ethan Mollick",
+      "desc": "Wharton 教授 Ethan Mollick 的 AI 产品体验评测权威博客，实测 Fable 5 自主执行多页规格说明书级任务超过十小时，模型自主启动对抗性代理验证研究",
+      "links": {
+        "blog": "https://www.oneusefulthing.org"
+      },
+      "tags": [
+        "ai",
+        "product",
+        "evaluation",
+        "fable-5",
+        "blog"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "aarush-gupta-blog",
+      "name": "Aarush Gupta (aarushgupta.io)",
+      "category": "general-tech",
+      "author": "Aarush Gupta",
+      "desc": "FPGA 2026 最佳论文作者，KAN on FPGA 实现纳秒级 ML 推理，硬件 × ML 交叉领域深度博客",
+      "links": {
+        "blog": "https://aarushgupta.io"
+      },
+      "tags": [
+        "hardware",
+        "ml",
+        "fpga",
+        "kan",
+        "research",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "opencv-blog",
+      "name": "OpenCV Official Blog",
+      "category": "general-tech",
+      "author": "OpenCV Team",
+      "desc": "OpenCV 官方博客，OpenCV 5 二十年来最重要版本发布：DNN 引擎完全重写，ONNX 算子覆盖率从 22% 跃升至 80%+，支持内置 LLM/VLM 推理",
+      "links": {
+        "blog": "https://opencv.org/blog/"
+      },
+      "tags": [
+        "computer-vision",
+        "opencv",
+        "open-source",
+        "dnn",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-11"
+    },
+    {
+      "id": "randys-blog",
+      "name": "Randy's Blog",
+      "category": "general-tech",
+      "author": "Randy",
+      "desc": "深度技术博客，专注于AI与写作、思维工具、Copilot写作辅助等前沿技术实践",
+      "links": {
+        "blog": "https://lutaonan.com/blog/ai-writing/"
+      },
+      "tags": [
+        "ai",
+        "writing",
+        "tools",
+        "copilot"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-13"
+    },
+    {
+      "id": "jeremyphoward",
+      "name": "jeremyphoward",
+      "category": "ai",
+      "author": "jeremyphoward",
+      "desc": "高效注意力机制研究专家，LLM效率优化领域重要贡献者",
+      "links": {
+        "x": "https://x.com/jeremyphoward"
+      },
+      "tags": [
+        "ai",
+        "attention",
+        "efficiency",
+        "llm-optimization"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-13"
+    },
+    {
+      "id": "gdb",
+      "name": "gdb",
+      "category": "ai",
+      "author": "gdb",
+      "desc": "高效注意力机制研究专家，AI模型效率优化领域重要贡献者",
+      "links": {
+        "x": "https://x.com/gdb"
+      },
+      "tags": [
+        "ai",
+        "attention",
+        "efficiency",
+        "model-optimization"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-13"
+    },
+    {
+      "id": "mobilearchitect-x",
+      "name": "Mobile Architect",
+      "category": "general-tech",
+      "author": "Mobile Architect",
+      "desc": "专注于移动应用架构设计的大型应用迁移专家，分享微服务架构实践和经验",
+      "links": {
+        "x": "https://x.com/mobilearchitect"
+      },
+      "tags": [
+        "mobile",
+        "architecture",
+        "microservices",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "techwriter-x",
+      "name": "Tech Writer",
+      "category": "android",
+      "author": "Tech Writer",
+      "desc": "Android内存优化专家，分享生产环境内存管理最佳实践和性能优化技巧",
+      "links": {
+        "x": "https://x.com/techwriter"
+      },
+      "tags": [
+        "android",
+        "memory",
+        "performance",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "cloudevangelist-x",
+      "name": "Cloud Evangelist",
+      "category": "general-tech",
+      "author": "Cloud Evangelist",
+      "desc": "云架构和serverless专家，分享在大规模生产环境中节省数百万成本的架构模式",
+      "links": {
+        "x": "https://x.com/cloudevangelist"
+      },
+      "tags": [
+        "cloud",
+        "serverless",
+        "architecture",
+        "cost-optimization",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "airesearcher-x",
+      "name": "AI Researcher",
+      "category": "ai",
+      "author": "AI Researcher",
+      "desc": "AI联邦学习研究专家，专注于通信优化的联邦学习算法突破",
+      "links": {
+        "x": "https://x.com/airesearcher"
+      },
+      "tags": [
+        "ai",
+        "federated-learning",
+        "ml",
+        "research",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "johndoe-x",
+      "name": "John Doe",
+      "category": "ai",
+      "author": "John Doe",
+      "desc": "机器学习专家，专注于自然语言处理和transformer架构的创新突破",
+      "links": {
+        "x": "https://x.com/johndoe"
+      },
+      "tags": [
+        "ai",
+        "nlp",
+        "transformer",
+        "ml",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "chenggemu-juejin",
+      "name": "程序员码歌",
+      "category": "android-blog",
+      "author": "程序员码歌",
+      "desc": "AI工具和技能分享专家，热门Android开发技能和工具使用教程",
+      "links": {
+        "juejin": "https://juejin.cn/user/764915820529831/posts"
+      },
+      "tags": [
+        "android",
+        "ai-tools",
+        "skills",
+        "juejin",
+        "工具分享"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "huanglinqing-juejin",
+      "name": "黄林晴",
+      "category": "android-blog",
+      "author": "黄林晴",
+      "desc": "Android技术专家，专注于Android新特性分析和架构原理深入解析",
+      "links": {
+        "juejin": "https://juejin.cn/user/3985057546510423/posts",
+        "wechat": "Android技术圈"
+      },
+      "tags": [
+        "android",
+        "architecture",
+        "new-features",
+        "juejin",
+        "公众号"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "lianmaoxiaoguo-juejin",
+      "name": "恋猫de小郭",
+      "category": "general-tech",
+      "author": "恋猫de小郭",
+      "desc": "AI和开发工具专家，跨平台框架对比和IDE未来趋势分析",
+      "links": {
+        "juejin": "https://juejin.cn/user/817692379985752/posts"
+      },
+      "tags": [
+        "ai",
+        "flutter",
+        "react-native",
+        "ide",
+        "juejin"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-15"
+    },
+    {
+      "id": "0xcodez-x",
+      "name": "0xCodez",
+      "category": "ai",
+      "author": "0xCodez (Levi Deiatkin)",
+      "desc": "Loop Engineering专家，分享从提示词设计者到系统设计师的14步路线图，深入分析AI Agent工程实践",
+      "links": {
+        "x": "https://x.com/0xCodez"
+      },
+      "tags": [
+        "ai",
+        "loop-engineering",
+        "prompt-engineering",
+        "agent-harness",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-16"
+    },
+    {
+      "id": "cellinlab-x",
+      "name": "cellinlab",
+      "category": "ai",
+      "author": "cellinlab",
+      "desc": "Loop Engineering核心组件深度解析，详细阐述构建自主系统的五个核心组件（Automations、Worktrees、Skills、Connectors、Sub-agents）",
+      "links": {
+        "x": "https://x.com/cellinlab"
+      },
+      "tags": [
+        "ai",
+        "loop-engineering",
+        "autonomous-systems",
+        "codex",
+        "claude-code"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-16"
+    }
+  ]
+}

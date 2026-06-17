@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,60 @@
     }
   ],
   "entries": [
+    {
+      "id": "amto-xamto_ai-twitter",
+      "name": "Amto",
+      "category": "ai",
+      "author": "XAMTO_AI",
+      "desc": "分享MoneyPrinterTurbo等AI短视频生成工具，GitHub项目9.4k star，全自动AI一条龙视频制作",
+      "links": {
+        "x": "https://x.com/xamto_ai"
+      },
+      "tags": [
+        "ai",
+        "video-generation",
+        "automation",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-17"
+    },
+    {
+      "id": "geeklite-qingq77-twitter",
+      "name": "Geek Lite",
+      "category": "ai",
+      "author": "QingQ77",
+      "desc": "Claude Code实战命令专家，精选分享/loop、/goal、/schedule等最佳实践命令，可直接复制使用",
+      "links": {
+        "x": "https://x.com/QingQ77"
+      },
+      "tags": [
+        "ai",
+        "claude-code",
+        "productivity",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-17"
+    },
+    {
+      "id": "kevinma_dev_zh-twitter",
+      "name": "Kevin Ma",
+      "category": "general-tech",
+      "author": "kevinma_dev_zh",
+      "desc": "开发者英语学习专家，分享颠覆传统英语学习方法的高能干货内容",
+      "links": {
+        "x": "https://x.com/kevinma_dev_zh"
+      },
+      "tags": [
+        "english",
+        "learning",
+        "developer",
+        "x"
+      ],
+      "quality": 3,
+      "added_date": "2026-06-17"
+    },
     {
       "id": "perfetto-data-explorer-wechat",
       "name": "Perfetto数据探索",

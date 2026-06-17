@@ -1,15 +1,19 @@
 {
   "candidates": [],
-  "last_updated": "2026-06-16",
-  "discovered_count": 27,
-  "processed_count": 30,
-  "processed_date": "2026-06-16",
-  "new_discovered_count": 0,
+  "scan_sources": [
+    "obsidian-mining:Cubox/Amto (@XAMTO_AI) on X-2026-06-17.md",
+    "obsidian-mining:Cubox/Agentic coding and persistent returns to expertise - Anthropic-2026-06-17.md",
+    "obsidian-mining:X 文章/2026-06-17-1238-Cander_zhu-httpstcojPMNdZrx0O.md",
+    "obsidian-mining:X 文章/2026-06-17-1238-QingQ77-一份精选列表收录-TwitterX-上.md",
+    "obsidian-mining:X 文章/2026-06-17-1238-kevinma_dev_zh-高能干货这个视频将会颠覆你对英语学习的认.md",
+    "obsidian-mining:X 文章/2026-06-17-1238-kevinma_dev_zh-httpstcoaV0bA7Upse.md",
+    "obsidian-mining:Twitter/AI影响力日报/2026-06-16.md"
+  ],
   "scan_sources": [
     "obsidian-mining:X 文章/2026-06-16-1247-0xCodez-LoopEngineering从提示词设.md",
     "obsidian-mining:X 文章/2026-06-16-1247-BohuTANG-Trace即EvalsAgent迭代的量.md",
     "obsidian-mining:X 文章/2026-06-16-1247-cellinlab-LoopEngineering构建自主系.md",
     "obsidian-mining:X 文章/2026-06-16-1247-sairahul1-LoopEngineering从Prom.md"
   ],
-  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已处理4个新候选：4个X技术账户，均围绕Loop Engineering和Agent开发实践主题"
+  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已处理3个新候选：3个X技术账户，自动收录完成"
 }

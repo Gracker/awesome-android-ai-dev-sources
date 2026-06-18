@@ -3904,6 +3904,26 @@
       ],
       "quality": 4,
       "added_date": "2026-06-18"
+    },
+    {
+      "id": "harmony-next-skills",
+      "name": "harmony-next.skills",
+      "category": "tools",
+      "author": "linhay",
+      "desc": "面向 AI 编程助手的 HarmonyOS NEXT 开发者技能包，提供本地 ArkTS/ArkUI/API 参考、DevEco/Emulator/HDC 自动化、UI/UX 审计和 smoke test 模板",
+      "links": {
+        "github": "https://github.com/linhay/harmony-next.skills"
+      },
+      "tags": [
+        "harmonyos",
+        "arkts",
+        "arkui",
+        "ai-agent",
+        "deveco",
+        "tools"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-18"
     }
   ]
 }

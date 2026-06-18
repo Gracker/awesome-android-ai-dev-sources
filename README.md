@@ -263,10 +263,11 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 28 个源
+*性能分析、调试、开发效率工具* · 29 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **harmony-next.skills** [🐙](https://github.com/linhay/harmony-next.skills) | 面向 AI 编程助手的 HarmonyOS NEXT 开发者技能包，提供本地 ArkTS/ArkUI/API 参考、DevEco/Emulator/HDC 自动化、UI/UX 审计和 smoke test 模板 |
 | **LeakCanary** [🔗](https://square.github.io/leakcanary/) [🐙](https://github.com/square/leakcanary) | Android 内存泄漏检测神器，开发阶段自动发现内存问题 |
 | **Android Studio Profiler** [🔗](https://developer.android.com/studio/profile) | 集成在 Android Studio 中的 CPU/内存/网络性能分析器 |
 | **Android Debug Bridge (ADB)** [🔗](https://developer.android.com/tools/adb) | Android 调试核心工具，设备通信、应用安装、日志抓取 |

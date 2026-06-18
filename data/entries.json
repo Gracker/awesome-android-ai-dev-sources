@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "categories": [
     {
       "id": "android-official",
@@ -3884,6 +3884,26 @@
       ],
       "quality": 5,
       "added_date": "2026-06-16"
+    },
+    {
+      "id": "zuogl448-twitter",
+      "name": "zuogl448",
+      "category": "general-tech",
+      "author": "zuogl448",
+      "desc": "多平台发布工具专家，Chrome插件开发者，分享自动化文章发布和跨平台内容处理技术",
+      "links": {
+        "x": "https://x.com/zuogl448",
+        "github": "https://github.com/zuogl/Markdown-Paste-Helper"
+      },
+      "tags": [
+        "automation",
+        "publishing",
+        "chrome-extension",
+        "multi-platform",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-18"
     }
   ]
 }

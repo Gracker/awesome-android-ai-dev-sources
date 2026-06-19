@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-18",
+  "updated": "2026-06-19",
   "categories": [
     {
       "id": "android-official",
@@ -3904,6 +3904,234 @@
       ],
       "quality": 4,
       "added_date": "2026-06-18"
+    },
+    {
+      "id": "geekbb-twitter",
+      "name": "geekbb",
+      "category": "general-tech",
+      "author": "geekbb",
+      "desc": "Cloudflare客户端开发者，Swift/SwiftUI实现OAuth登录，域名和DNS管理工具专家",
+      "links": {
+        "x": "https://x.com/geekbb"
+      },
+      "tags": [
+        "cloudflare",
+        "swift",
+        "oauth",
+        "dns",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "yudapeathree-twitter",
+      "name": "yudapeathree",
+      "category": "ai",
+      "author": "yudapeathree",
+      "desc": "大型语言模型高效注意力机制研究者，专注于LLM性能优化",
+      "links": {
+        "x": "https://x.com/yudapeathree"
+      },
+      "tags": [
+        "ai",
+        "llm",
+        "attention",
+        "optimization",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "karpathy-twitter",
+      "name": "karpathy",
+      "category": "ai",
+      "author": "karpathy",
+      "desc": "知名AI研究员，分享LLM效率优化和计算改进研究",
+      "links": {
+        "x": "https://x.com/karpathy"
+      },
+      "tags": [
+        "ai",
+        "llm",
+        "efficiency",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "hardmaru-twitter",
+      "name": "hardmaru",
+      "category": "ai",
+      "author": "hardmaru",
+      "desc": "AI性能优化专家，提供深度学习模型效率改进的完整解决方案",
+      "links": {
+        "x": "https://x.com/hardmaru"
+      },
+      "tags": [
+        "ai",
+        "deep-learning",
+        "performance",
+        "optimization",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "fchollet-twitter",
+      "name": "fchollet",
+      "category": "ai",
+      "author": "fchollet",
+      "desc": "Keras框架作者，深度学习优化研究者",
+      "links": {
+        "x": "https://x.com/fchollet"
+      },
+      "tags": [
+        "ai",
+        "keras",
+        "deep-learning",
+        "research",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "jeremyphoward-twitter",
+      "name": "jeremyphoward",
+      "category": "ai",
+      "author": "jeremyphoward",
+      "desc": "FastAI创始人，专注于LLM推理速度优化，提供实用代码实现",
+      "links": {
+        "x": "https://x.com/jeremyphoward"
+      },
+      "tags": [
+        "ai",
+        "fastai",
+        "llm",
+        "inference",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "gdb-twitter",
+      "name": "gdb",
+      "category": "ai",
+      "author": "gdb",
+      "desc": "AI效率改进研究者，提供从理论到实践的AI优化方案",
+      "links": {
+        "x": "https://x.com/gdb"
+      },
+      "tags": [
+        "ai",
+        "optimization",
+        "practical",
+        "theory",
+        "x"
+      ],
+      "quality": 3,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "AndrewYNg-twitter",
+      "name": "AndrewYNg",
+      "category": "ai",
+      "author": "AndrewYNg",
+      "desc": "AI教育者，提供系统化的LLM优化方法和实践指导",
+      "links": {
+        "x": "https://x.com/AndrewYNg"
+      },
+      "tags": [
+        "ai",
+        "education",
+        "llm",
+        "optimization",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "ylecun-twitter",
+      "name": "ylecun",
+      "category": "ai",
+      "author": "ylecun",
+      "desc": "深度学习先驱，专注于计算效率优化和大规模模型应用",
+      "links": {
+        "x": "https://x.com/ylecun"
+      },
+      "tags": [
+        "ai",
+        "deep-learning",
+        "efficiency",
+        "scaling",
+        "x"
+      ],
+      "quality": 5,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "qianlongwuyong-zhihualong-juejin",
+      "name": "潜龙勿用之化骨龙",
+      "category": "android-blog",
+      "author": "潜龙勿用之化骨龙",
+      "desc": "Android开发专家，深入分析Android架构和通信机制",
+      "links": {
+        "juejin": "https://juejin.cn/user/3241239917486351"
+      },
+      "tags": [
+        "android",
+        "framework",
+        "architecture",
+        "analysis",
+        "juejin"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "lu-yecong-juejin",
+      "name": "陆业聪",
+      "category": "android-blog",
+      "author": "陆业聪",
+      "desc": "Android技术专家，专注于Android开发趋势分析和最佳实践",
+      "links": {
+        "juejin": "https://juejin.cn/user/3275475332333531"
+      },
+      "tags": [
+        "android",
+        "trends",
+        "best-practices",
+        "analysis",
+        "juejin"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
+    },
+    {
+      "id": "thoughtworks-performance-engineering",
+      "name": "ThoughtWorks性能工程团队",
+      "category": "general-tech",
+      "author": "ThoughtWorks",
+      "desc": "企业级性能工程成熟度模型，覆盖从架构设计到持续运营全流程",
+      "links": {
+        "blog": "https://www.thoughtworks.com/zh-cn/insights/blog/platforms/performance-engineering-maturity-model"
+      },
+      "tags": [
+        "performance",
+        "engineering",
+        "maturity-model",
+        "architecture",
+        "best-practices"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-19"
     }
   ]
 }

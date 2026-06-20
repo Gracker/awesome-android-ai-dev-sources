@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "categories": [
     {
       "id": "android-official",
@@ -4132,6 +4132,24 @@
       ],
       "quality": 4,
       "added_date": "2026-06-19"
+    },
+    {
+      "id": "kevinsxu-twitter",
+      "name": "kevinsxu",
+      "category": "ai",
+      "author": "kevinsxu",
+      "desc": "开源AI的必要性与重要性分析，反对禁止开源AI的观点",
+      "links": {
+        "x": "https://x.com/kevinsxu"
+      },
+      "tags": [
+        "ai",
+        "open-source",
+        "advocacy",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-20"
     }
   ]
 }

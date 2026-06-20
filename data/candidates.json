@@ -11,6 +11,7 @@
     "obsidian-mining:source/juejin-android/2026-06-19-75899034-聊聊2026年Android开发会是什么.md"
   ],
   "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已发现13个新候选，覆盖AI研究、Android开发和性能工程领域，自动收录完成",
-  "processed_count": 14,
-  "processed_date": "2026-06-19"
+  "processed_count": 21,
+  "processed_date": "2026-06-20",
+  "new_candidates": []
 }

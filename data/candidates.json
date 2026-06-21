@@ -1,17 +1,15 @@
 {
   "candidates": [],
   "scan_sources": [
-    "obsidian-mining:X 文章/2026-06-18-1234-zuogl448-我受够了写一篇文章粘贴11遍所以写了个插件自动搞定现在3分钟发布10+平台.md",
-    "obsidian-mining:X 文章/2026-06-19-1239-geekbb-关于Geek分享的技术观点.md",
-    "obsidian-mining:X 文章/2026-06-19-1239-kevinma_dev_zh-关于Kevin Ma分享的技术观点.md",
-    "obsidian-mining:X 文章/2026-06-19-1239-zuogl448-关于左同学分享的技术观点.md",
-    "obsidian-mining:Twitter/AI影响力日报/2026-06-18.md",
-    "obsidian-mining:Cubox/性能工程成熟度模型-2026-06-18.md",
-    "obsidian-mining:source/juejin-android/2026-06-19-76388970-为什么Android不用接口做A.md",
-    "obsidian-mining:source/juejin-android/2026-06-19-75899034-聊聊2026年Android开发会是什么.md"
+    "obsidian-mining:X 文章/2026-06-21-1235-sairahul1-Loops.md",
+    "obsidian-mining:X 文章/2026-06-21-1235-BohuTANG-Trace-Evals.md",
+    "obsidian-mining:Cubox/谷歌 AI 近期连续离职两位关键人物，纷纷加入对手公司-2026-06-20.md",
+    "obsidian-mining:Twitter/AI影响力日报/2026-06-20.md",
+    "obsidian-mining:DeepResearch/2026-06-21-memory-tracking-api-gap.md",
+    "obsidian-mining:DeepResearch/2026-06-21-surfaceflinger-vsync-scheduler-android17.md"
   ],
-  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已发现13个新候选，覆盖AI研究、Android开发和性能工程领域，自动收录完成",
-  "processed_count": 21,
-  "processed_date": "2026-06-20",
-  "new_candidates": []
+  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已发现2个新高质量 X 账号候选，专注AI工程和优化领域，自动收录完成",
+  "processed_count": 6,
+  "processed_date": "2026-06-21",
+  "new_candidates": 0
 }

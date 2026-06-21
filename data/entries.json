@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,24 @@
     }
   ],
   "entries": [
+    {
+      "id": "sairahul1-twitter",
+      "name": "sairahul1",
+      "category": "ai",
+      "author": "sairahul1",
+      "desc": "Loop架构专家，2026年AI工程核心模式研究者，分享AI工程最佳实践",
+      "links": {
+        "x": "https://x.com/sairahul1"
+      },
+      "tags": [
+        "ai",
+        "loop-architecture",
+        "engineering-patterns",
+        "x"
+      ],
+      "quality": 4,
+      "added_date": "2026-06-21"
+    },
     {
       "id": "amto-xamto_ai-twitter",
       "name": "Amto",

@@ -312,5 +312,6 @@
 ## 自动化说明
 
 - Dev-Radar 每日发现任务写入 `data/candidates.json`。
-- Dev-Radar 自动收录任务运行 `python3 process_candidates.py`，统一处理去重、收录、README 更新和统计输出。
+- Dev-Radar 自动收录任务运行 `python3 process_candidates.py`，统一处理去重、收录、README eligibility、README 更新和统计输出。
+- README 只接收长期信息源：稳定主页/profile/repo/feed、已知分类、源级描述、quality≥4；单篇文章、单条 tweet、新闻事件和临时链接不会更新 README。
 - `data/entries.json` 是源列表的结构化事实来源。

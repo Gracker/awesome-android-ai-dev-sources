@@ -52,6 +52,20 @@ CATEGORY_ALIASES = {
     "android": "android-blog",
 }
 
+README_MIN_QUALITY = 4
+README_DURABLE_LINK_KEYS = set(LINK_PRIORITY) | {"podcast"}
+README_TRANSIENT_TAGS = {
+    "article",
+    "news",
+    "post",
+    "single-article",
+    "single-post",
+    "single-tweet",
+    "tweet",
+}
+README_TRUE_VALUES = {"1", "true", "yes", "y", "on", "accept", "accepted", "收录", "是"}
+README_FALSE_VALUES = {"0", "false", "no", "n", "off", "reject", "rejected", "跳过", "否"}
+
 
 def today() -> str:
     return datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
@@ -102,6 +116,38 @@ def normalize_url(value: Any) -> str:
     return urlunparse((scheme, netloc, path, "", "", ""))
 
 
+def bool_value(value: Any) -> bool | None:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    normalized = norm_text(value)
+    if normalized in README_TRUE_VALUES:
+        return True
+    if normalized in README_FALSE_VALUES:
+        return False
+    return None
+
+
+def readme_override(source: dict[str, Any]) -> bool | None:
+    readme = source.get("readme")
+    if isinstance(readme, dict) and "eligible" in readme:
+        parsed = bool_value(readme.get("eligible"))
+        if parsed is not None:
+            return parsed
+    elif readme is not None:
+        parsed = bool_value(readme)
+        if parsed is not None:
+            return parsed
+
+    for key in ("readme_eligible", "update_readme", "readme_update"):
+        if key in source:
+            parsed = bool_value(source.get(key))
+            if parsed is not None:
+                return parsed
+    return None
+
+
 def link_values(source: dict[str, Any]) -> dict[str, str]:
     links = source.get("links") or {}
     if not isinstance(links, dict):
@@ -111,6 +157,49 @@ def link_values(source: dict[str, Any]) -> dict[str, str]:
 
 def normalized_links(source: dict[str, Any]) -> set[str]:
     return {normalize_url(v) for v in link_values(source).values() if normalize_url(v)}
+
+
+def transient_link(key: str, value: str) -> bool:
+    normalized = normalize_url(value)
+    parsed = urlparse(normalized)
+    host = parsed.netloc.lower()
+    parts = [part for part in parsed.path.split("/") if part]
+
+    if not host:
+        return False
+    if host == "x.com":
+        return len(parts) >= 3 and parts[1] in {"status", "statuses"}
+    if host == "github.com":
+        return len(parts) >= 3 and parts[2] in {"blob", "commit", "commits", "discussions", "issues", "pull", "releases", "tree"}
+    if host == "juejin.cn":
+        return bool(parts) and parts[0] in {"book", "pin", "post", "video"}
+    if host == "zhihu.com":
+        return bool(parts) and parts[0] in {"answer", "pin", "question", "zvideo"}
+    if host in {"youtube.com", "m.youtube.com", "www.youtube.com", "youtu.be"}:
+        return host == "youtu.be" or (bool(parts) and parts[0] in {"clip", "shorts", "watch"})
+    if host == "medium.com":
+        return len(parts) > 1
+    if host == "mp.weixin.qq.com":
+        return bool(parts) and parts[0] in {"s", "mp"}
+    if host.endswith(".substack.com"):
+        return bool(parts) and parts[0] in {"p", "i"}
+    if key in {"blog", "newsletter", "url", "website"}:
+        if len(parts) >= 2 and parts[0] in {"article", "articles", "blog", "news", "post", "posts"}:
+            return True
+        if len(parts) >= 3 and re.fullmatch(r"20\d{2}", parts[0]) and re.fullmatch(r"\d{1,2}", parts[1]):
+            return True
+    if key in {"x", "twitter"}:
+        return len(parts) >= 3 and parts[1] in {"status", "statuses"}
+    return False
+
+
+def stable_readme_link(source: dict[str, Any]) -> bool:
+    for key, value in link_values(source).items():
+        if key not in README_DURABLE_LINK_KEYS:
+            continue
+        if normalize_url(value) and not transient_link(key, value):
+            return True
+    return False
 
 
 def primary_url(source: dict[str, Any]) -> str:
@@ -196,7 +285,36 @@ def candidate_decision(candidate: dict[str, Any]) -> tuple[bool, str]:
     return False, "quality=3未显式收录"
 
 
-def entry_from_candidate(candidate: dict[str, Any], added_date: str) -> dict[str, Any]:
+def readme_update_decision(source: dict[str, Any], category_ids: set[str]) -> tuple[bool, str]:
+    override = readme_override(source)
+    if override is False:
+        return False, "readme_eligible=false"
+
+    name = norm_text(source.get("name") or source.get("author"))
+    if not name:
+        return False, "缺少名称"
+    category = normalize_category(source.get("category"))
+    if category not in category_ids:
+        return False, "未知分类"
+    if not link_values(source):
+        return False, "缺少链接"
+    if not stable_readme_link(source):
+        return False, "只有单条内容链接"
+    if not norm_text(source.get("desc") or source.get("summary")):
+        return False, "缺少源级描述"
+
+    tags = {norm_text(tag) for tag in source.get("tags", []) if norm_text(tag)}
+    if tags.intersection(README_TRANSIENT_TAGS):
+        return False, "单条内容不是长期源"
+
+    quality = int(source.get("quality") or 0)
+    if quality < README_MIN_QUALITY:
+        return False, f"quality<{README_MIN_QUALITY}"
+
+    return True, "长期信息源"
+
+
+def entry_from_candidate(candidate: dict[str, Any], added_date: str, readme_reason: str) -> dict[str, Any]:
     name = str(candidate.get("name") or candidate.get("author") or "Unnamed").strip()
     category = normalize_category(candidate.get("category"))
     links = link_values(candidate)
@@ -210,6 +328,10 @@ def entry_from_candidate(candidate: dict[str, Any], added_date: str) -> dict[str
         "links": links,
         "tags": [str(tag).strip() for tag in candidate.get("tags", []) if str(tag).strip()],
         "quality": int(candidate.get("quality") or 0),
+        "readme": {
+            "eligible": True,
+            "reason": readme_reason,
+        },
         "added_date": added_date,
     }
 
@@ -233,6 +355,7 @@ def process_candidates() -> tuple[int, int, int, list[str], list[str], list[str]
     for entry in entries:
         entry["category"] = normalize_category(entry.get("category"))
     entries, removed_duplicates = dedupe_entries(entries)
+    category_ids = {str(category.get("id")) for category in entries_data.get("categories", []) if isinstance(category, dict)}
     accepted_names: list[str] = []
     skipped_names: list[str] = []
     errors: list[str] = []
@@ -251,7 +374,11 @@ def process_candidates() -> tuple[int, int, int, list[str], list[str], list[str]
             if not should_accept:
                 skipped_names.append(f"{candidate_name}（{reason}）")
                 continue
-            entries.insert(0, entry_from_candidate(candidate, run_date))
+            readme_ok, readme_reason = readme_update_decision(candidate, category_ids)
+            if not readme_ok:
+                skipped_names.append(f"{candidate_name}（不更新README：{readme_reason}）")
+                continue
+            entries.insert(0, entry_from_candidate(candidate, run_date, readme_reason))
             accepted_names.append(candidate_name)
         except Exception as exc:  # noqa: BLE001
             errors.append(f"{candidate_name}（{exc}）")
@@ -303,19 +430,24 @@ def anchor(category_id: str) -> str:
     return re.sub(r"[^a-z0-9]", "", category_id.lower())
 
 
+def entry_visible_in_readme(entry: dict[str, Any]) -> bool:
+    return readme_override(entry) is not False
+
+
 def generate_readme(entries_data: dict[str, Any]) -> None:
     entries = entries_data["entries"]
     categories_list = entries_data.get("categories", [])
     categories = {c["id"]: c for c in categories_list if isinstance(c, dict) and "id" in c}
-    count = len(entries)
+    readme_entries = [entry for entry in entries if entry_visible_in_readme(entry)]
+    count = len(readme_entries)
     updated = entries_data.get("updated") or today()
 
     entries_by_category: dict[str, list[dict[str, Any]]] = {cid: [] for cid in categories}
-    for entry in entries:
+    for entry in readme_entries:
         entries_by_category.setdefault(str(entry.get("category") or "general-tech"), []).append(entry)
 
     recent = sorted(
-        entries,
+        readme_entries,
         key=lambda e: str(e.get("added_date") or ""),
         reverse=True,
     )[:10]
@@ -383,7 +515,8 @@ def generate_readme(entries_data: dict[str, Any]) -> None:
             "## 自动化说明",
             "",
             "- Dev-Radar 每日发现任务写入 `data/candidates.json`。",
-            "- Dev-Radar 自动收录任务运行 `python3 process_candidates.py`，统一处理去重、收录、README 更新和统计输出。",
+            "- Dev-Radar 自动收录任务运行 `python3 process_candidates.py`，统一处理去重、收录、README eligibility、README 更新和统计输出。",
+            f"- README 只接收长期信息源：稳定主页/profile/repo/feed、已知分类、源级描述、quality≥{README_MIN_QUALITY}；单篇文章、单条 tweet、新闻事件和临时链接不会更新 README。",
             "- `data/entries.json` 是源列表的结构化事实来源。",
         ]
     )

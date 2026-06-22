@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "categories": [
     {
       "id": "android-official",
@@ -38,21 +38,22 @@
   "entries": [
     {
       "id": "sairahul1-twitter",
-      "name": "sairahul1",
+      "name": "Rahul",
       "category": "ai",
-      "author": "sairahul1",
-      "desc": "Loop架构专家，2026年AI工程核心模式研究者，分享AI工程最佳实践",
+      "author": "Rahul",
+      "desc": "AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式",
       "links": {
         "x": "https://x.com/sairahul1"
       },
       "tags": [
         "ai",
-        "loop-architecture",
-        "engineering-patterns",
+        "engineering",
+        "loops",
+        "architecture",
         "x"
       ],
-      "quality": 4,
-      "added_date": "2026-06-21"
+      "quality": 5,
+      "added_date": "2026-06-10"
     },
     {
       "id": "amto-xamto_ai-twitter",
@@ -186,7 +187,7 @@
     {
       "id": "camel-ai-owl",
       "name": "camel-ai/owl",
-      "category": "android",
+      "category": "android-blog",
       "author": "camel-ai-owl",
       "desc": "GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成",
       "links": {
@@ -3429,25 +3430,6 @@
       "added_date": "2026-06-10"
     },
     {
-      "id": "sairahul1-twitter",
-      "name": "Rahul",
-      "category": "ai",
-      "author": "Rahul",
-      "desc": "AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式",
-      "links": {
-        "x": "https://x.com/sairahul1"
-      },
-      "tags": [
-        "ai",
-        "engineering",
-        "loops",
-        "architecture",
-        "x"
-      ],
-      "quality": 5,
-      "added_date": "2026-06-10"
-    },
-    {
       "id": "yudapeathree-twitter",
       "name": "yudapeathree",
       "category": "ai",
@@ -3735,7 +3717,7 @@
     {
       "id": "techwriter-x",
       "name": "Tech Writer",
-      "category": "android",
+      "category": "android-blog",
       "author": "Tech Writer",
       "desc": "Android内存优化专家，分享生产环境内存管理最佳实践和性能优化技巧",
       "links": {
@@ -3943,63 +3925,6 @@
       "added_date": "2026-06-19"
     },
     {
-      "id": "yudapeathree-twitter",
-      "name": "yudapeathree",
-      "category": "ai",
-      "author": "yudapeathree",
-      "desc": "大型语言模型高效注意力机制研究者，专注于LLM性能优化",
-      "links": {
-        "x": "https://x.com/yudapeathree"
-      },
-      "tags": [
-        "ai",
-        "llm",
-        "attention",
-        "optimization",
-        "x"
-      ],
-      "quality": 5,
-      "added_date": "2026-06-19"
-    },
-    {
-      "id": "karpathy-twitter",
-      "name": "karpathy",
-      "category": "ai",
-      "author": "karpathy",
-      "desc": "知名AI研究员，分享LLM效率优化和计算改进研究",
-      "links": {
-        "x": "https://x.com/karpathy"
-      },
-      "tags": [
-        "ai",
-        "llm",
-        "efficiency",
-        "research",
-        "x"
-      ],
-      "quality": 5,
-      "added_date": "2026-06-19"
-    },
-    {
-      "id": "hardmaru-twitter",
-      "name": "hardmaru",
-      "category": "ai",
-      "author": "hardmaru",
-      "desc": "AI性能优化专家，提供深度学习模型效率改进的完整解决方案",
-      "links": {
-        "x": "https://x.com/hardmaru"
-      },
-      "tags": [
-        "ai",
-        "deep-learning",
-        "performance",
-        "optimization",
-        "x"
-      ],
-      "quality": 4,
-      "added_date": "2026-06-19"
-    },
-    {
       "id": "fchollet-twitter",
       "name": "fchollet",
       "category": "ai",
@@ -4016,63 +3941,6 @@
         "x"
       ],
       "quality": 5,
-      "added_date": "2026-06-19"
-    },
-    {
-      "id": "jeremyphoward-twitter",
-      "name": "jeremyphoward",
-      "category": "ai",
-      "author": "jeremyphoward",
-      "desc": "FastAI创始人，专注于LLM推理速度优化，提供实用代码实现",
-      "links": {
-        "x": "https://x.com/jeremyphoward"
-      },
-      "tags": [
-        "ai",
-        "fastai",
-        "llm",
-        "inference",
-        "x"
-      ],
-      "quality": 4,
-      "added_date": "2026-06-19"
-    },
-    {
-      "id": "gdb-twitter",
-      "name": "gdb",
-      "category": "ai",
-      "author": "gdb",
-      "desc": "AI效率改进研究者，提供从理论到实践的AI优化方案",
-      "links": {
-        "x": "https://x.com/gdb"
-      },
-      "tags": [
-        "ai",
-        "optimization",
-        "practical",
-        "theory",
-        "x"
-      ],
-      "quality": 3,
-      "added_date": "2026-06-19"
-    },
-    {
-      "id": "AndrewYNg-twitter",
-      "name": "AndrewYNg",
-      "category": "ai",
-      "author": "AndrewYNg",
-      "desc": "AI教育者，提供系统化的LLM优化方法和实践指导",
-      "links": {
-        "x": "https://x.com/AndrewYNg"
-      },
-      "tags": [
-        "ai",
-        "education",
-        "llm",
-        "optimization",
-        "x"
-      ],
-      "quality": 4,
       "added_date": "2026-06-19"
     },
     {

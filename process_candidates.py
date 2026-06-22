@@ -54,14 +54,19 @@ CATEGORY_ALIASES = {
 
 README_MIN_QUALITY = 4
 README_DURABLE_LINK_KEYS = set(LINK_PRIORITY) | {"podcast"}
-README_TRANSIENT_TAGS = {
+README_TRANSIENT_CONTENT_TYPES = {
     "article",
+    "daily",
     "news",
+    "news-event",
     "post",
     "single-article",
     "single-post",
     "single-tweet",
+    "single-video",
+    "thread",
     "tweet",
+    "video",
 }
 README_TRUE_VALUES = {"1", "true", "yes", "y", "on", "accept", "accepted", "收录", "是"}
 README_FALSE_VALUES = {"0", "false", "no", "n", "off", "reject", "rejected", "跳过", "否"}
@@ -303,8 +308,8 @@ def readme_update_decision(source: dict[str, Any], category_ids: set[str]) -> tu
     if not norm_text(source.get("desc") or source.get("summary")):
         return False, "缺少源级描述"
 
-    tags = {norm_text(tag) for tag in source.get("tags", []) if norm_text(tag)}
-    if tags.intersection(README_TRANSIENT_TAGS):
+    content_type = norm_text(source.get("content_type") or source.get("type") or source.get("source_type"))
+    if content_type in README_TRANSIENT_CONTENT_TYPES:
         return False, "单条内容不是长期源"
 
     quality = int(source.get("quality") or 0)
@@ -366,10 +371,16 @@ def process_candidates() -> tuple[int, int, int, list[str], list[str], list[str]
             continue
         candidate_name = str(candidate.get("name") or candidate.get("id") or "unnamed").strip()
         try:
-            existing = next((entry for entry in entries if duplicate_reason(candidate, entry)), None)
-            if existing:
-                skipped_names.append(f"{candidate_name}（{duplicate_reason(candidate, existing)}）")
-                continue
+            existing_match = next(
+                ((i, entry, duplicate_reason(candidate, entry)) for i, entry in enumerate(entries) if duplicate_reason(candidate, entry)),
+                None,
+            )
+            if existing_match:
+                _, existing, duplicate = existing_match
+                existing_readme_ok, _ = readme_update_decision(existing, category_ids)
+                if existing_readme_ok:
+                    skipped_names.append(f"{candidate_name}（{duplicate}）")
+                    continue
             should_accept, reason = candidate_decision(candidate)
             if not should_accept:
                 skipped_names.append(f"{candidate_name}（{reason}）")
@@ -378,7 +389,13 @@ def process_candidates() -> tuple[int, int, int, list[str], list[str], list[str]
             if not readme_ok:
                 skipped_names.append(f"{candidate_name}（不更新README：{readme_reason}）")
                 continue
-            entries.insert(0, entry_from_candidate(candidate, run_date, readme_reason))
+            new_entry = entry_from_candidate(candidate, run_date, readme_reason)
+            if existing_match:
+                index, _, duplicate = existing_match
+                entries[index] = new_entry
+                accepted_names.append(f"{candidate_name}（升级{duplicate}）")
+                continue
+            entries.insert(0, new_entry)
             accepted_names.append(candidate_name)
         except Exception as exc:  # noqa: BLE001
             errors.append(f"{candidate_name}（{exc}）")
@@ -414,11 +431,21 @@ def link_markdown(links: dict[str, str]) -> str:
     parts: list[str] = []
     for key, value in links.items():
         icon = LINK_ICONS.get(key, "🔗")
-        if re.search(r"^https?://", value, re.I):
-            parts.append(f"[{icon}]({value})")
+        url = markdown_url(value)
+        if url:
+            parts.append(f"[{icon}]({url})")
         else:
-            parts.append(f"[{icon}]({value})")
+            parts.append(f"{icon} {safe(value)}")
     return " ".join(parts)
+
+
+def markdown_url(value: str) -> str:
+    raw = str(value or "").strip()
+    if re.search(r"^https?://", raw, re.I):
+        return raw
+    if "." in raw and " " not in raw and not re.search(r"[\u4e00-\u9fff]", raw):
+        return "https://" + raw
+    return ""
 
 
 def category_label(category_id: str, categories: dict[str, dict[str, Any]]) -> str:
@@ -430,15 +457,26 @@ def anchor(category_id: str) -> str:
     return re.sub(r"[^a-z0-9]", "", category_id.lower())
 
 
-def entry_visible_in_readme(entry: dict[str, Any]) -> bool:
-    return readme_override(entry) is not False
+def entry_visible_in_readme(entry: dict[str, Any], category_ids: set[str]) -> bool:
+    eligible, _ = readme_update_decision(entry, category_ids)
+    return eligible
+
+
+def readme_source_count(entries_data: dict[str, Any]) -> int:
+    category_ids = {str(category.get("id")) for category in entries_data.get("categories", []) if isinstance(category, dict)}
+    return sum(
+        1
+        for entry in entries_data.get("entries", [])
+        if isinstance(entry, dict) and entry_visible_in_readme(entry, category_ids)
+    )
 
 
 def generate_readme(entries_data: dict[str, Any]) -> None:
     entries = entries_data["entries"]
     categories_list = entries_data.get("categories", [])
     categories = {c["id"]: c for c in categories_list if isinstance(c, dict) and "id" in c}
-    readme_entries = [entry for entry in entries if entry_visible_in_readme(entry)]
+    category_ids = set(categories)
+    readme_entries = [entry for entry in entries if entry_visible_in_readme(entry, category_ids)]
     count = len(readme_entries)
     updated = entries_data.get("updated") or today()
 
@@ -516,7 +554,8 @@ def generate_readme(entries_data: dict[str, Any]) -> None:
             "",
             "- Dev-Radar 每日发现任务写入 `data/candidates.json`。",
             "- Dev-Radar 自动收录任务运行 `python3 process_candidates.py`，统一处理去重、收录、README eligibility、README 更新和统计输出。",
-            f"- README 只接收长期信息源：稳定主页/profile/repo/feed、已知分类、源级描述、quality≥{README_MIN_QUALITY}；单篇文章、单条 tweet、新闻事件和临时链接不会更新 README。",
+            f"- README 只展示长期信息源：稳定主页/profile/repo/feed、已知分类、源级描述、quality≥{README_MIN_QUALITY}；单篇文章、单条 tweet、新闻事件和临时链接不会更新 README。",
+            "- README badge 统计的是通过 eligibility gate 的展示源数量；`data/entries.json` 保留结构化源数据。",
             "- `data/entries.json` 是源列表的结构化事实来源。",
         ]
     )
@@ -526,10 +565,11 @@ def generate_readme(entries_data: dict[str, Any]) -> None:
 
 if __name__ == "__main__":
     accepted, skipped, errors, accepted_names, skipped_names, removed, total_sources = process_candidates()
+    readme_sources = readme_source_count(load_json(ENTRIES_PATH))
     print(f"📥 Dev-Radar 自动收录 · {today()}")
     print(f"收录 {accepted} 个，跳过 {skipped} 个，异常 {errors} 个")
     print(f"新收录：{'、'.join(accepted_names) if accepted_names else '无'}")
     print(f"跳过：{'、'.join(skipped_names) if skipped_names else '无'}")
     if removed:
         print(f"清理重复：{'、'.join(removed)}")
-    print(f"总计 {total_sources} 个源")
+    print(f"总计 {total_sources} 个源，README 展示 {readme_sources} 个源")

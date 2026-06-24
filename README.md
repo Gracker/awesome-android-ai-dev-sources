@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-210-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-211-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -22,10 +22,11 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-22
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-06-24
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **AnatoliKopadze** [𝕏](https://x.com/AnatoliKopadze) [🔗](https://t.me/kopadzemp) | 🧠 AI & LLM | AI loops 架构专家，专注大型 AI 工程模式研究 |
 | **kevinsxu** [𝕏](https://x.com/kevinsxu) | 🧠 AI & LLM | 开源AI的必要性与重要性分析，反对禁止开源AI的观点 |
 | **geekbb** [𝕏](https://x.com/geekbb) | 💻 优质技术博客 | Cloudflare客户端开发者，Swift/SwiftUI实现OAuth登录，域名和DNS管理工具专家 |
 | **fchollet** [𝕏](https://x.com/fchollet) | 🧠 AI & LLM | Keras框架作者，深度学习优化研究者 |
@@ -35,7 +36,6 @@
 | **ThoughtWorks性能工程团队** [🌐](https://www.thoughtworks.com/zh-cn/insights/blog/platforms/performance-engineering-maturity-model) | 💻 优质技术博客 | 企业级性能工程成熟度模型，覆盖从架构设计到持续运营全流程 |
 | **zuogl448** [𝕏](https://x.com/zuogl448) [🐙](https://github.com/zuogl/Markdown-Paste-Helper) | 💻 优质技术博客 | 多平台发布工具专家，Chrome插件开发者，分享自动化文章发布和跨平台内容处理技术 |
 | **Amto** [𝕏](https://x.com/xamto_ai) | 🧠 AI & LLM | 分享MoneyPrinterTurbo等AI短视频生成工具，GitHub项目9.4k star，全自动AI一条龙视频制作 |
-| **Geek Lite** [𝕏](https://x.com/QingQ77) | 🧠 AI & LLM | Claude Code实战命令专家，精选分享/loop、/goal、/schedule等最佳实践命令，可直接复制使用 |
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
@@ -150,10 +150,11 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 54 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 55 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **AnatoliKopadze** [𝕏](https://x.com/AnatoliKopadze) [🔗](https://t.me/kopadzemp) | AI loops 架构专家，专注大型 AI 工程模式研究 |
 | **Rahul** [𝕏](https://x.com/sairahul1) | AI 工程实践专家，专注于 Loop 架构设计，研究大型 AI 工程模式 |
 | **Amto** [𝕏](https://x.com/xamto_ai) | 分享MoneyPrinterTurbo等AI短视频生成工具，GitHub项目9.4k star，全自动AI一条龙视频制作 |
 | **Geek Lite** [𝕏](https://x.com/QingQ77) | Claude Code实战命令专家，精选分享/loop、/goal、/schedule等最佳实践命令，可直接复制使用 |

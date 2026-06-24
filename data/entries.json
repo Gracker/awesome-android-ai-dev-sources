@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-06-22",
+  "updated": "2026-06-24",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,31 @@
     }
   ],
   "entries": [
+    {
+      "id": "anatolikopadze-twitter",
+      "name": "AnatoliKopadze",
+      "category": "ai",
+      "author": "Anatoli Kopadze",
+      "desc": "AI loops 架构专家，专注大型 AI 工程模式研究",
+      "links": {
+        "x": "https://x.com/AnatoliKopadze",
+        "telegram": "https://t.me/kopadzemp"
+      },
+      "tags": [
+        "ai",
+        "loops",
+        "engineering",
+        "architecture",
+        "x",
+        "telegram"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-06-24"
+    },
     {
       "id": "sairahul1-twitter",
       "name": "Rahul",

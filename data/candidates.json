@@ -1,15 +1,18 @@
 {
   "candidates": [],
   "scan_sources": [
-    "obsidian-mining:X 文章/2026-06-21-1235-sairahul1-Loops.md",
-    "obsidian-mining:X 文章/2026-06-21-1235-BohuTANG-Trace-Evals.md",
-    "obsidian-mining:Cubox/谷歌 AI 近期连续离职两位关键人物，纷纷加入对手公司-2026-06-20.md",
-    "obsidian-mining:Twitter/AI影响力日报/2026-06-20.md",
-    "obsidian-mining:DeepResearch/2026-06-21-memory-tracking-api-gap.md",
-    "obsidian-mining:DeepResearch/2026-06-21-surfaceflinger-vsync-scheduler-android17.md"
+    "obsidian-mining:X 文章/2026-06-23-1239-AnatoliKopadze-Loops explained Claude GPT Mira and what actually works.md",
+    "obsidian-mining:X 文章/2026-06-23-1239-MengkePM-成就伟大之前，先学会卖东西.md",
+    "obsidian-mining:X 文章/2026-06-23-1239-thedankoe-How to survive AI mass replacement.md",
+    "obsidian-mining:Cubox/公平运行内存适配：开发者文档-2026-06-23.md",
+    "obsidian-mining:Cubox/努比亚ALL IN豆包AI手机，传统手机业务说停就停-2026-06-22.md",
+    "obsidian-mining:Cubox/成就伟大之前，先学会卖东西-2026-06-22.md",
+    "obsidian-mining:Android-Internal-Wiki/changelog/2026-06-23.md",
+    "obsidian-mining:Android-Internal-Wiki/changelog/2026-06-19.md",
+    "obsidian-mining:Android-Internal-Wiki/changelog/2026-06-18.md"
   ],
-  "scan_notes": "外部 web_fetch 全部 blocked（private/internal IP），本次仅依赖 Obsidian 矿掘，已发现2个新高质量 X 账号候选，专注AI工程和优化领域，自动收录完成",
-  "processed_count": 6,
-  "processed_date": "2026-06-21",
+  "scan_notes": "本次扫描发现 AnatoliKopadze（AI loops 专家）为新高质量候选，专注 AI 工程架构领域；MengkePM 偏营销内容，thedankoe 偏创业自媒体，均不符合技术源标准；Cubox 文章均为单篇内容页，不符合 README 资格；Android-Internal-Wiki 内部更新日志不包含外部开发者源",
+  "processed_count": 10,
+  "processed_date": "2026-06-24",
   "new_candidates": 0
 }

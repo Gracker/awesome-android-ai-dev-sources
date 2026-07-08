@@ -32,11 +32,219 @@
     "profile:opencli twitter profile zjp1997720",
     "profile:opencli twitter profile 0xCheshire",
     "web-read:opencli web read https://www.dailydoseofds.com/ (Avi Chawla 联合创立的 AI Newsletter)",
-    "web-read:opencli web read https://canghe.ai (苍何个人主页，AI Builder/开源创作者)"
+    "web-read:opencli web read https://canghe.ai (苍何个人主页，AI Builder/开源创作者)",
+    "obsidian-mining:X 文章/2026-07-08-1239-AYi_AInotes-前 OpenAI 研究员 Phil Ch.md",
+    "obsidian-mining:X 文章/2026-07-08-1239-waterloo_intern-we distilled 2.3M Cl.md",
+    "obsidian-mining:X 文章/2026-07-07-1249-HarrisonChase-WikiMemory.md",
+    "obsidian-mining:X 文章/2026-07-07-1249-Yanhua-ClaudeCode的goal和loop.md",
+    "obsidian-mining:X 文章/2026-07-07-1249-SagaSu-VibeCoding的尽头是规划先行.md",
+    "obsidian-mining:X 文章/2026-07-07-1300-MateMatt-HermesAgent架构详细拆解一个工.md",
+    "obsidian-mining:X 文章/2026-07-07-1249-铁锤人-Fable实战指南发现你的未知译.md",
+    "obsidian-mining:X 文章/2026-07-07-1248-ClaudeDevs-Gettingstartedwithlo.md",
+    "obsidian-mining:Cubox/Android 应用进程优先级管理：从分级到分类的演进与实践-2026-07-08.md",
+    "profile:opencli twitter profile hwchase17",
+    "profile:opencli twitter profile yanhua1010",
+    "profile:opencli twitter profile sujingshen",
+    "profile:opencli twitter profile mate_mattt",
+    "profile:opencli twitter profile waterloo_intern",
+    "profile:opencli twitter profile lxfater",
+    "profile:opencli twitter profile ClaudeDevs",
+    "profile:opencli twitter profile MateMatt",
+    "profile:opencli twitter profile SagaSu",
+    "web-read:opencli web read https://www.yanhua.dev/ (AI 创业者博客)",
+    "web-read:opencli web read https://www.sagasu.art/u/13658 (SagaSu 个人简介)",
+    "web-read:opencli web read https://matematt.com (MateMatt 个人项目页)",
+    "web-read:opencli web read https://www.lxfater.com (铁锤人个人主页)",
+    "web-read:opencli web read https://github.com/lxfater?tab=repositories (5.9K star inpaint-web 等)",
+    "web-scan:androidweekly.net/issues (Issue #734 已在 entries)"
   ],
-  "scan_notes": "扫描 7 月 5 日本地 Obsidian 新增文件 + 4 个外部源 + 6 个 X 账号资料。从最近 24h X 文章抓取中确认 8 位活跃技术博主，逐一 opencli twitter profile 验证长期源主页。grapeot/xiaogaifun 已在 entries 中跳过；fi56622380 内容偏宏观推演、AI 半导体分析，无技术栈稳定主页；gengdaJ 是 AI 创业方法论、连续创业者内容，非技术源；zjp1997720 公众号「智见AI」+ AI 培训，followers 仅 638；0xCheshire 是加密货币推广号（含 Binance/OKX 邀请链接），不作为技术源。最终入选 _avichawla（Daily Dose of DS 联合创始人，7.1 万粉丝，AI/DS/LLM/RAG 教程长期源）和 canghe（前阿里工程师、Microsoft MVP，canghe.ai 个人主页聚焦 Agent/Skills/MCP）。外部源掘金 Android 热门页面找不到，GitHub Android Trending 由 JS 渲染，opencli 拿到空框架；saveweb/rss-list 无新版本。Android Weekly Issue #734 已发布但长期源已在 entries 中。",
-  "processed_count": 35,
-  "processed_date": "2026-07-05",
-  "new_candidates": 0,
-  "candidates": []
+  "scan_notes": "扫描 7 月 7-8 日本地 Obsidian X 文章 30+ 篇 + Cubox Android 工程文章 + 4 个外部 web 源 + 9 个 X 账号资料。从最近 24-48h X 文章中识别 7 位活跃 AI 工程领域博主/官方账号，逐一 opencli twitter profile + 个人主页验证长期源主页，全部不在 entries.json 中且 readme_eligible=true：\n1. ClaudeDevs（@ClaudeDevs）— 56 万粉、verified、Anthropic 官方开发者账号，发布 Claude 工具链与 agent 工程实践；\n2. Harrison Chase（@hwchase17）— 11.7 万粉、verified、LangChain 创始人，长期输出 AI Agent / LangGraph / Memory 等深度文章；\n3. Yanhua（@yanhua1010）— 3.3 万粉、verified、AI 创业者/独立开发者，yanhua.dev 个人博客含 Harness Engineering / Claude Code Skills / Karpathy 等长篇系列；\n4. SagaSu（@sujingshen）— 6000 粉、verified、产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列，附加 X-Ray 晚报 / HN 战略雷达日报；\n5. MateMatt（@mate_mattt）— 1677 粉、verified、百度工程师（skills/comate），matematt.com + github.com/mate-matt 持续输出 Agent Runtime / Hermes / Vector DB 系列，4 个活跃 OSS；\n6. waterloo_intern（@waterloo_intern / Ali / AliesTaha）— 5843 粉、verified、Baseten model performance 工程师、UWaterloo，专注 GPU kernel / 模型蒸馏 / 推理硬件协同设计；\n7. 铁锤人（@lxfater）— 10.3 万粉、verified、独立创业者 + 前端插件/AI 工具开发者，github 5.9K star inpaint-web + 多个 AI 工具项目，lxfater.com 主页。\n已排除（不收录或仅记 scan_notes）：AYi_AInotes（55K 粉但内容偏职场/心理学方法论，非技术栈）、Kay2289123 美研芒格君（AI 股票投资分析，非工程源）、YaelC_03（加密货币 marketing，非技术源）、MateMatt（handle 显示 0 粉丝系重名小号，真正作者在 @mate_mattt，已独立收录）。\n外部源：Android Weekly Issue #734 已发布，长期源已在 entries；GitHub Android Trending 由 JS 渲染只拿到语言选择器；juejin Android 标签页 404；saveweb/rss-list 无新版本。Cubox 公众号文章（Android 应用进程优先级、XTrace、android 17 eBPF）作者公众号通过 mp.weixin.qq.com biz ID 无法可靠识别，暂不写入候选。",
+  "processed_count": 60,
+  "processed_date": "2026-07-08",
+  "new_candidates": 7,
+  "candidates": [
+    {
+      "id": "claudedevs-twitter",
+      "name": "ClaudeDevs (Anthropic 开发者官方)",
+      "category": "ai",
+      "author": "Anthropic",
+      "desc": "Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源",
+      "links": {
+        "x": "https://x.com/ClaudeDevs",
+        "blog": "https://claude.com/blog"
+      },
+      "tags": [
+        "ai",
+        "claude",
+        "claude-code",
+        "agent",
+        "official",
+        "x",
+        "anthropic"
+      ],
+      "quality": 5,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "Anthropic 官方长期账号，是 Claude 工程实践最权威的更新渠道，readme ai 类目必收",
+      "discovered_from": "X 文章/2026-07-07-1248-ClaudeDevs-Gettingstartedwithlo.md",
+      "decision": "accept"
+    },
+    {
+      "id": "hwchase17-twitter",
+      "name": "Harrison Chase (hwchase17)",
+      "category": "ai",
+      "author": "Harrison Chase",
+      "desc": "LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者",
+      "links": {
+        "x": "https://x.com/hwchase17",
+        "blog": "https://blog.langchain.dev/"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "langchain",
+        "memory",
+        "rag",
+        "engineering",
+        "x"
+      ],
+      "quality": 5,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "LangChain 创始人长期 X 账号 + LangChain Blog，是 Agent 工程的核心权威源",
+      "discovered_from": "X 文章/2026-07-07-1249-HarrisonChase-WikiMemory.md",
+      "decision": "accept"
+    },
+    {
+      "id": "yanhua1010-twitter",
+      "name": "Yanhua (yanhua1010)",
+      "category": "ai",
+      "author": "Yanhua",
+      "desc": "8 年后端经验，AI 创业者 / 独立开发者 / 全栈工程师，3.3 万粉丝、verified，yanhua.dev 博客持续连载 Harness Engineering、Claude Code Skills、Karpathy 等深度系列，是国内 AI Coding 工程实践的高质量中文源",
+      "links": {
+        "x": "https://x.com/yanhua1010",
+        "blog": "https://www.yanhua.dev/"
+      },
+      "tags": [
+        "ai",
+        "harness",
+        "claude-code",
+        "indie-dev",
+        "blog",
+        "x"
+      ],
+      "quality": 4,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "yanhua.dev 长期博客 + 高质量 X 账号，专注 AI Coding 工程实践的中文长期源",
+      "discovered_from": "X 文章/2026-07-07-1249-Yanhua-ClaudeCode的goal和loop.md",
+      "decision": "accept"
+    },
+    {
+      "id": "sagasu-sujingshen-twitter",
+      "name": "SagaSu (sujingshen)",
+      "category": "ai",
+      "author": "SagaSu",
+      "desc": "产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列（Spec-Driven Development），附加 X-Ray 晚报 + HN 战略雷达每日 AI 情报，主张「spec 是 Agent 的执行协议而非 PRD」",
+      "links": {
+        "x": "https://x.com/sujingshen",
+        "blog": "https://www.sagasu.art/"
+      },
+      "tags": [
+        "ai",
+        "spec-driven",
+        "sdd",
+        "agent",
+        "newsletter",
+        "x",
+        "blog"
+      ],
+      "quality": 4,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "sagasu.art 长期博客 + Spec-Driven Development 系列 + 日报，是国内 AI 工作流方法论的稳定源",
+      "discovered_from": "X 文章/2026-07-07-1249-SagaSu-VibeCoding的尽头是规划先行.md",
+      "decision": "accept"
+    },
+    {
+      "id": "mate-mattt-twitter",
+      "name": "MateMatt (mate_mattt)",
+      "category": "ai",
+      "author": "MateMatt",
+      "desc": "百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS",
+      "links": {
+        "x": "https://x.com/mate_mattt",
+        "blog": "https://matematt.com",
+        "github": "https://github.com/mate-matt"
+      },
+      "tags": [
+        "ai",
+        "agent-runtime",
+        "hermes",
+        "codex",
+        "engineering",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "Agent Runtime 领域垂直深度博主，长期输出 Hermes/LangGraph 等框架底层拆解，readme 适合 ai 类目",
+      "discovered_from": "X 文章/2026-07-07-1300-MateMatt-HermesAgent架构详细拆解一个工.md",
+      "decision": "accept"
+    },
+    {
+      "id": "waterloo-intern-twitter",
+      "name": "Ali / waterloo_intern",
+      "category": "ai",
+      "author": "Ali (AliesTaha)",
+      "desc": "Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览）",
+      "links": {
+        "x": "https://x.com/waterloo_intern",
+        "github": "https://github.com/AliesTaha"
+      },
+      "tags": [
+        "ai",
+        "ml-infra",
+        "gpu-kernels",
+        "model-distillation",
+        "inference",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "ML Infra / GPU kernel / 推理优化领域的活跃一线工程师长期账号",
+      "discovered_from": "X 文章/2026-07-08-1239-waterloo_intern-we distilled 2.3M Cl.md",
+      "decision": "accept"
+    },
+    {
+      "id": "lxfater-twitter",
+      "name": "铁锤人 (lxfater)",
+      "category": "ai",
+      "author": "铁锤人",
+      "desc": "独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务",
+      "links": {
+        "x": "https://x.com/lxfater",
+        "blog": "https://www.lxfater.com",
+        "github": "https://github.com/lxfater"
+      },
+      "tags": [
+        "ai",
+        "indie-dev",
+        "frontend",
+        "oss",
+        "wechat",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "content_type": "profile",
+      "readme_eligible": true,
+      "readme_reason": "AI 工具领域头部独立开发者，github 多 star OSS + 长期公众号铁锤人 + X 账号三源联动",
+      "discovered_from": "X 文章/2026-07-07-1249-铁锤人-Fable实战指南发现你的未知译.md",
+      "decision": "accept"
+    }
+  ]
 }

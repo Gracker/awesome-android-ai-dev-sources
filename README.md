@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-213-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-214-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -267,7 +267,7 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 20 个源
+*性能分析、调试、开发效率工具* · 21 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -291,6 +291,7 @@
 | **adbutils** [🐙](https://github.com/openatx/adbutils) | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
 | **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
 | **Android Debug MCP** [🐙](https://github.com/lukelmouse-github/android-debug-mcp) | MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态 |
+| **harmony-next.skills** [🐙](https://github.com/linhay/harmony-next.skills) | 面向 AI 编程助手的 HarmonyOS NEXT 开发者技能包，提供本地 ArkTS/ArkUI/API 参考、DevEco/Emulator/HDC 自动化、UI/UX 审计和 smoke test 模板 |
 
 ---
 

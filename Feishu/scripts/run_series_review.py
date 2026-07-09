@@ -16,6 +16,10 @@ from pathlib import Path
 
 
 TOPIC_MANIFESTS = {
+    "android-memory": Path(
+        "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Writer/"
+        "android-memory/openclaw/topic-manifest.json"
+    ),
     "rendering-pipelines": Path(
         "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Writer/"
         "rendering_pipelines/openclaw/topic-manifest.json"
@@ -53,7 +57,23 @@ def local_links(markdown: str) -> list[str]:
     return links
 
 
-def article_snapshot(path: Path, root: Path) -> dict:
+def article_order(path: Path, prefix: str) -> int:
+    match = re.match(rf"{re.escape(prefix)}(\d+)[_-]?", path.name)
+    if not match:
+        raise ValueError(f"article filename does not match prefix {prefix}: {path.name}")
+    return int(match.group(1))
+
+
+def has_reading_nav(text: str) -> bool:
+    if "## 阅读导航" not in text:
+        return False
+    nav_start = text.find("## 阅读导航")
+    next_h2 = text.find("\n## ", nav_start + 1)
+    nav_text = text[nav_start : next_h2 if next_h2 != -1 else len(text)]
+    return bool(local_links(nav_text))
+
+
+def article_snapshot(path: Path, root: Path, prefix: str) -> dict:
     text = path.read_text(encoding="utf-8")
     links = local_links(text)
     broken = []
@@ -68,12 +88,11 @@ def article_snapshot(path: Path, root: Path) -> dict:
             continue
         if not target.exists():
             broken.append(link)
-    nav_count = len(re.findall(r"^\d+\.\s+\[Android Perfetto 系列", text, flags=re.M))
     title = next((line[2:].strip() for line in text.splitlines() if line.startswith("# ")), path.name)
     return {
         "source_item_id": path.name,
         "title": title,
-        "order": int(re.match(r"S(\d+)_", path.name).group(1)),
+        "order": article_order(path, prefix),
         "word_count": len(text),
         "heading_count": len(re.findall(r"^#{2,6}\s+", text, flags=re.M)),
         "source_evidence_count": len(FIRST_PARTY_RE.findall(text)),
@@ -83,18 +102,30 @@ def article_snapshot(path: Path, root: Path) -> dict:
         "local_link_count": len(links),
         "broken_local_links": broken,
         "todo_count": len(TODO_RE.findall(text)),
-        "has_series_nav": nav_count >= 14,
+        "has_series_nav": has_reading_nav(text),
         "path": str(path),
     }
 
 
 def find_articles(topic: dict) -> list[Path]:
     root = Path(topic["path"])
+    prefix = topic.get("order_prefix", "S")
     articles = []
-    for path in root.glob("S*.md"):
-        if path.is_file() and re.match(r"S\d+_", path.name):
-            articles.append(path)
-    return sorted(articles, key=lambda p: int(re.match(r"S(\d+)_", p.name).group(1)))
+    for pattern in topic.get("include", [f"{prefix}*.md"]):
+        for path in root.glob(pattern):
+            if path.is_file() and re.match(rf"{re.escape(prefix)}\d+", path.name):
+                articles.append(path)
+    return sorted(set(articles), key=lambda p: article_order(p, prefix))
+
+
+def expected_orders(orders: list[int]) -> list[int]:
+    if not orders:
+        return []
+    return list(range(min(orders), max(orders) + 1))
+
+
+def topic_article_title(topic: dict) -> str:
+    return topic.get("title") or topic.get("feishu_root") or topic.get("id", "Writer Series")
 
 
 def preserve_manual_sections(report_path: Path) -> str:
@@ -114,7 +145,7 @@ def build_report(manifest: dict, snapshots: list[dict], date: str, manual_sectio
     editorial_issues = []
 
     orders = [item["order"] for item in snapshots]
-    expected = list(range(1, len(snapshots) + 1))
+    expected = expected_orders(orders)
     if orders != expected:
         architecture_issues.append(
             f"Series order is not contiguous: observed={orders}, expected={expected}"
@@ -130,7 +161,7 @@ def build_report(manifest: dict, snapshots: list[dict], date: str, manual_sectio
                 f"{item['source_item_id']}: broken local links={item['broken_local_links']}"
             )
         if not item["has_series_nav"]:
-            architecture_issues.append(f"{item['source_item_id']}: missing full series navigation")
+            architecture_issues.append(f"{item['source_item_id']}: missing reading navigation")
         if item["todo_count"]:
             editorial_issues.append(
                 f"{item['source_item_id']}: TODO/FIXME/待补 markers={item['todo_count']}"
@@ -153,7 +184,7 @@ def build_report(manifest: dict, snapshots: list[dict], date: str, manual_sectio
     )[:3]
 
     lines = [
-        f"# Android Rendering Pipelines Daily Review - {date}",
+        f"# {topic_article_title(topic)} Daily Review - {date}",
         "",
         f"- generated_at: `{datetime.now(timezone.utc).isoformat()}`",
         f"- article_count: {len(snapshots)}",
@@ -177,7 +208,8 @@ def build_report(manifest: dict, snapshots: list[dict], date: str, manual_sectio
         f"max={max_sources}, total={total_sources}.",
         f"- Local links: checked {local_total} markdown links; broken={broken_total}.",
         f"- Structure: series navigation present in {nav_count}/{len(snapshots)} articles; "
-        f"order=1-{len(snapshots)}; contiguous={'yes' if orders == expected else 'no'}.",
+        f"order={expected[0] if expected else 0}-{expected[-1] if expected else 0}; "
+        f"contiguous={'yes' if orders == expected else 'no'}.",
         f"- Editorial sweep: TODO/FIXME/待补 markers={todos}; "
         f"shortest={shortest['source_item_id']} ({shortest['word_count']} chars/words).",
         "- Scope limit: static review checks coverage and hygiene; claim-level correctness still "
@@ -224,8 +256,9 @@ def main() -> int:
     args = parse_args()
     manifest = load_manifest(args.topic)
     root = Path(manifest["topic"]["path"])
+    prefix = manifest["topic"].get("order_prefix", "S")
     articles = find_articles(manifest["topic"])
-    snapshots = [article_snapshot(path, root) for path in articles]
+    snapshots = [article_snapshot(path, root, prefix) for path in articles]
     report_path = root / "openclaw" / "reviews" / f"{args.date}-daily-review.md"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     manual_sections = preserve_manual_sections(report_path)

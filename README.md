@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-213-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-220-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -22,20 +22,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-08
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-10
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 🧠 AI & LLM | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
+| **Ali / waterloo_intern** [𝕏](https://x.com/waterloo_intern) [🐙](https://github.com/AliesTaha) | 🧠 AI & LLM | Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览） |
+| **MateMatt (mate_mattt)** [𝕏](https://x.com/mate_mattt) [🌐](https://matematt.com) [🐙](https://github.com/mate-matt) | 🧠 AI & LLM | 百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS |
+| **SagaSu (sujingshen)** [𝕏](https://x.com/sujingshen) [🌐](https://www.sagasu.art/) | 🧠 AI & LLM | 产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列（Spec-Driven Development），附加 X-Ray 晚报 + HN 战略雷达每日 AI 情报，主张「spec 是 Agent 的执行协议而非 PRD」 |
+| **Yanhua (yanhua1010)** [𝕏](https://x.com/yanhua1010) [🌐](https://www.yanhua.dev/) | 🧠 AI & LLM | 8 年后端经验，AI 创业者 / 独立开发者 / 全栈工程师，3.3 万粉丝、verified，yanhua.dev 博客持续连载 Harness Engineering、Claude Code Skills、Karpathy 等深度系列，是国内 AI Coding 工程实践的高质量中文源 |
+| **Harrison Chase (hwchase17)** [𝕏](https://x.com/hwchase17) [🌐](https://blog.langchain.dev/) | 🧠 AI & LLM | LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者 |
+| **ClaudeDevs (Anthropic 开发者官方)** [𝕏](https://x.com/ClaudeDevs) [🌐](https://claude.com/blog) | 🧠 AI & LLM | Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源 |
 | **苍何 (canghe)** [𝕏](https://x.com/canghe) [🌐](https://canghe.ai) | 🧠 AI & LLM | 前阿里工程师、Microsoft MVP，AI Builder / 开源创作者，主攻 Agent、Skills、MCP 与 AI-native 产品，个人主页 canghe.ai 汇总了产品/社群/深度内容 |
 | **Avi Chawla (_avichawla)** [𝕏](https://x.com/_avichawla) [📬](https://www.dailydoseofds.com/) | 🧠 AI & LLM | Daily Dose of DS 联合创始人，IIT Varanasi 校友，长期输出 DS/ML/LLM/RAG 教程与 Claude Code 命令速查等 AI 工程实践 |
 | **AnatoliKopadze** [𝕏](https://x.com/AnatoliKopadze) [🔗](https://t.me/kopadzemp) | 🧠 AI & LLM | AI loops 架构专家，专注大型 AI 工程模式研究 |
-| **kevinsxu** [𝕏](https://x.com/kevinsxu) | 🧠 AI & LLM | 开源AI的必要性与重要性分析，反对禁止开源AI的观点 |
-| **geekbb** [𝕏](https://x.com/geekbb) | 💻 优质技术博客 | Cloudflare客户端开发者，Swift/SwiftUI实现OAuth登录，域名和DNS管理工具专家 |
-| **fchollet** [𝕏](https://x.com/fchollet) | 🧠 AI & LLM | Keras框架作者，深度学习优化研究者 |
-| **ylecun** [𝕏](https://x.com/ylecun) | 🧠 AI & LLM | 深度学习先驱，专注于计算效率优化和大规模模型应用 |
-| **潜龙勿用之化骨龙** [💎](https://juejin.cn/user/3241239917486351) | 📱 Android 技术博客 | Android开发专家，深入分析Android架构和通信机制 |
-| **陆业聪** [💎](https://juejin.cn/user/3275475332333531) | 📱 Android 技术博客 | Android技术专家，专注于Android开发趋势分析和最佳实践 |
-| **ThoughtWorks性能工程团队** [🌐](https://www.thoughtworks.com/zh-cn/insights/blog/platforms/performance-engineering-maturity-model) | 💻 优质技术博客 | 企业级性能工程成熟度模型，覆盖从架构设计到持续运营全流程 |
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
@@ -150,10 +150,17 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 57 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 64 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
+| **Ali / waterloo_intern** [𝕏](https://x.com/waterloo_intern) [🐙](https://github.com/AliesTaha) | Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览） |
+| **MateMatt (mate_mattt)** [𝕏](https://x.com/mate_mattt) [🌐](https://matematt.com) [🐙](https://github.com/mate-matt) | 百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS |
+| **SagaSu (sujingshen)** [𝕏](https://x.com/sujingshen) [🌐](https://www.sagasu.art/) | 产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列（Spec-Driven Development），附加 X-Ray 晚报 + HN 战略雷达每日 AI 情报，主张「spec 是 Agent 的执行协议而非 PRD」 |
+| **Yanhua (yanhua1010)** [𝕏](https://x.com/yanhua1010) [🌐](https://www.yanhua.dev/) | 8 年后端经验，AI 创业者 / 独立开发者 / 全栈工程师，3.3 万粉丝、verified，yanhua.dev 博客持续连载 Harness Engineering、Claude Code Skills、Karpathy 等深度系列，是国内 AI Coding 工程实践的高质量中文源 |
+| **Harrison Chase (hwchase17)** [𝕏](https://x.com/hwchase17) [🌐](https://blog.langchain.dev/) | LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者 |
+| **ClaudeDevs (Anthropic 开发者官方)** [𝕏](https://x.com/ClaudeDevs) [🌐](https://claude.com/blog) | Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源 |
 | **苍何 (canghe)** [𝕏](https://x.com/canghe) [🌐](https://canghe.ai) | 前阿里工程师、Microsoft MVP，AI Builder / 开源创作者，主攻 Agent、Skills、MCP 与 AI-native 产品，个人主页 canghe.ai 汇总了产品/社群/深度内容 |
 | **Avi Chawla (_avichawla)** [𝕏](https://x.com/_avichawla) [📬](https://www.dailydoseofds.com/) | Daily Dose of DS 联合创始人，IIT Varanasi 校友，长期输出 DS/ML/LLM/RAG 教程与 Claude Code 命令速查等 AI 工程实践 |
 | **AnatoliKopadze** [𝕏](https://x.com/AnatoliKopadze) [🔗](https://t.me/kopadzemp) | AI loops 架构专家，专注大型 AI 工程模式研究 |

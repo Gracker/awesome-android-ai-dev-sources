@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-07-08",
+  "updated": "2026-07-10",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,189 @@
     }
   ],
   "entries": [
+    {
+      "id": "lxfater-twitter",
+      "name": "铁锤人 (lxfater)",
+      "category": "ai",
+      "author": "铁锤人",
+      "desc": "独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务",
+      "links": {
+        "x": "https://x.com/lxfater",
+        "blog": "https://www.lxfater.com",
+        "github": "https://github.com/lxfater"
+      },
+      "tags": [
+        "ai",
+        "indie-dev",
+        "frontend",
+        "oss",
+        "wechat",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "waterloo-intern-twitter",
+      "name": "Ali / waterloo_intern",
+      "category": "ai",
+      "author": "Ali (AliesTaha)",
+      "desc": "Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览）",
+      "links": {
+        "x": "https://x.com/waterloo_intern",
+        "github": "https://github.com/AliesTaha"
+      },
+      "tags": [
+        "ai",
+        "ml-infra",
+        "gpu-kernels",
+        "model-distillation",
+        "inference",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "mate-mattt-twitter",
+      "name": "MateMatt (mate_mattt)",
+      "category": "ai",
+      "author": "MateMatt",
+      "desc": "百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS",
+      "links": {
+        "x": "https://x.com/mate_mattt",
+        "blog": "https://matematt.com",
+        "github": "https://github.com/mate-matt"
+      },
+      "tags": [
+        "ai",
+        "agent-runtime",
+        "hermes",
+        "codex",
+        "engineering",
+        "x",
+        "github"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "sagasu-sujingshen-twitter",
+      "name": "SagaSu (sujingshen)",
+      "category": "ai",
+      "author": "SagaSu",
+      "desc": "产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列（Spec-Driven Development），附加 X-Ray 晚报 + HN 战略雷达每日 AI 情报，主张「spec 是 Agent 的执行协议而非 PRD」",
+      "links": {
+        "x": "https://x.com/sujingshen",
+        "blog": "https://www.sagasu.art/"
+      },
+      "tags": [
+        "ai",
+        "spec-driven",
+        "sdd",
+        "agent",
+        "newsletter",
+        "x",
+        "blog"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "yanhua1010-twitter",
+      "name": "Yanhua (yanhua1010)",
+      "category": "ai",
+      "author": "Yanhua",
+      "desc": "8 年后端经验，AI 创业者 / 独立开发者 / 全栈工程师，3.3 万粉丝、verified，yanhua.dev 博客持续连载 Harness Engineering、Claude Code Skills、Karpathy 等深度系列，是国内 AI Coding 工程实践的高质量中文源",
+      "links": {
+        "x": "https://x.com/yanhua1010",
+        "blog": "https://www.yanhua.dev/"
+      },
+      "tags": [
+        "ai",
+        "harness",
+        "claude-code",
+        "indie-dev",
+        "blog",
+        "x"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "hwchase17-twitter",
+      "name": "Harrison Chase (hwchase17)",
+      "category": "ai",
+      "author": "Harrison Chase",
+      "desc": "LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者",
+      "links": {
+        "x": "https://x.com/hwchase17",
+        "blog": "https://blog.langchain.dev/"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "langchain",
+        "memory",
+        "rag",
+        "engineering",
+        "x"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
+    {
+      "id": "claudedevs-twitter",
+      "name": "ClaudeDevs (Anthropic 开发者官方)",
+      "category": "ai",
+      "author": "Anthropic",
+      "desc": "Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源",
+      "links": {
+        "x": "https://x.com/ClaudeDevs",
+        "blog": "https://claude.com/blog"
+      },
+      "tags": [
+        "ai",
+        "claude",
+        "claude-code",
+        "agent",
+        "official",
+        "x",
+        "anthropic"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-10"
+    },
     {
       "id": "canghe-twitter",
       "name": "苍何 (canghe)",

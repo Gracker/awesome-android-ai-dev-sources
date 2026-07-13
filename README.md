@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-220-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-222-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -22,10 +22,12 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-12
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-13
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **卡颂 (kasong2048 / Shaoyin Song)** [𝕏](https://x.com/kasong2048) [🐙](https://github.com/camsong) [🌐](https://github.com/camsong/blog) | 🧠 AI & LLM | verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star |
+| **yibie (GTD study)** [𝕏](https://x.com/yibie) [🌐](http://www.gtdstudy.com) | 🧠 AI & LLM | verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学 |
 | **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 🧠 AI & LLM | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
 | **Ali / waterloo_intern** [𝕏](https://x.com/waterloo_intern) [🐙](https://github.com/AliesTaha) | 🧠 AI & LLM | Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览） |
 | **MateMatt (mate_mattt)** [𝕏](https://x.com/mate_mattt) [🌐](https://matematt.com) [🐙](https://github.com/mate-matt) | 🧠 AI & LLM | 百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS |
@@ -34,8 +36,6 @@
 | **Harrison Chase (hwchase17)** [𝕏](https://x.com/hwchase17) [🌐](https://blog.langchain.dev/) | 🧠 AI & LLM | LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者 |
 | **ClaudeDevs (Anthropic 开发者官方)** [𝕏](https://x.com/ClaudeDevs) [🌐](https://claude.com/blog) | 🧠 AI & LLM | Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源 |
 | **苍何 (canghe)** [𝕏](https://x.com/canghe) [🌐](https://canghe.ai) | 🧠 AI & LLM | 前阿里工程师、Microsoft MVP，AI Builder / 开源创作者，主攻 Agent、Skills、MCP 与 AI-native 产品，个人主页 canghe.ai 汇总了产品/社群/深度内容 |
-| **Avi Chawla (_avichawla)** [𝕏](https://x.com/_avichawla) [📬](https://www.dailydoseofds.com/) | 🧠 AI & LLM | Daily Dose of DS 联合创始人，IIT Varanasi 校友，长期输出 DS/ML/LLM/RAG 教程与 Claude Code 命令速查等 AI 工程实践 |
-| **AnatoliKopadze** [𝕏](https://x.com/AnatoliKopadze) [🔗](https://t.me/kopadzemp) | 🧠 AI & LLM | AI loops 架构专家，专注大型 AI 工程模式研究 |
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
@@ -150,10 +150,12 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 64 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 66 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **卡颂 (kasong2048 / Shaoyin Song)** [𝕏](https://x.com/kasong2048) [🐙](https://github.com/camsong) [🌐](https://github.com/camsong/blog) | verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star |
+| **yibie (GTD study)** [𝕏](https://x.com/yibie) [🌐](http://www.gtdstudy.com) | verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学 |
 | **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
 | **Ali / waterloo_intern** [𝕏](https://x.com/waterloo_intern) [🐙](https://github.com/AliesTaha) | Baseten 模型性能工程师、UWaterloo，5843 粉、verified，专注 GPU kernel 优化、模型蒸馏、硬件-算法协同设计，曾开源 2.3M Claude 推理轨迹蒸馏到 Qwen3-4B 的实验模型（推文 3M+ 浏览） |
 | **MateMatt (mate_mattt)** [𝕏](https://x.com/mate_mattt) [🌐](https://matematt.com) [🐙](https://github.com/mate-matt) | 百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS |

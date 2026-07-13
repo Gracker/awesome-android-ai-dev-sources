@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-07-12",
+  "updated": "2026-07-13",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,63 @@
     }
   ],
   "entries": [
+    {
+      "id": "kasong2048-twitter",
+      "name": "卡颂 (kasong2048 / Shaoyin Song)",
+      "category": "ai",
+      "author": "Shaoyin Song (cam_song)",
+      "desc": "verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star",
+      "links": {
+        "x": "https://x.com/kasong2048",
+        "github": "https://github.com/camsong",
+        "blog": "https://github.com/camsong/blog"
+      },
+      "tags": [
+        "ai",
+        "react",
+        "frontend",
+        "oss",
+        "harness",
+        "agent",
+        "skill",
+        "indie",
+        "github",
+        "x",
+        "blog"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-13"
+    },
+    {
+      "id": "yibie-twitter",
+      "name": "yibie (GTD study)",
+      "category": "ai",
+      "author": "yibie",
+      "desc": "verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学",
+      "links": {
+        "x": "https://x.com/yibie",
+        "blog": "http://www.gtdstudy.com"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "loop",
+        "engineering-culture",
+        "ai-curation",
+        "x",
+        "blog"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-13"
+    },
     {
       "id": "lxfater-twitter",
       "name": "铁锤人 (lxfater)",

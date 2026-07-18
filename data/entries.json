@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,91 @@
     }
   ],
   "entries": [
+    {
+      "id": "joe-birch",
+      "name": "Joe Birch",
+      "category": "android-blog",
+      "author": "Joe Birch",
+      "desc": "Android GDE、Buffer Android 工程师；joebirch.co 持续产出 Practical Kotlin Multiplatform 系列（含 Ktor networking 等），Android Weekly #735 收录，RSS 可用。英文 Android/KMP 实战向稳定博客。",
+      "links": {
+        "blog": "https://joebirch.co/",
+        "rss": "https://joebirch.co/feed/",
+        "x": "https://x.com/hitherejoe"
+      },
+      "tags": [
+        "android",
+        "kmp",
+        "kotlin",
+        "compose",
+        "gde",
+        "blog",
+        "x"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-18"
+    },
+    {
+      "id": "geoffrey-huntley",
+      "name": "Geoffrey Huntley (Ralph loop)",
+      "category": "ai",
+      "author": "Geoffrey Huntley",
+      "desc": "Ralph loop 提出者，X verified ~8.3 万粉；ghuntley.com 持续写 agent loop、自动移植、software factory、cognitive security 等，RSS 可用。被 Armin 等引用为 harness-level loop 的早期实践源头，是 AI coding 工作流方法论的一手账号。",
+      "links": {
+        "blog": "https://ghuntley.com/",
+        "rss": "https://ghuntley.com/rss/",
+        "x": "https://x.com/GeoffreyHuntley"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "ralph-loop",
+        "harness",
+        "coding-agents",
+        "blog",
+        "x"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-18"
+    },
+    {
+      "id": "mitsuhiko-armin-ronacher",
+      "name": "Armin Ronacher (mitsuhiko)",
+      "category": "ai",
+      "author": "Armin Ronacher",
+      "desc": "Flask 作者、前 Sentry 工程负责人，现 Earendil；X verified ~8.3 万粉。个人博客 lucumr.pocoo.org 近月高频输出 agent harness/loop 工程文化（The Coming Loop、The Tower Keeps Rising、Better Models: Worse Tools），附 Atom feed，是 2026 agentic engineering 讨论的一手源头。",
+      "links": {
+        "blog": "https://lucumr.pocoo.org/",
+        "rss": "https://lucumr.pocoo.org/feed.atom",
+        "x": "https://x.com/mitsuhiko",
+        "github": "https://github.com/mitsuhiko",
+        "homepage": "https://ronacher.eu"
+      },
+      "tags": [
+        "ai",
+        "agent",
+        "harness",
+        "loop",
+        "python",
+        "oss",
+        "engineering-culture",
+        "blog",
+        "x"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-07-18"
+    },
     {
       "id": "kasong2048-twitter",
       "name": "卡颂 (kasong2048 / Shaoyin Song)",

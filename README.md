@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-222-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-225-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -22,10 +22,13 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-17
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-07-18
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **Joe Birch** [🌐](https://joebirch.co/) [📡](https://joebirch.co/feed/) [𝕏](https://x.com/hitherejoe) | 📱 Android 技术博客 | Android GDE、Buffer Android 工程师；joebirch.co 持续产出 Practical Kotlin Multiplatform 系列（含 Ktor networking 等），Android Weekly #735 收录，RSS 可用。英文 Android/KMP 实战向稳定博客。 |
+| **Geoffrey Huntley (Ralph loop)** [🌐](https://ghuntley.com/) [📡](https://ghuntley.com/rss/) [𝕏](https://x.com/GeoffreyHuntley) | 🧠 AI & LLM | Ralph loop 提出者，X verified ~8.3 万粉；ghuntley.com 持续写 agent loop、自动移植、software factory、cognitive security 等，RSS 可用。被 Armin 等引用为 harness-level loop 的早期实践源头，是 AI coding 工作流方法论的一手账号。 |
+| **Armin Ronacher (mitsuhiko)** [🌐](https://lucumr.pocoo.org/) [📡](https://lucumr.pocoo.org/feed.atom) [𝕏](https://x.com/mitsuhiko) [🐙](https://github.com/mitsuhiko) [🔗](https://ronacher.eu) | 🧠 AI & LLM | Flask 作者、前 Sentry 工程负责人，现 Earendil；X verified ~8.3 万粉。个人博客 lucumr.pocoo.org 近月高频输出 agent harness/loop 工程文化（The Coming Loop、The Tower Keeps Rising、Better Models: Worse Tools），附 Atom feed，是 2026 agentic engineering 讨论的一手源头。 |
 | **卡颂 (kasong2048 / Shaoyin Song)** [𝕏](https://x.com/kasong2048) [🐙](https://github.com/camsong) [🌐](https://github.com/camsong/blog) | 🧠 AI & LLM | verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star |
 | **yibie (GTD study)** [𝕏](https://x.com/yibie) [🌐](http://www.gtdstudy.com) | 🧠 AI & LLM | verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学 |
 | **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 🧠 AI & LLM | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
@@ -33,9 +36,6 @@
 | **MateMatt (mate_mattt)** [𝕏](https://x.com/mate_mattt) [🌐](https://matematt.com) [🐙](https://github.com/mate-matt) | 🧠 AI & LLM | 百度工程师（skills.baidu / comate.baidu 背景），verified，持续输出 Agent Runtime / Hermes / LangGraph / Pi-Agent / Vector DB 系列工程深度拆解，matematt.com 主页 + github.com/mate-matt 维护 4 个活跃 OSS |
 | **SagaSu (sujingshen)** [𝕏](https://x.com/sujingshen) [🌐](https://www.sagasu.art/) | 🧠 AI & LLM | 产品人 × AI 实践者，sagasu.art 博客连载「AI 时代的编码新范式」9 篇系列（Spec-Driven Development），附加 X-Ray 晚报 + HN 战略雷达每日 AI 情报，主张「spec 是 Agent 的执行协议而非 PRD」 |
 | **Yanhua (yanhua1010)** [𝕏](https://x.com/yanhua1010) [🌐](https://www.yanhua.dev/) | 🧠 AI & LLM | 8 年后端经验，AI 创业者 / 独立开发者 / 全栈工程师，3.3 万粉丝、verified，yanhua.dev 博客持续连载 Harness Engineering、Claude Code Skills、Karpathy 等深度系列，是国内 AI Coding 工程实践的高质量中文源 |
-| **Harrison Chase (hwchase17)** [𝕏](https://x.com/hwchase17) [🌐](https://blog.langchain.dev/) | 🧠 AI & LLM | LangChain 联合创始人兼 CEO，11.7 万粉丝、verified，长期输出 AI Agent / LangGraph / LangMem / DeepAgents 等框架设计理念，是 LLM 应用工程领域事实标准的核心定义者 |
-| **ClaudeDevs (Anthropic 开发者官方)** [𝕏](https://x.com/ClaudeDevs) [🌐](https://claude.com/blog) | 🧠 AI & LLM | Anthropic 官方开发者账号，56 万粉丝、verified，发布 Claude 模型能力、Claude Code 工具链与 Claude Managed Agents 工程实践，是 Claude 平台功能更新的第一手权威源 |
-| **苍何 (canghe)** [𝕏](https://x.com/canghe) [🌐](https://canghe.ai) | 🧠 AI & LLM | 前阿里工程师、Microsoft MVP，AI Builder / 开源创作者，主攻 Agent、Skills、MCP 与 AI-native 产品，个人主页 canghe.ai 汇总了产品/社群/深度内容 |
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
@@ -64,10 +64,11 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 65 个源
+*独立博客、掘金、知乎、公众号* · 66 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **Joe Birch** [🌐](https://joebirch.co/) [📡](https://joebirch.co/feed/) [𝕏](https://x.com/hitherejoe) | Android GDE、Buffer Android 工程师；joebirch.co 持续产出 Practical Kotlin Multiplatform 系列（含 Ktor networking 等），Android Weekly #735 收录，RSS 可用。英文 Android/KMP 实战向稳定博客。 |
 | **Perfetto数据探索** [💬](https://mp.weixin.qq.com) | Perfetto官方文档教你查询数据又不想写sql语句的方法Data Explorer |
 | **camel-ai/owl** [🐙](https://github.com/camel-ai-owl/owl) | GitHub Android Trending热门项目，自然语言转Android CLI命令的AI Agent工具链，支持 Gemini/Claude Code/Codex 等主流Agent集成 |
 | **Android小码哥** 💬 Android小码哥 | 原创 Android 技术公众号，产出《深度剖析：为什么Android选择了Binder》《Android启动全景图》等高质量 Android 底层/性能分析系列文章 |
@@ -150,10 +151,12 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 66 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 68 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **Geoffrey Huntley (Ralph loop)** [🌐](https://ghuntley.com/) [📡](https://ghuntley.com/rss/) [𝕏](https://x.com/GeoffreyHuntley) | Ralph loop 提出者，X verified ~8.3 万粉；ghuntley.com 持续写 agent loop、自动移植、software factory、cognitive security 等，RSS 可用。被 Armin 等引用为 harness-level loop 的早期实践源头，是 AI coding 工作流方法论的一手账号。 |
+| **Armin Ronacher (mitsuhiko)** [🌐](https://lucumr.pocoo.org/) [📡](https://lucumr.pocoo.org/feed.atom) [𝕏](https://x.com/mitsuhiko) [🐙](https://github.com/mitsuhiko) [🔗](https://ronacher.eu) | Flask 作者、前 Sentry 工程负责人，现 Earendil；X verified ~8.3 万粉。个人博客 lucumr.pocoo.org 近月高频输出 agent harness/loop 工程文化（The Coming Loop、The Tower Keeps Rising、Better Models: Worse Tools），附 Atom feed，是 2026 agentic engineering 讨论的一手源头。 |
 | **卡颂 (kasong2048 / Shaoyin Song)** [𝕏](https://x.com/kasong2048) [🐙](https://github.com/camsong) [🌐](https://github.com/camsong/blog) | verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star |
 | **yibie (GTD study)** [𝕏](https://x.com/yibie) [🌐](http://www.gtdstudy.com) | verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学 |
 | **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |

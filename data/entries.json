@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-07-18",
+  "updated": "2026-08-04",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,53 @@
     }
   ],
   "entries": [
+    {
+      "id": "dannymac180-sol-advisor",
+      "name": "DannyMac180/sol-advisor",
+      "category": "tools",
+      "author": "DannyMac180",
+      "desc": "Codex-native 多 Agent 编码编排插件，把架构、实现和干净上下文复查拆成明确职责，README 对安装、路由证据和验收边界写得具体。",
+      "links": {
+        "github": "https://github.com/DannyMac180/sol-advisor",
+        "newsletter": "https://attentionheads.substack.com"
+      },
+      "tags": [
+        "codex",
+        "ai-agent",
+        "developer-tools",
+        "workflow",
+        "github"
+      ],
+      "quality": 4,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-04"
+    },
+    {
+      "id": "github-changelog",
+      "name": "GitHub Changelog",
+      "category": "tools",
+      "author": "GitHub",
+      "desc": "GitHub 官方产品变更日志，覆盖 Copilot、Actions、CodeQL、npm 与企业治理能力更新，适合跟踪开发工具和 Agent 平台策略变化。",
+      "links": {
+        "blog": "https://github.blog/changelog/"
+      },
+      "tags": [
+        "github",
+        "developer-tools",
+        "copilot",
+        "actions",
+        "changelog"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-04"
+    },
     {
       "id": "joe-birch",
       "name": "Joe Birch",

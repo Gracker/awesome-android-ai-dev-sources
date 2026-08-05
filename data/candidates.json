@@ -1,22 +1,25 @@
 {
-  "discovery_run_id": "20260804-163110-9309f4d7",
-  "discovery_date": "2026-08-04",
+  "discovery_run_id": "20260805-163516-6f9a2805",
+  "discovery_date": "2026-08-05",
   "scan_sources": [
-    "Obsidian recent 48h: X 文章/2026-08-04-1237-XudongHan-SolAdvisor多Agent协作.md",
-    "Obsidian recent 48h: 调研/2026-08-04-调研-实时语音Agent系统工程.md",
-    "Obsidian recent 48h: 调研/2026-08-04-调研-开放权重Agent模型验收清单.md",
-    "Obsidian recent 48h: 调研/2026-08-04-调研-企业Agent连接器权限表.md",
+    "Obsidian recent 48h: 调研/2026-08-05-调研-Sol验收闸门与AGENTS生产改写.md",
+    "Obsidian recent 48h: 调研/2026-08-05-调研-Jetpacker混合推理决策表.md",
+    "Obsidian recent 48h: 调研/2026-08-05-调研-LFM25真实Harness后训练与本地验收.md",
+    "Obsidian recent 48h: OpenClaw定时任务/Agent实践探索/2026-08-05-Agent实践探索.md",
+    "Obsidian recent 48h: Cubox/开源「活人感写作.skill」-2026-08-05.md",
+    "gh api: githubstatus/npm/openai status+incidents",
+    "gh api: Gracker/SmartPerfetto head/commits/releases/PRs/issues",
     "opencli web read https://github.blog/changelog/",
-    "opencli web read https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
-    "opencli web read https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
-    "opencli web read https://www.githubstatus.com/",
-    "opencli web read https://status.openai.com/",
-    "opencli hackernews top --limit 20",
-    "opencli twitter search \"(AI agent OR coding agent OR Android) (release OR open source OR security)\" --product live --limit 12"
+    "opencli web read https://developer.android.com/studio/releases",
+    "opencli web read https://agents.md/",
+    "opencli web read https://github.com/agentsmd/agents.md",
+    "opencli web read https://www.liquid.ai/blog",
+    "opencli duckduckgo search agents.md / Jetpacker",
+    "opencli hackernews top --limit 15"
   ],
-  "scan_notes": "GitHub 与 OpenAI 状态页均为 operational，无事故告警。GitHub Changelog 2026-08-03 出现两个值得行动的 Copilot cloud agent 变化：评论触发 automations、cloud agent 可选择 reasoning level；建议把评论触发型自动化纳入仓库权限/审计检查，并为高 reasoning 设置预算边界。今日 Obsidian 高信号集中在实时语音 Agent、开放权重 Agent 模型验收、企业 Agent 连接器权限与 Sol Advisor 多 Agent 编排。新增候选只收稳定源：GitHub Changelog 和 DannyMac180/sol-advisor；未收单条 tweet、单篇文章、HN 单条新闻或发行页。opencli developer.android.com/latest-updates 读取失败，Android 官方博客已存在于 entries，本轮不新增 Android 源。",
+  "scan_notes": "平台：GitHub/npm/OpenAI 均为 All Systems Operational。近 72h 已恢复事故：GitHub Copilot minor（08-03）、OpenAI ChatGPT conversation errors minor（08-04）。SmartPerfetto：v1.4.0 GitHub Release 已于 2026-08-03T15:25Z 发布（此前 08-03 radar 仍停在 v1.3.0）；main HEAD 仍为 dc13a959。新高优先级 PR #239（cipherTing）OIDC 页面级分析连接与会话隔离：checks SUCCESS×7、MERGEABLE/CLEAN，+2553/-1144/88 files，待人工 review。#235/#236 用户 bug 仍 open（自 07-30 无更新）。Dependabot：#226 still trace-corpus FAILURE；#232 CONFLICTING/DIRTY；#228/#234 等 CLEAN 可择机合。Changelog 08-04：Code scanning default setup at scale、Dependabot PR 分支名自定义、CodeQL 2.26.2、Copilot Billing Preview 退役、GitHub Spark 即将弃用。Android Studio stable 仍为 Quail 3 / 2026.1.3。Jetpacker 系列落在已有 android-developers-blog，不重复收录。新增稳定源 2：AGENTS.md 规范站+repo、Liquid AI Blog。排除：微信单篇活人感写作 skill、HN 单条、单篇 LFM 发布文、单条 X。",
   "new_candidates": 0,
   "candidates": [],
-  "processed_count": 5,
-  "processed_date": "2026-08-04"
+  "processed_count": 2,
+  "processed_date": "2026-08-05"
 }

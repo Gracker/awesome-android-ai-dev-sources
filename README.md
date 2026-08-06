@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-229-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-233-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -22,20 +22,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-08-05
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-08-06
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **mattpocock/skills** [🐙](https://github.com/mattpocock/skills) [📬](https://www.aihero.dev/s/skills-newsletter) | 🛠 开发工具 | Matt Pocock 日常工程 agent skills 仓库（含 grill-me/grilling 需求对齐 primitive）；小而可组合、跨模型，是 skill 工程与苏格拉底式需求压力测试的稳定源。 |
+| **Prime Agent** [🐙](https://github.com/PrimeIntellect-ai/prime-agent) | 🛠 开发工具 | 开源 self-improving RLM coding agent（MIT）：IPython 程序化工具面、Continual Harness CRUD、/refine 可回滚自改、A2A 核家族；README 明确非安全沙箱，适合对照 Hermes skill 门禁。 |
+| **Prime Intellect Blog** [🌐](https://www.primeintellect.ai/blog) [🔗](https://www.primeintellect.ai/) | 🧠 AI & LLM | Prime Intellect 官方 blog：Prime Agent / RLM、Continual Harness、verifiers、agentic RL 环境与开源超智栈；今日 08-05 Prime Agent 文与 harness 自改对照直接相关。 |
+| **Discovery Loop** [🌐](https://www.discoveryloop.com/) | 🧠 AI & LLM | Jeff Dean / Sanjay / Oriol / Quoc 新创 PBC 主页：把 experimental loop（假设→配置→运行→指标→改写）产品化，先自用改进 ML 再扩科学工程；与 coding agent outer loop 对照的一手官方入口。 |
 | **Liquid AI Blog** [🌐](https://www.liquid.ai/blog) [🔗](https://www.liquid.ai/) | 🧠 AI & LLM | Liquid AI 官方 blog：LFM 端侧/混合模型发布、encoder/retriever、真实 agent harness 后训练与 license 边界；今日 LFM2.5-2.6B 直接关联 Hermes/OpenClaw 等 harness 验收。 |
 | **AGENTS.md** [🌐](https://agents.md/) [🐙](https://github.com/agentsmd/agents.md) | 🛠 开发工具 | 面向 coding agent 的开放指令格式与规范主页；约定仓库级 AGENTS.md 的职责边界、跨工具兼容（Codex/Jules/Aider/goose 等），是 agent harness 工程的稳定参考源。 |
 | **DannyMac180/sol-advisor** [🐙](https://github.com/DannyMac180/sol-advisor) [📬](https://attentionheads.substack.com) | 🛠 开发工具 | Codex-native 多 Agent 编码编排插件，把架构、实现和干净上下文复查拆成明确职责，README 对安装、路由证据和验收边界写得具体。 |
 | **GitHub Changelog** [🌐](https://github.blog/changelog/) | 🛠 开发工具 | GitHub 官方产品变更日志，覆盖 Copilot、Actions、CodeQL、npm 与企业治理能力更新，适合跟踪开发工具和 Agent 平台策略变化。 |
 | **Joe Birch** [🌐](https://joebirch.co/) [📡](https://joebirch.co/feed/) [𝕏](https://x.com/hitherejoe) | 📱 Android 技术博客 | Android GDE、Buffer Android 工程师；joebirch.co 持续产出 Practical Kotlin Multiplatform 系列（含 Ktor networking 等），Android Weekly #735 收录，RSS 可用。英文 Android/KMP 实战向稳定博客。 |
 | **Geoffrey Huntley (Ralph loop)** [🌐](https://ghuntley.com/) [📡](https://ghuntley.com/rss/) [𝕏](https://x.com/GeoffreyHuntley) | 🧠 AI & LLM | Ralph loop 提出者，X verified ~8.3 万粉；ghuntley.com 持续写 agent loop、自动移植、software factory、cognitive security 等，RSS 可用。被 Armin 等引用为 harness-level loop 的早期实践源头，是 AI coding 工作流方法论的一手账号。 |
-| **Armin Ronacher (mitsuhiko)** [🌐](https://lucumr.pocoo.org/) [📡](https://lucumr.pocoo.org/feed.atom) [𝕏](https://x.com/mitsuhiko) [🐙](https://github.com/mitsuhiko) [🔗](https://ronacher.eu) | 🧠 AI & LLM | Flask 作者、前 Sentry 工程负责人，现 Earendil；X verified ~8.3 万粉。个人博客 lucumr.pocoo.org 近月高频输出 agent harness/loop 工程文化（The Coming Loop、The Tower Keeps Rising、Better Models: Worse Tools），附 Atom feed，是 2026 agentic engineering 讨论的一手源头。 |
-| **卡颂 (kasong2048 / Shaoyin Song)** [𝕏](https://x.com/kasong2048) [🐙](https://github.com/camsong) [🌐](https://github.com/camsong/blog) | 🧠 AI & LLM | verified，前阿里工程师、《React 设计原理》作者，X 聚焦 AI Native CLI 商业模式 / Skill 经济 / Harness Engineering / Agent 开发培训实战，GitHub @camsong 3.9k 粉 + blog 3.6k star + You-Dont-Need-jQuery 20.2k star + areact + nefe/number-precision 4.1k star |
-| **yibie (GTD study)** [𝕏](https://x.com/yibie) [🌐](http://www.gtdstudy.com) | 🧠 AI & LLM | verified AI Agent 工程文化策展型账号，串联 Armin Ronacher（即将到来的 Loop）、Dan McKinley（选择无聊的技术）、Ethan Mollick（AI 太阳能曲线）、swyx（Jevons 悖论 + Agent）、Lisp 100 行 Agent 等关键文本并补上下文，gtdstudy.com 个人站点含读书笔记与 Agent 哲学 |
-| **铁锤人 (lxfater)** [𝕏](https://x.com/lxfater) [🌐](https://www.lxfater.com) [🐙](https://github.com/lxfater) | 🧠 AI & LLM | 独立创业者 + 前端插件/AI 工具开发者，10.3 万粉、verified，github 维护 inpaint-web（5.9K star）/ Awesome-GPTs / BilibiliSummary 等多个开源项目，lxfater.com 提供 AI 编程 + 独立开发咨询服务 |
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
@@ -151,10 +151,12 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 69 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 71 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **Prime Intellect Blog** [🌐](https://www.primeintellect.ai/blog) [🔗](https://www.primeintellect.ai/) | Prime Intellect 官方 blog：Prime Agent / RLM、Continual Harness、verifiers、agentic RL 环境与开源超智栈；今日 08-05 Prime Agent 文与 harness 自改对照直接相关。 |
+| **Discovery Loop** [🌐](https://www.discoveryloop.com/) | Jeff Dean / Sanjay / Oriol / Quoc 新创 PBC 主页：把 experimental loop（假设→配置→运行→指标→改写）产品化，先自用改进 ML 再扩科学工程；与 coding agent outer loop 对照的一手官方入口。 |
 | **Liquid AI Blog** [🌐](https://www.liquid.ai/blog) [🔗](https://www.liquid.ai/) | Liquid AI 官方 blog：LFM 端侧/混合模型发布、encoder/retriever、真实 agent harness 后训练与 license 边界；今日 LFM2.5-2.6B 直接关联 Hermes/OpenClaw 等 harness 验收。 |
 | **Geoffrey Huntley (Ralph loop)** [🌐](https://ghuntley.com/) [📡](https://ghuntley.com/rss/) [𝕏](https://x.com/GeoffreyHuntley) | Ralph loop 提出者，X verified ~8.3 万粉；ghuntley.com 持续写 agent loop、自动移植、software factory、cognitive security 等，RSS 可用。被 Armin 等引用为 harness-level loop 的早期实践源头，是 AI coding 工作流方法论的一手账号。 |
 | **Armin Ronacher (mitsuhiko)** [🌐](https://lucumr.pocoo.org/) [📡](https://lucumr.pocoo.org/feed.atom) [𝕏](https://x.com/mitsuhiko) [🐙](https://github.com/mitsuhiko) [🔗](https://ronacher.eu) | Flask 作者、前 Sentry 工程负责人，现 Earendil；X verified ~8.3 万粉。个人博客 lucumr.pocoo.org 近月高频输出 agent harness/loop 工程文化（The Coming Loop、The Tower Keeps Rising、Better Models: Worse Tools），附 Atom feed，是 2026 agentic engineering 讨论的一手源头。 |
@@ -280,10 +282,12 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 23 个源
+*性能分析、调试、开发效率工具* · 25 个源
 
 | 信息源 | 描述 |
 |--------|------|
+| **mattpocock/skills** [🐙](https://github.com/mattpocock/skills) [📬](https://www.aihero.dev/s/skills-newsletter) | Matt Pocock 日常工程 agent skills 仓库（含 grill-me/grilling 需求对齐 primitive）；小而可组合、跨模型，是 skill 工程与苏格拉底式需求压力测试的稳定源。 |
+| **Prime Agent** [🐙](https://github.com/PrimeIntellect-ai/prime-agent) | 开源 self-improving RLM coding agent（MIT）：IPython 程序化工具面、Continual Harness CRUD、/refine 可回滚自改、A2A 核家族；README 明确非安全沙箱，适合对照 Hermes skill 门禁。 |
 | **AGENTS.md** [🌐](https://agents.md/) [🐙](https://github.com/agentsmd/agents.md) | 面向 coding agent 的开放指令格式与规范主页；约定仓库级 AGENTS.md 的职责边界、跨工具兼容（Codex/Jules/Aider/goose 等），是 agent harness 工程的稳定参考源。 |
 | **DannyMac180/sol-advisor** [🐙](https://github.com/DannyMac180/sol-advisor) [📬](https://attentionheads.substack.com) | Codex-native 多 Agent 编码编排插件，把架构、实现和干净上下文复查拆成明确职责，README 对安装、路由证据和验收边界写得具体。 |
 | **GitHub Changelog** [🌐](https://github.blog/changelog/) | GitHub 官方产品变更日志，覆盖 Copilot、Actions、CodeQL、npm 与企业治理能力更新，适合跟踪开发工具和 Agent 平台策略变化。 |

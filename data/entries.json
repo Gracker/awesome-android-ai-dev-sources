@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "categories": [
     {
       "id": "android-official",
@@ -36,6 +36,100 @@
     }
   ],
   "entries": [
+    {
+      "id": "mattpocock-skills",
+      "name": "mattpocock/skills",
+      "category": "tools",
+      "author": "Matt Pocock",
+      "desc": "Matt Pocock 日常工程 agent skills 仓库（含 grill-me/grilling 需求对齐 primitive）；小而可组合、跨模型，是 skill 工程与苏格拉底式需求压力测试的稳定源。",
+      "links": {
+        "github": "https://github.com/mattpocock/skills",
+        "newsletter": "https://www.aihero.dev/s/skills-newsletter"
+      },
+      "tags": [
+        "ai-agent",
+        "skills",
+        "claude-code",
+        "planning",
+        "developer-tools"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-06"
+    },
+    {
+      "id": "prime-agent",
+      "name": "Prime Agent",
+      "category": "tools",
+      "author": "Prime Intellect",
+      "desc": "开源 self-improving RLM coding agent（MIT）：IPython 程序化工具面、Continual Harness CRUD、/refine 可回滚自改、A2A 核家族；README 明确非安全沙箱，适合对照 Hermes skill 门禁。",
+      "links": {
+        "github": "https://github.com/PrimeIntellect-ai/prime-agent"
+      },
+      "tags": [
+        "ai-agent",
+        "coding-agent",
+        "harness",
+        "rlm",
+        "open-source"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-06"
+    },
+    {
+      "id": "prime-intellect-blog",
+      "name": "Prime Intellect Blog",
+      "category": "ai",
+      "author": "Prime Intellect",
+      "desc": "Prime Intellect 官方 blog：Prime Agent / RLM、Continual Harness、verifiers、agentic RL 环境与开源超智栈；今日 08-05 Prime Agent 文与 harness 自改对照直接相关。",
+      "links": {
+        "blog": "https://www.primeintellect.ai/blog",
+        "homepage": "https://www.primeintellect.ai/"
+      },
+      "tags": [
+        "ai-agent",
+        "rlm",
+        "harness",
+        "open-source",
+        "agentic-rl"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-06"
+    },
+    {
+      "id": "discovery-loop",
+      "name": "Discovery Loop",
+      "category": "ai",
+      "author": "Discovery Loop",
+      "desc": "Jeff Dean / Sanjay / Oriol / Quoc 新创 PBC 主页：把 experimental loop（假设→配置→运行→指标→改写）产品化，先自用改进 ML 再扩科学工程；与 coding agent outer loop 对照的一手官方入口。",
+      "links": {
+        "website": "https://www.discoveryloop.com/"
+      },
+      "tags": [
+        "ai-agent",
+        "experimental-loop",
+        "ml-research",
+        "discovery",
+        "science"
+      ],
+      "quality": 5,
+      "readme": {
+        "eligible": true,
+        "reason": "长期信息源"
+      },
+      "added_date": "2026-08-06"
+    },
     {
       "id": "liquid-ai-blog",
       "name": "Liquid AI Blog",

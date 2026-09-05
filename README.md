@@ -182,6 +182,7 @@
 | **realCaigu** [𝕏](https://x.com/realCaigu) | 专注 AI Agent 开发方法论，Codex 正确使用方式专家，目标导向的工作流实践者 |
 | **xiaogaifun** [𝕏](https://x.com/xiaogaifun) | Harness 工程专家，AI Agent 稳定性框架深度解析，IBM 工程师 Tejas Kumar 演讲解读 |
 | **Awesome AI Field Notes** [🌐](https://godofgpt.com/) [🐙](https://github.com/Gracker/awesome-ai-field-notes) | AI 领域 608 条精选资源，每日更新，覆盖 LLM/Agent/工具链 |
+| **AI Weekly** [🌐](https://aiweekly.co/) [📡](https://aiweekly.co/feed) [📬](https://aiweekly.co/) | 跟踪有影响力的 AI 专家与机构正在阅读和分享的内容，每周三期，覆盖模型、Agent、研究、融资与政策。 |
 | **Google AI Blog** [🌐](https://ai.googleblog.com/) | Google AI 研究博客，发布前沿研究成果和技术突破 |
 | **OpenAI Blog** [🌐](https://openai.com/blog) | OpenAI 官方博客，GPT 系列模型发布和技术解读 |
 | **Anthropic Blog** [🌐](https://www.anthropic.com/blog) | Claude 系列模型发布和 AI 安全研究 |

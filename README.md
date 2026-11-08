@@ -312,6 +312,7 @@
 | **adbutils** [🐙](https://github.com/openatx/adbutils) | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
 | **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
 | **Android Debug MCP** [🐙](https://github.com/lukelmouse-github/android-debug-mcp) | MCP 协议的 Android 运行时调试工具，让 AI Agent 直接读写 Activity 栈、View 树、内存快照、logcat 等运行期状态 |
+| **Oh My Android** [🐙](https://github.com/ateymoori/oh-my-android) [🌐](https://royan.se/work/oh-my-android/) | macOS 原生 Android 模拟器控制面板（免费、MIT）：一键深色模式、字体缩放、RTL、TalkBack、网络限速、GPS 模拟，并提供以 dp 为单位的 Layout Inspector；内置 stdio MCP 服务（18 个工具），让 Claude Code、Cursor 等 AI Agent 看到并操作模拟器 |
 
 ---
 
